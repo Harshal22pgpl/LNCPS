@@ -772,7 +772,7 @@ export default function Navbar() {
           <div className="bg-gradient-to-r from-[#f98819] to-[#fcee45] w-full">
             <div className="w-9/12 mx-auto flex items-center justify-between px-4 py-2">
               <div className="flex items-center gap-4 lg:flex-row flex-col">
-                <div className="w-[90px] h-[90px] relative">
+                <div className="w-[90px] h-[91px] relative">
                   <Image
                     src="/LNCPS-IND.png"
                     layout="fill"
