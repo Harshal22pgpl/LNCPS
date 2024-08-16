@@ -14,9 +14,13 @@ export default function FacultyCard() {
           />
         </div>
         <div className=" py-4">
-          <h1 className="my-2 font-bold text-lg mt-1">Prof. Suparbhat Chouksey</h1>
+          <h1 className="my-2 font-bold text-lg mt-1">
+            Prof. Suparbhat Chouksey
+          </h1>
           <h1 className="text-sm mt-1">Professor</h1>
-          <h2 className="text-sm">Director (OFFG) NIT Rourkela: 11 Oct 2021 - 17 Feb 2022</h2>
+          <h2 className="text-sm">
+            Director (OFFG) NIT Rourkela: 11 Oct 2021 - 17 Feb 2022
+          </h2>
           <h3 className="text-sm mt-1">Physics</h3>
         </div>
       </div>

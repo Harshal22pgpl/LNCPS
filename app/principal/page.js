@@ -18,34 +18,24 @@ export default function page() {
                     <div className="w-1/3 flex flex-col gap-2 bg-[#f98819]">
                         <div className="w-full h-72 border-2 relative overflow-hidden">
                             <Image
-                                src="/principal.jpeg"
-                                alt="chairman"
+                                src="/faculty/principle.jpg"
+                                alt="img not found"
                                 width="500"
                                 height="500"
 
                             />
                         </div>
                         <div>
-                            <h1 className="py-2 px-10 font-bold text-2xl">DR.PIYUSH P. MOGHE</h1>
-                            <h2 className="py-2 px-10 text-lg">Principal -Lnct</h2>
-                            <h3 className="py-2 px-10 ">Associate Professor</h3>
+                            <h1 className="py-2 px-10 font-bold text-2xl">Dr. Indira Dixit</h1>
+                            <h2 className="py-2 px-10 text-lg">Principal- Lakshmi Narain college of Professional Studies, Indore </h2>
+                            <h3 className="py-2 px-10 "></h3>
                         </div>
                     </div>
                     <div className="w-2/3 p-10">
                         <p className="text-sm mb-3">
-                            Welcome to another exciting academic year at -LNCT indore ! As the Principal, it is my honor and privilege to lead such a dynamic and vibrant community. Our college is a place where your dreams take flight, and your journey towards academic excellence and personal growth begins.
+                        Dr. Indira Dixit is an academician in the area of Commerce and Management. She is also a trainer and counselor..She has more than 17 years of experience in teaching and Academic.
+Her qualifications include M.Com, M.Phil, MBA and Ph. D in Commerce. she is working as Principal in Lakshmi Narain College of Professional studies Indore and also associated with research Foundation of India as MP state coordinator. She has been recognized with various awards in academics. She is research guide in Devi Ahilya University .Dr. Dixit has published more than 40 research papers in reputed International & National UGC CARE and UGC approved referred Journals having ISSN No. and in books having ISBN No. She has also presented 25 research papers in the National &amp; International Conferences held in various institutes. She is invited as a expert, guest in various workshops and FDP Subject to her field. She has also being a Editor for the ISBN Book and Co-Editor for the NAAC sponsored National conference Proceedings in ISBN book. she is associate with various social NGO.
 
-                            At -LNCT indore, we are committed to providing you with an environment that fosters learning, innovation, and holistic development. Our dedicated faculty, state-of-the-art facilities, and diverse range of programs are all designed to ensure you receive a top-notch education that prepares you for the challenges of the future.
-
-                            Education is not just about acquiring knowledge; it is about developing the skills and character needed to navigate and succeed in a rapidly changing world. We encourage you to take full advantage of the opportunities available to you here. Engage actively in your classes, participate in extracurricular activities, and take on leadership roles. Remember, the more you invest in your education, the greater the rewards will be.
-
-                            We are proud of the inclusive and supportive community we have built. Our college is a place where every student is valued, and every voice is heard. We strive to create a safe and welcoming environment where you can express yourself freely, develop meaningful relationships, and grow into well-rounded individuals.
-
-                            As you embark on this academic journey, remember that success is a result of hard work, perseverance, and a positive attitude. There will be challenges along the way, but each challenge is an opportunity to learn and grow. Stay focused on your goals, seek help when needed, and never hesitate to explore new paths and possibilities.
-
-                            I am confident that each of you has the potential to achieve great things. Together, let us make this academic year a memorable and successful one. I look forward to seeing your accomplishments and celebrating your successes.
-
-                            Best wishes for a fruitful and inspiring year ahead.
 
 
                         </p>
@@ -56,7 +46,7 @@ export default function page() {
                             </h1>
                             <h1>
 
-                                DR.PIYUSH P. MOGHE
+                            Dr. Indira Dixit
                             </h1>
                             <h1>
 
@@ -64,7 +54,7 @@ export default function page() {
                             </h1>
                             <h1>
 
-                                -Lnct Indore
+                                LNCPS
                             </h1>
                         </p>
 

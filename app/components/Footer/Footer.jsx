@@ -20,17 +20,19 @@ export default function Footer() {
                 ></img>
               </p>
               <p class="font-bold text-center mt-6">
-                Lakshmi Narain College of Technology <br></br>
-                Indore, Madhya Pradesh, India, 453555
+              Bhawrasla Sanwer Road, Reoti  Range
+Behind Shree Aurobindo Hospital, Indore (M.P)
+Pin Code-453111
+
               </p>
               <div class="contact-info text-center mt-8">
                 <ul>
                   <li>
-                    <i class="bi bi-telephone"></i> +91-9752410847 / +91-9752410844
+                    <i class="bi bi-telephone"></i> +91-8770821382/ +91-9752410844
                   </li>
                   <li>
                     {" "}
-                    <i class="bi bi-envelope"></i> admission@lnctindore.com
+                    <i class="bi bi-envelope"></i> lncps2022@gmail.com
                   </li>
                 </ul>
               </div>
