@@ -542,41 +542,41 @@ export default function Home() {
               backgroundSize: "cover",
             }}
           >
-            <div className="md:w-full lg:w-1/2 sm:w-full    ">
-              <h3 className="font-bold text-3xl p-5 ">
+          <div className="md:w-full lg:w-1/2 sm:w-full    ">
+              {/* <h3 className="font-bold text-3xl p-5 ">
                 Ranking and Recognition &nbsp; &nbsp;&nbsp;
                 <Link href="/ranking" className="text-sm">
                   View All...
                 </Link>
-              </h3>
+              </h3> */}
               <Image
-                className="duration-200 min-h-[350px] max-h-[400px] rounded-lg pt-4  p-2 flex mx-auto items-center rounded-md"
+                className="duration-200 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
                 src={images[currentSlide]}
                 alt="Hero Image"
                 width={700}
                 height={650}
               />
             </div>
-            <div className="w-full flex flex-col justify-center p-4">
-              <div className="w-full rounded-md p-4 lg:p-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-5 justify-center items-center shadow-none  dark:bg-dpurple">
-                <div className="flex flex-col justify-center items-center w-full">
+            <div className="md:w-full lg:w-1/2 sm:w-full  flex flex-col justify-center  ">
+              <div className="w-ful rounded-md  sm:p-4  md:p-4 lg:p-5 p-8 shadow-none  border-black grid md:grid-cols-1 lg:grid-cols-2   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dpurple">
+                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap  ">
                   <Card
                     title="Department"
                     content="10"
                     imageUrl="/department.png"
                   />
                 </div>
-                <div className="flex flex-col justify-center items-center w-full">  
-                  <Card title="Faculty" content="70+" imageUrl="/staff.png" />
+                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
+                  <Card title="Faculty" content=" 70+" imageUrl="/staff.png" />
                 </div>
-                <div className="flex flex-col justify-center items-center w-full">
+                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
                   <Card
-                    title="Students"
+                    title="Faculty"
                     content="3050+"
                     imageUrl="/student-icon.png"
                   />
                 </div>
-                <div className="flex flex-col justify-center items-center w-full">
+                <div className="  flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap">
                   <Card title="Faculty" content="100" imageUrl="/faculty.png" />
                 </div>
               </div>
