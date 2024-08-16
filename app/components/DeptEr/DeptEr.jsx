@@ -62,27 +62,27 @@ export default function DeptEr({ dept }) {
   switch (dept) {
     case "me":
       slogan = "Engineering Tomorrow, Innovating Today ,Unleash Your Potential with Us!";
-      author = "Nitin Jaiswal";
+      author = "Dr.Mumuksha Jain ";
       deptImg = "/dept-m-v.jpg";
       aboutDept = "The Mechanical Engineering Department at -LNCT Indore is a hub of innovation and excellence, dedicated to the study and application of mechanical systems. Our department focuses on providing a robust education that combines theoretical knowledge with practical experience. Students engage in a variety of subjects, including thermodynamics, fluid mechanics, materials science, and robotics. Through hands-on projects, state-of-the-art laboratories, and industry collaborations, we prepare our students to solve real-world engineering challenges. Our faculty, renowned for their expertise and research contributions, are committed to mentoring students and fostering a learning environment that encourages creativity and critical thinking. Whether it's designing the next generation of sustainable energy systems or developing advanced manufacturing techniques, our Mechanical Engineering Department is at the forefront of technological advancement and prepares graduates to excel in diverse engineering careers";
       dept = "Commerce";
-      headD = "Nitin Jaiswal";
+      headD = "Dr.Mumuksha Jain ";
 
-      headImg = "/hodme.jpg";
-      phoneHead = "9926085496";
-      emailHead = "hodme.lnct@lnctindore.com";
+      headImg = "/faculty/com_HOD.jpg";
+      phoneHead = "8368766792";
+      emailHead = "mumukshaj@gmail.com";
       faculties = [
         {
-          name: "MS.DIVYADARSHINI DHAKRE",
+          name: "Prof. Muskan Jain",
           position: "Assistant Professor",
-          degree: "Master of Engineering",
-          experience: "7 years",
+          degree: "Pursuing  Ph.D from DAVV,M.Com, B.Com",
+          experience: "3 years",
         },
         {
-          name: "MR. CHETANYA SHARMA",
-          position: "Lab Demonstrator",
-          degree: "Bachelor of Engineering",
-          experience: "15.5 years",
+          name: "Prof.Chirag Sharma",
+          position: "Assistant Professor",
+          degree: "Pursuing Ph.D from DAVV, M.Com, B.com ",
+          experience: "3 years",
         },
        
         // Add more faculty members as needed
@@ -91,31 +91,35 @@ export default function DeptEr({ dept }) {
       break;
     case "cse":
       slogan = "Empowering Innovation, Shaping the Future: Where Technology Meets Excellence";
-      author = "DHIRAJ RAJVAIDHYA";
+      author = "Prof. Swati Patil";
       deptImg = "/dept-m-v.jpg";
       aboutDept = "The Computer Science Department at -LNCT indore is a vibrant and dynamic community dedicated to advancing the frontiers of technology and innovation. Our curriculum is designed to equip students with a solid foundation in computing principles, software development, and data analysis. With courses ranging from artificial intelligence and cybersecurity to software engineering and machine learning, our program prepares students for the rapidly evolving tech industry. Our state-of-the-art labs, collaborative research projects, and industry partnerships provide hands-on experience and practical skills essential for real-world applications. Our distinguished faculty, renowned for their cutting-edge research and industry expertise, are committed to guiding students in their academic and professional growth. Whether you aspire to develop groundbreaking software, solve complex computational problems, or lead technological advancements, the Computer Science Department at -LNCT indore is the ideal place to start your journey.";
       dept = "Computer Science";
-      headD = "MR. DHIRAJ RAJVAIDHYA";
-      headImg = "/cshod.jpeg";
-      phoneHead = "9407125732";
-      emailHead = "hodit.lnct@lnctindore.com, ";
+      headD = "Prof. Swati Patil";
+      headImg = "/faculty/sci_HOD.jpg";
+      phoneHead = "9425435798";
+      emailHead = "swati.bpl2009@gmail.com ";
       faculties = [
         {
-          name: "MS. RAJNI CHATURVEDI",
+          name: "Prof. SARVESH MISHRA",
           position: "Assistant Professor",
-          degree: "MCA, M.Tech",
-          experience: "16 years",
+          degree: " M.Sc. GATE-2007, M.Tech.(L.S.A.) C.G. SET-2017 , Ph.D. Pursuing ",
+
+
+
+
+          experience: "12 years",
         },
         {
-          name: "MS. SHARSHTI ATRE",
+          name: "Prof.kiti Bamaniya",
           position: "Assistant Professor",
-          degree: "MSc",
-          experience: "3 years",
+          degree: "M.Sc(Applied Chemistry),B.Sc",
+          experience: "1 years",
         },
         {
-          name: "Ms. MAMTA GEHLOT",
+          name: "Prof Nikita yadav",
           position: "Assistant Professor",
-          degree: "M.E.",
+          degree: "Ph.D Pursuing, M.Sc(BioChemistry),B.Sc",
           experience: "1 years",
         },
         // Add more faculty members as needed
@@ -124,33 +128,39 @@ export default function DeptEr({ dept }) {
       break;
     case "ece":
       slogan = "Connecting Ideas, Creating Futures: Innovate with Electronics and Communication!";
-      author = "TAMASHRI DHARSIYA";
+      author = "Manisha Singh";
       deptImg = "/dept-m-v.jpg";
       aboutDept = "The Electronics and Communication Engineering (ECE) Department at -LNCT,indore is a hub of technological innovation and academic excellence. Our department focuses on the study and application of electronic systems, communication technologies, and signal processing. Students are immersed in a comprehensive curriculum that covers a wide range of topics, including digital electronics, telecommunications, embedded systems, and VLSI design. With access to cutting-edge laboratories and industry-standard tools, students gain hands-on experience that prepares them for the dynamic field of electronics and communication. Our dedicated faculty, known for their research and industry involvement, mentor students to develop critical thinking and problem-solving skills. The ECE Department is committed to fostering a learning environment that encourages creativity, innovation, and collaboration, ensuring that our graduates are well-equipped to excel in the fast-paced world of technology and communication.";
       dept = "Science";
-      headD = "MS. TAMASHRI DHARSIYA";
-      headImg = "/echod.jpg";
-      phoneHead = "8319778357";
-      emailHead = "hodec.lnct@lnctindore.com";
+      headD = "Prof.Manisha Singh";
+      headImg = "/faculty/arts_HOD.jpg";
+      phoneHead = "9977791266";
+      emailHead = "Email.gautammanisha305@gmail.com";
       faculties = [
         {
-          name: "DR.PIYUSH P. MOGHE",
-          position: "Associate Professor",
-          degree: "PhD",
-          experience: "20 years",
+          name: "Prof. Hemant Vijay Bharat Singh",
+          position: "HOD of Journalism & Mass Communication",
+          degree: "M.Sc. in Mass Communication Journalism And Advertising",
+          experience: "12 years",
         },
-        // {
-        //   name: "Jane Smith",
-        //   position: "Data Scientist",
-        //   degree: "Masters in Data Science",
-        //   experience: "3 years",
-        // },
-        // {
-        //   name: "Emily Johnson",
-        //   position: "Project Manager",
-        //   degree: "MBA",
-        //   experience: "7 years",
-        // },
+        {
+          name: "Prof. Harsh Sharma",
+          position: "Assistant Professor",
+          degree: "MMA in Hindi Literature MBA ( Finance-Marketing) PGDCA",
+          experience: "3 years",
+        },
+        {
+          name: "Prof.Shalini Soni",
+          position: "Assistant Professor",
+          degree: "M.A,M.Com, PGDM",
+          experience: "1 years",
+        },
+        {
+          name: "Prof.Bhagat Singh Dawar",
+          position: "Assistant Professor",
+          degree: "- Ph.D.Pursuing,  M.A (Economics) B.Ed",
+          experience: "2 years",
+        },
         // Add more faculty members as needed
       ];
 

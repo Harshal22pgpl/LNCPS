@@ -11,6 +11,7 @@ import AbouttheInstitute from "./components/AbouttheInstitute/AbouttheInstitute"
 import NumberOne from "./components/NumberOne/NumberOne";
 import { ParallaxScroll } from "./components/ParallaxScroll/ParallaxScroll";
 import { InfiniteMovingCardsDemo } from "./components/InfiniteMovingCardsDemo/InfiniteMovingCardsDemo";
+import Pahal from "./components/Pahal/Pahal";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("postgraduate");
@@ -249,6 +250,7 @@ export default function Home() {
           height={650}
         />
       </div>
+      <Pahal/>
 
       <NumberOne
         img="/number-1.png"
