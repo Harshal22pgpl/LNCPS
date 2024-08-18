@@ -117,17 +117,17 @@ const MyComponent = () => {
         </div>
         <div className="w-[70%] p-4">
           {/* Left 70% width */}
-          <h1 className="text-4xl font-bold mb-4">About Alumni Cell LNCT</h1>
+          <h1 className="text-4xl font-bold mb-4">About Alumni Cell LNCPS</h1>
           {/* Heading */}
           <div className="text-lg mt-4">
             {/* Sentence */}
             <p className="mb-8">
               {" "}
-              LNCT Group is proud to have its alumnus, as a group of 50,000+
+              LNCPS Group is proud to have its alumnus, as a group of 50,000+
               engineers, technologists, scientists, managers, and entrepreneurs
               and more. Established in 1994, Lakshmi Narain College of
               Technology has cultivated a vibrant and enduring relationship with
-              its alumni community over the years. LNCT understands that the
+              its alumni community over the years. LNCPS understands that the
               journey of education extends far beyond graduation, and thus, it
               is committed to nurturing lifelong connections with its former
               students.
@@ -144,7 +144,7 @@ const MyComponent = () => {
               nation.
             </p>
             <br></br>
-            About the Alumni Cell : The Alumni Cell Office at LNCT consists of a
+            About the Alumni Cell : The Alumni Cell Office at LNCPS consists of a
             dedicated team headed by Prof. Sherin Felix. In addition, a team of
             enthusiastic student volunteers assists the office with various
             activities and events. Please feel free to get in touch with us.
@@ -154,7 +154,7 @@ const MyComponent = () => {
       </div>
 
       <section className=" w-11/12 mx-auto">
-        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple   bg-[#f6820f]">
+        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow   bg-[#f6820f]">
           <div className="  ">
             <Counter
               initialValue={0}
@@ -194,14 +194,14 @@ const MyComponent = () => {
               initialValue={5}
               targetValue={15}
               speed={200}
-              text="LNCTians Serving MNC"
+              text="LNCPSians Serving MNC"
               textColor="text-red-600"
               title="Third Counter"
               color=""
             />
           </div>
         </div>
-        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple  mb-12 bg-[#f6820f]">
+        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow  mb-12 bg-[#f6820f]">
           <div className=" ">
             <Counter
               initialValue={0}
@@ -252,7 +252,7 @@ const MyComponent = () => {
       </section>
       <h1 className=" font-semibold text-4xl text-center ">ENGAGEMENTS</h1>
       <p className="text-grey text-md text-center p-4 w-1/2 pb-8 mx-auto">
-        LNCT GROUP SECRETARY DR. ANUPAM CHOUKSEY WINS THE PRETIGEOUS DANIK
+        LNCPS GROUP SECRETARY DR. ANUPAM CHOUKSEY WINS THE PRETIGEOUS DANIK
         BHASKAR EMINANCE AWARDS 2022-23
       </p>
       <section className="flex flex-wrap gap-8 m-auto justify-center  p-10 ">
@@ -322,8 +322,8 @@ const MyComponent = () => {
           Connect With US
         </h1>
         <p className="text-white text-center p-10 ">
-          Address : Room No 16(A), LNCT Group of Collges +91 7556185388
-            alumni@lnct.ac.in
+          Address : Room No 16(A), LNCPS Group of Collges +91 7556185388
+            alumni@LNCPS.ac.in
         </p>
         <div className="flex relative text-white w-9/12 mx-auto">
         <p className="text-white text-center p-10 ">

@@ -3,6 +3,6 @@ import StudentTestimonial from '../components/StudentTestimonial/StudentTestimon
 
 export default function page() {
   return (
-    <StudentTestimonial img="/plcc.png" title="Student Testimonial" content="We inspire innovation and discovery at LNCT Group of Colleges."/>
+    <StudentTestimonial img="/plcc.png" title="Student Testimonial" content="We inspire innovation and discovery at LNCPS Group of Colleges."/>
   )
 }

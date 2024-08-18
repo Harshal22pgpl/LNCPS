@@ -49,7 +49,7 @@ export default function Navbar() {
       name: "INSTITUTE",
       values: [
         {
-          name: "Welcome to LNCT",
+          name: "Welcome to LNCPS",
           link: "/institute/welcome",
         },
         {
@@ -108,7 +108,7 @@ export default function Navbar() {
       name: "Key Documents",
       values: [
         {
-          name: "Rules and Regulations",
+          name: "Pahal Editions",
           link: "/students/rules_regulations",
         },
         {
@@ -240,7 +240,7 @@ export default function Navbar() {
       name: "Existing Students",
       values: [
         {
-          name: "Rules and Regulations",
+          name: " Pahal Editions",
           link: "/students/rules_regulations",
         },
         {
@@ -308,7 +308,7 @@ export default function Navbar() {
         },
         {
           name: "Career",
-          link: "/career/?college=LNCT",
+          link: "/career/?college=LNCPS",
         },
       ],
     },
@@ -360,7 +360,7 @@ export default function Navbar() {
           name: "Institute",
           subchild: [
             {
-              name: "Welcome to LNCT",
+              name: "Welcome to LNCPS",
               link: "/institute/welcome",
             },
             {
@@ -418,7 +418,7 @@ export default function Navbar() {
           name: "Key Documents",
           subchild: [
             {
-              name: "Rules and Regulations",
+              name: "Pahal Edition",
               link: "/students/rules_regulations",
             },
             {
@@ -560,7 +560,7 @@ export default function Navbar() {
           name: "Existing Students",
           subchild: [
             {
-              name: "Rules and Regulations",
+              name: "Pahal Edition",
               link: "/students/rules_regulations",
             },
             {
@@ -633,7 +633,7 @@ export default function Navbar() {
             },
             {
               name: "Career",
-              link: "/career/?college=LNCT",
+              link: "/career/?college=LNCPS",
             },
           ],
         },

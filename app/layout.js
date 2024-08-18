@@ -10,8 +10,8 @@ import { CardStackDemo } from "./components/CardStackDemo/CardStackDemo";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "LNCT",
-  description: "LNCT",
+  title: "LNCPS",
+  description: "LNCPS",
 };
 
 export default function RootLayout({ children }) {

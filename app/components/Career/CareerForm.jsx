@@ -139,7 +139,7 @@ export default function CareerForm({ selectedCareerId, careers }) {
                         id="collegeName"
                         type="text"
                         name="collegeName"
-                        placeholder="LNCTs"
+                        placeholder="LNCPSs"
                         value={careerData.collegeName}
                         onChange={handleChange}
                     />

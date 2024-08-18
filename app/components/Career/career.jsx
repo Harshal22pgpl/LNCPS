@@ -23,7 +23,7 @@ export default function Career() {
   const fetchCareers = async (page, college) => {
     try {
       const response = await axios.get(
-        `https://lnct-backend.vercel.app/api/v1/career`,
+        `https://LNCPS-backend.vercel.app/api/v1/career`,
         {
           params: {
             college,

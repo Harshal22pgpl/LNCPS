@@ -19,7 +19,7 @@ export default function CentralResearch() {
             </div>
             <div className='flex ml-4'>
               <img className='h-4 mt-0' src="email.png" alt="" />
-              <p className='text-white text-xs ml-3'>lnct@gmail.com</p>
+              <p className='text-white text-xs ml-3'>LNCPS@gmail.com</p>
             </div>
           </div>
           <div className='h-5 '>
@@ -33,7 +33,7 @@ export default function CentralResearch() {
             </div>
             <div>
               <p className='font-bold text-sm'>लक्ष्मी नारायण कॉलेज ऑफ टेक्नोलॉजी</p>
-              <p className='font-bold text-sm'>Lakshmi Narain College Of Technology</p>
+              <p className='font-bold text-sm'>Lakshmi Narain College of professional studies</p>
               <p className='font-bold text-cyan-500'>Central Research Facility</p>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function CentralResearch() {
         </div>
       </div>
       <section>
-        <div className=" mt-32 h-72 mx-auto  bg-cyan-500    sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dpurple  mb-12">
+        <div className=" mt-32 h-72 mx-auto  bg-cyan-500    sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dyellow  mb-12">
           <div className=" ">
             <Counter
               initialValue={0}
@@ -127,14 +127,14 @@ export default function CentralResearch() {
           <div className=''>
             <img className='w-80' src="ar-1.jpg" alt="" />
             <div className='ml-16 justify-center mt-4'>
-              <h2 className='uppercase text-purple-900 font-bold'>tittle of the machine</h2>
+              <h2 className='uppercase text-yellow-900 font-bold'>tittle of the machine</h2>
               <p>description of the machine</p>
             </div>
           </div>
           <div className=''>
             <img className='w-80' src="ar-1.jpg" alt="" />
             <div className='ml-16 justify-center mt-4'>
-              <h2 className='uppercase text-purple-900 font-bold'>tittle of the machine</h2>
+              <h2 className='uppercase text-yellow-900 font-bold'>tittle of the machine</h2>
               <p>description of the machine</p>
             </div>
           </div>

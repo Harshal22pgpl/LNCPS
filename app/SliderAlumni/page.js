@@ -6,7 +6,7 @@ export default function EminmentSlider() {
   const images = [
     {
       id: 1,
-      url: "/lnct-awards2.jpg",
+      url: "/LNCPS-awards2.jpg",
     },
     {
       id: 2,
