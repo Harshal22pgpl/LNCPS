@@ -17,7 +17,7 @@ const CareerParent = () => {
     try {
       setIsLoading(true);
       const params = new URLSearchParams({ college, limit, page });
-      const response = await axios.get(`https://lnct-backend.vercel.app/api/v1/career/?college=LNCT&limit=5&page=1`);
+      const response = await axios.get(`https://LNCPS-backend.vercel.app/api/v1/career/?college=LNCPS&limit=5&page=1`);
       console.log(response.data.payload.data, "rrrrrrrrr");
       const eventData = response.data.payload.data;
 
@@ -34,7 +34,7 @@ const CareerParent = () => {
     try {
       setIsLoading(true);
       await deleteCareer(uuid);
-      fetchCareer('LNCT', 1, 2);
+      fetchCareer('LNCPS', 1, 2);
     } catch (error) {
       console.error('Error deleting news:', error);
     } finally {
@@ -44,12 +44,12 @@ const CareerParent = () => {
 
   const handleEdit = async (uuid) => {
     console.log(events);
-    fetchCareer('LNCT', 1, 2);
+    fetchCareer('LNCPS', 1, 2);
     setSelectedEventId(uuid);
   };
 
   const handleFormSubmit = () => {
-    fetchCareer('LNCT', 1, 2);
+    fetchCareer('LNCPS', 1, 2);
   };
 
   useEffect(() => {
@@ -61,7 +61,7 @@ const CareerParent = () => {
           return;
         }
         setIsLoading(true);
-        await fetchCareer('LNCT', 1, 2);
+        await fetchCareer('LNCPS', 1, 2);
       } catch (error) {
         console.error('Error fetching news:', error);
       } finally {

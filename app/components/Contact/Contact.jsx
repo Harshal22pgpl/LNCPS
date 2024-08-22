@@ -70,7 +70,7 @@ export default function Contact() {
             <div className="w-1/2 "></div>
             <div className="w-1/2  bg-gray-100 p-2">
               <h1 className="p-2 text-black font-semibold text-xl my-3 ">
-                How to Reach  LNCT
+                How to Reach  LNCPS
               </h1>
 
               <div className="w-full  p-2 bg-gray-50 my-2">

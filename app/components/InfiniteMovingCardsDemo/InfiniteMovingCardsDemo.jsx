@@ -26,7 +26,7 @@ const testimonials = [
     image: "/principals.JPG",
   },
   {
-    image: "/lnct-awards.jpg",
+    image: "/LNCPS-awards.jpg",
   },
   {
     image: "/mdsir.jpg",

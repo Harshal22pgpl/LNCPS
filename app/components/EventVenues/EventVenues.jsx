@@ -25,7 +25,7 @@ export default function EventVenues() {
       <div className=" p-20 pt-10  ">
         <h1 className="text-5xl text-gray-700 ">Event Venues</h1>
         <p className="pt-5 text-gray-800">
-         LNCT offers a variety of venues suitable for different purposes, including lectures, seminars, conferences, and personal events. Below, you`&apos;`ll find details about each venue, including their capacity and associated rules.
+         LNCPS offers a variety of venues suitable for different purposes, including lectures, seminars, conferences, and personal events. Below, you`&apos;`ll find details about each venue, including their capacity and associated rules.
         </p>
       </div>
 
@@ -47,7 +47,7 @@ export default function EventVenues() {
           width={500}
           height={900}
           />
-          <h1 className="p-2" >Event in  lnct indore</h1>
+          <h1 className="p-2" >Event in  LNCPS indore</h1>
         </div>
         
       </div>

@@ -18,7 +18,7 @@ export default function Library() {
         img1="/lib.jpg"
       />
      <section className=" w-11/12 mx-auto mt-10">
-        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple   bg-[#f6820f]">
+        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow   bg-[#f6820f]">
           <div className="  ">
             <Counter
               initialValue={0}
@@ -57,14 +57,14 @@ export default function Library() {
               initialValue={5}
               targetValue={15}
               speed={200}
-              text="LNCTians Serving MNC"
+              text="LNCPSians Serving MNC"
               textColor="text-red-600"
               title="Third Counter"
               color=""
             />
           </div>
         </div>
-        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple  mb-12 bg-[#f6820f]">
+        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow  mb-12 bg-[#f6820f]">
           <div className=" ">
             <Counter
               initialValue={0}

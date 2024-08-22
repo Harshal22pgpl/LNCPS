@@ -45,7 +45,7 @@ export default function page() {
         </div>
 
         <section>
-          <div className="w-full mx-auto  rounded-full py-10   border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dpurple my-4">
+          <div className="w-full mx-auto  rounded-full py-10   border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dyellow my-4">
             <div className=" ">
               <Counter
                 initialValue={0}
@@ -112,7 +112,7 @@ export default function page() {
                 Address
               </h1>
               <h2 className=" text-sm">
-                 LNCT, INDORE, Madhya Pradesh, India, 111111
+                 LNCPS, INDORE, Madhya Pradesh, India, 111111
               </h2>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function page() {
               <h1 className="text-black text-lg font-semibold capitalize">
                 Email
               </h1>
-              <h2 className=" text-sm">lnct@gmailcom</h2>
+              <h2 className=" text-sm">LNCPS@gmailcom</h2>
             </div>
           </div>
           <div className=" w-64 h-20  p-2 flex gap-3 rounded-lg bg-gray-100">

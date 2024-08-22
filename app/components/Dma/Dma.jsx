@@ -41,7 +41,7 @@ export default function Dma() {
                   Name of Director
                 </h4>
                 <p className="text-base font-medium text-gray-600">
-                  Director, SKC-LNCT
+                  Director, SKC-LNCPS
                 </p>
               </div>
             </div>

@@ -66,7 +66,7 @@ export default function StudentTestimonial({img,title,content}) {
         </div>
         <div className="text-center w-3/4 mx-auto ">
         <h1 className=" font-semibold text-4xl p-2 ">Student Testimonial</h1>
-        <p className="text-md pb-2">We inspire innovation and discovery at LNCT Group of Colleges.</p>
+        <p className="text-md pb-2">We inspire innovation and discovery at LNCPS Group of Colleges.</p>
       </div>
       <div className=" flex justify-around m-10 p-10 w-11/12 mx-auto">
         <div className=" w-full ">

@@ -7,7 +7,7 @@ export default function page() {
       <RegularActivite
         
         title="Regular Activities | Central India's No. 1 Engineering Institute - Indore"
-        content="Learn, achieve and excel with LNCT Group of colleges"
+        content="Learn, achieve and excel with LNCPS Group of colleges"
       />
     </>
   );

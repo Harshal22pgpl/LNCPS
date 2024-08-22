@@ -16,7 +16,7 @@ const WaitingParent = () => {
       setIsLoading(true);
       const token = getAuthToken(); // Get the authentication token
 
-      const response = await axios.get('https://lnct-backend.vercel.app/api/v1/event?status=WAITING_FOR_APPROVAL', {
+      const response = await axios.get('https://LNCPS-backend.vercel.app/api/v1/event?status=WAITING_FOR_APPROVAL', {
         headers: {
           Authorization: `Bearer ${token}` // Pass the token in the request headers
         },
@@ -42,7 +42,7 @@ const WaitingParent = () => {
       setIsLoading(true);
       const token = getAuthToken(); // Get the authentication token
 
-      const response = await axios.get('https://lnct-backend.vercel.app/api/v1/news?status=WAITING_FOR_APPROVAL', {
+      const response = await axios.get('https://LNCPS-backend.vercel.app/api/v1/news?status=WAITING_FOR_APPROVAL', {
         headers: {
           Authorization: `Bearer ${token}` // Pass the token in the request headers
         },
@@ -68,7 +68,7 @@ const WaitingParent = () => {
       setIsLoading(true);
       const token = getAuthToken(); // Get the authentication token
 
-      const response = await axios.get('https://lnct-backend.vercel.app/api/v1/notice?status=WAITING_FOR_APPROVAL', {
+      const response = await axios.get('https://LNCPS-backend.vercel.app/api/v1/notice?status=WAITING_FOR_APPROVAL', {
         headers: {
           Authorization: `Bearer ${token}` // Pass the token in the request headers
         },

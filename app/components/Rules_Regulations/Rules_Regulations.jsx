@@ -1,28 +1,25 @@
-import React from "react";
-import SliderMain from "@/app/components/SliderMain/SliderMain";
-import FacultyCard from "../FacultyCard/FacultyCard";
-import Image from "next/image";
-import RuleCard from "../RuleCard/RuleCard";
+import Image from 'next/image'
+import React from 'react'
+import RuleCard from '../RuleCard/RuleCard'
 
-export default function Rules_Regulations() {
-  const images = ["/ar-3.jpg"];
+export default function Pahal() {
   return (
-    <div>
-      <SliderMain images={images} heading="Rules and Regulations" />
-      <div className="w-full mx-auto flex relative">
+    <>
+    <h1 className='text-4xl text-black font-semibold p-10'>Pahal</h1>
+    <div className="w-full mx-auto flex relative">
+        
         <div className="w-2/3 px-10 pt-[36px]  grid grid-cols-3  gap-5 justify-evenly pb-10 ">
           <RuleCard
             bgcolor="bg-red-200"
-            link="/"
-            heading="B.Tech., B.Arch., Int.M.Sc. (5 yr), B.Tech. M.Tech. Dual Degree (5 yr) Summarized"
+            link="https://drive.google.com/file/d/18MapckiDFWLhtZuMhEj4d5Pcx5ReHUIw/view?usp=sharing"
+            heading="Pahal 1"
           />
-          <RuleCard bgcolor="bg-green-200" link="/" heading="heading" />
-          <RuleCard bgcolor="bg-gray-200" link="/" heading="heading" />
-          <RuleCard bgcolor="bg-orange-300" link="/" heading="heading" />
-          <RuleCard bgcolor="bg-pink-200" link="/" heading="heading" />
-          <RuleCard bgcolor="bg-purple-200" link="/" heading="heading" />
-          <RuleCard bgcolor="bg-lime-200" link="/" heading="heading" />
-          <RuleCard bgcolor="bg-orange-300" link="/" heading="heading" />
+          <RuleCard bgcolor="bg-green-200" link="https://drive.google.com/file/d/1f2rMc8Tt1WJWCAgDJV6IjNleinyeSwlL/view" heading="Pahal 2 " />
+          <RuleCard bgcolor="bg-gray-200" link="https://drive.google.com/file/d/1KNcGwpKq6B1dIrpO5x5ADGCnM3TaE3o8/view" heading="Pahal 3" />
+          <RuleCard bgcolor="bg-orange-300" link="https://drive.google.com/file/d/1BABCug7-rijbPa5tS1u5l6pRPulWiDqE/view?usp=sharing" heading="Pahal 4" />
+          <RuleCard bgcolor="bg-pink-200" link="https://drive.google.com/file/d/1TvZlbth4wsHYpvb_ONPTe4ztM7RdH-cf/view?usp=sharing" heading="Pahal 5" />
+          <RuleCard bgcolor="bg-yellow-200" link="https://drive.google.com/file/d/1roUsXEyLey_mWMfS4F3EzxzQLpPgRj5o/view?usp=sharing" heading="Pahal 6" />
+         
         </div>
         <div className="w-1/3 h-[600px] sticky top-20 left-0 p-10 ">
           <div className="relative h-full ">
@@ -35,6 +32,6 @@ export default function Rules_Regulations() {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </>
+  )
 }

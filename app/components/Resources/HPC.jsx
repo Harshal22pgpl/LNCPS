@@ -9,7 +9,7 @@ import Footer from "../Footer/Footer";
 export default function HPC() {
   const [collegeNameIndex, setCollegeNameIndex] = useState(0);
 
-  const collegeNames = [" LNCT ", "एसकेसी एलएनसीटी "];
+  const collegeNames = [" LNCPS ", "एसकेसी एलएनसीटी "];
   return (
     <div>
       <div

@@ -21,7 +21,7 @@ export default function WaitingForApproval({events}) {
     const handleStatusChange = async (uuid, status) => {
         try {
           const token = getAuthToken(); // Get the authentication token
-          await axios.put(`https://lnct-backend.vercel.app/api/v1/event/approve/${uuid}`, {
+          await axios.put(`https://LNCPS-backend.vercel.app/api/v1/event/approve/${uuid}`, {
             status
           }, {
             headers: {
@@ -104,7 +104,7 @@ export default function WaitingForApproval({events}) {
               <td className="px-6 py-4">
               <button
                     onClick={() => handleStatusChange(event.uuid, 'REJECTED')}
-                    className="font-medium text-purple-600 dark:text-purple-500 hover:underline"
+                    className="font-medium text-yellow-600 dark:text-yellow-500 hover:underline"
                   >
                     Reject
                   </button>

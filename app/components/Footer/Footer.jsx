@@ -160,7 +160,7 @@ Pin Code-453111
                   <li className="p-2">
                     <a href="https://www.ics-nitrkl.in/">
                       {" "}
-                     Why LNCT
+                     Why LNCPS
                     </a>
                   </li>
                   <li className="p-2">
@@ -184,7 +184,7 @@ Pin Code-453111
                     data-caption=""
                     title=""
                   >
-                    <img src="/LNCT-IND.png" class="w-full" alt=""></img>
+                    <img src="/LNCPS-IND.png" class="w-full" alt=""></img>
                   </a>
                 </div>
                 <div class="item-img">
@@ -194,7 +194,7 @@ Pin Code-453111
                     data-caption=""
                     title=""
                   >
-                    <img src="/LNCTS-GWL.png" class="w-full" alt=""></img>
+                    <img src="/LNCPSS-GWL.png" class="w-full" alt=""></img>
                   </a>
                 </div>
                 <div class="item-img">
@@ -204,7 +204,7 @@ Pin Code-453111
                     data-caption=""
                     title=""
                   >
-                    <img src="/LNCTS-IND.png" class="w-full" alt=""></img>
+                    <img src="/LNCPSS-IND.png" class="w-full" alt=""></img>
                   </a>
                 </div>
                 <div class="item-img">
@@ -284,7 +284,7 @@ Pin Code-453111
           <div class="copy-right-other-links container mx-auto">
             <div class="flex justify-between items-center">
               <div class="item-copy p-2 text-sm">
-                Copyright © 2024 Lakshmi Narain College of Technology. All
+                Copyright © 2024 Lakshmi Narain College of professional studies. All
                 Rights Reserved.
               </div>
               <div class="item-othtes-links ">

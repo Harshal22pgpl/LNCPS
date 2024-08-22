@@ -104,7 +104,7 @@ export default function Placementcell({ img, title, content }) {
       <div className="p-10">
         <div>
           <h1 className="text-4xl text-orange-700 pb-10 font-semibold ">
-            Internship At  LNCT
+            Internship At  LNCPS
           </h1>
         </div>
         <div className=" text-orange-600    relative  mx-auto border-2">

@@ -9,7 +9,7 @@ export default function TIIR() {
     const [collegeNameIndex, setCollegeNameIndex] = useState(0);
 
     const collegeNames = [
-        " LNCT ",
+        " LNCPS ",
         "एसकेसी एलएनसीटी ",
     ];
     return (

@@ -37,7 +37,7 @@ export default function Home() {
 
   // Function to toggle submenu
 
-  const images = ["/a-o.png", "/building.png", "/building2.png", "/mdsir2.jpg"];
+  const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/carasol1.jpg", "/carasol2.jpg"];
 
   const EventData = [
     {
@@ -66,13 +66,13 @@ export default function Home() {
       id: 1,
       title: "News 1",
       description: "Description for News 1",
-      imageUrl: "/yt.png",
+      imageUrl: "/Lncpsbuild.png",
     },
     {
       id: 2,
       title: "News 2",
       description: "Description for News 2",
-      imageUrl: "/yt.png",
+      imageUrl: "/lncpsbuild2.jpg",
     },
     {
       id: 3,
@@ -163,11 +163,10 @@ export default function Home() {
     "/baja.jpg",
     "/grp.jpg",
     "/Sports.jpg",
-    "/lnct-awards.jpg",
-    "/lnct-sports.jpg",
-    "/lnct-stunt.jpg",
+    "/LNCPS-sports.jpg",
+    "/LNCPS-stunt.jpg",
     "/mdsir.jpg",
-    "/lnct-awards2.jpg",
+    "/LNCPS-awards2.jpg",
     "/studentgrp.jpg",
     "/baja2.jpg",
     "/mdmaam.jpg",
@@ -250,12 +249,12 @@ export default function Home() {
           height={650}
         />
       </div>
-      <Pahal/>
+   
 
       <NumberOne
         img="/number-1.png"
-        title="WHY  LNCT"
-        content="Today, LNCT Group is one of the Largest and most preferred Educational Group for Engineering, Management, Pharmacy, Medical with ISO-9001 certification and NBA accreditation for many Engineering courses.. Bright young students from all across the country are coming to fulfill their dream in this group."
+        title="WHY  LNCPS"
+        content="Today, LNCPS Group is one of the Largest and most preferred Educational Group for Engineering, Management, Pharmacy, Medical with ISO-9001 certification and NBA accreditation for many Engineering courses.. Bright young students from all across the country are coming to fulfill their dream in this group."
       />
       <section className="  w-11/12 mx-auto">
         <Notices
@@ -286,7 +285,7 @@ export default function Home() {
   }}
 >
   <div className="container flex flex-col lg:flex-row items-center bg-opacity-75 bg-[#d76d03] h-auto lg:h-[580px] p-4">
-    <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4">
+    <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4 overflow-auto">
       <h2 className="text-3xl w-80 text-white text-center font-semibold mb-6">
         Academic Programme
       </h2>
@@ -299,7 +298,7 @@ export default function Home() {
             }`}
             role="tab"
           >
-            UNDERGRADUATE
+            Bachelor of Business Administration (BBA)
           </button>
         </li>
         <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
@@ -310,7 +309,7 @@ export default function Home() {
             }`}
             role="tab"
           >
-            POSTGRADUATE
+            Bachelor of Commerce (B.Com. - Plain)
           </button>
         </li>
         <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
@@ -321,7 +320,7 @@ export default function Home() {
             }`}
             role="tab"
           >
-            DOCTORAL
+          Bachelor of Commerce (B.Com. - Plain)
           </button>
         </li>
         <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
@@ -332,7 +331,7 @@ export default function Home() {
             }`}
             role="tab"
           >
-            EXECUTIVE PH.D.
+          BJMC – (Print Journalism, Broadcast (Radio and TV) Journalism and Web Journalism)
           </button>
         </li>
         <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
@@ -343,7 +342,7 @@ export default function Home() {
             }`}
             role="tab"
           >
-            PART TIME PROGRAMMES
+          B.Sc. (BioTechnology-Chemistry-Pharmaceutical Chemistry)
           </button>
         </li>
       </ul>
@@ -438,7 +437,7 @@ export default function Home() {
             backgroundSize: "cover",
           }}
         >
-          <div className=" w-8/9   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple  ">
+          <div className=" w-8/9   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow  ">
             <div className="  ">
               <Counter
                 initialValue={0}
@@ -477,14 +476,14 @@ export default function Home() {
                 initialValue={5}
                 targetValue={15}
                 speed={200}
-                text="LNCTians Serving MNC"
+                text="LNCPSians Serving MNC"
                 textColor="text-red-600"
                 title="Third Counter"
                 color=""
               />
             </div>
           </div>
-          <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple  mb-12">
+          <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow  mb-12">
             <div className=" ">
               <Counter
                 initialValue={0}
@@ -544,41 +543,41 @@ export default function Home() {
               backgroundSize: "cover",
             }}
           >
-            <div className="md:w-full lg:w-1/2 sm:w-full    ">
-              <h3 className="font-bold text-3xl p-5 ">
+          <div className="md:w-full lg:w-1/2 sm:w-full    ">
+              {/* <h3 className="font-bold text-3xl p-5 ">
                 Ranking and Recognition &nbsp; &nbsp;&nbsp;
                 <Link href="/ranking" className="text-sm">
                   View All...
                 </Link>
-              </h3>
+              </h3> */}
               <Image
-                className="duration-200 min-h-[350px] max-h-[400px] rounded-lg pt-4  p-2 flex mx-auto items-center rounded-md"
+                className="duration-200 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
                 src={images[currentSlide]}
                 alt="Hero Image"
                 width={700}
                 height={650}
               />
             </div>
-            <div className="w-full flex flex-col justify-center p-4">
-              <div className="w-full rounded-md p-4 lg:p-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-5 justify-center items-center shadow-none  dark:bg-dpurple">
-                <div className="flex flex-col justify-center items-center w-full">
+            <div className="md:w-full lg:w-1/2 sm:w-full  flex flex-col justify-center  ">
+              <div className="w-ful rounded-md  sm:p-4  md:p-4 lg:p-5 p-8 shadow-none  border-black grid md:grid-cols-1 lg:grid-cols-2   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dyellow">
+                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap  ">
                   <Card
                     title="Department"
                     content="10"
                     imageUrl="/department.png"
                   />
                 </div>
-                <div className="flex flex-col justify-center items-center w-full">  
-                  <Card title="Faculty" content="70+" imageUrl="/staff.png" />
+                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
+                  <Card title="Faculty" content=" 70+" imageUrl="/staff.png" />
                 </div>
-                <div className="flex flex-col justify-center items-center w-full">
+                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
                   <Card
-                    title="Students"
+                    title="Faculty"
                     content="3050+"
                     imageUrl="/student-icon.png"
                   />
                 </div>
-                <div className="flex flex-col justify-center items-center w-full">
+                <div className="  flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap">
                   <Card title="Faculty" content="100" imageUrl="/faculty.png" />
                 </div>
               </div>

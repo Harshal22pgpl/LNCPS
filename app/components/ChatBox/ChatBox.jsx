@@ -31,7 +31,7 @@
 //       {/* Header */}
 //       <div className="px-5 py-5 flex justify-between items-center bg-white border-b-2">
 //         <div className=''>
-//         <div className="font-semibold  text-2xl">LNCT CHATBOX</div>
+//         <div className="font-semibold  text-2xl">LNCPS CHATBOX</div>
 //         <div className='text-2xl mt-2 gap-10   flex justify-around '>
 //         <IoMdChatboxes className=' hover:text-gray-600' />
 //         <MdGroups className=' hover:text-gray-600' />

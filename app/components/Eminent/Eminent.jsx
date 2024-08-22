@@ -14,7 +14,7 @@ export default function Eminent() {
       <div className="w-full h-80 bg-cover capitalize flex justify-center items-center"
         style={{ backgroundImage: `url('/about-banner.jpg')` }}>
         <h2 className="font-bold text-3xl w-4/5 uppercase text-center text-white">
-          Alumni Cell - LNCT INDORE | Central India&apos;s No. 1 Engineering Institute - Indore
+          Alumni Cell - LNCPS INDORE | Central India&apos;s No. 1 Engineering Institute - Indore
         </h2>
       </div>
 
@@ -99,8 +99,8 @@ export default function Eminent() {
         }}>
         <h1 className="font-semibold text-5xl pt-10 text-center">Connect With Us</h1>
         <p className="text-center p-10">
-          Address : Room No 16(A), LNCT Group of Colleges +91 7556185388
-          alumni@lnct.ac.in
+          Address : Room No 16(A), LNCPS Group of Colleges +91 7556185388
+          alumni@LNCPS.ac.in
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-2 pt-10 pb-2">
           <div className="text-white rounded-xl p-3 bg-[#fd8d1d] px-10 hover:bg-[#f6820f] hover:text-black">

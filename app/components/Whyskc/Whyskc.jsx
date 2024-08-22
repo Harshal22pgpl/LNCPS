@@ -71,7 +71,7 @@ export default function Why({ img, title, content }) {
 Other than Best Academics and Placements, Providing Best Sports facilities also. Producing National & International Players in Drop Row Ball, Base Ball, Throw Ball, Kabbaddi etc."
           />
           <WhyCard content="Lush Green Campus having Boys & Girls Hostels with 24 hours Security, Dispensary, Bank ATMs, GYM, Indoor and Outdoor Fields makes it a BEST Infrastructure campus." />
-          <WhyCard content="Unbeatable Record Placement of Central India with 1800+ Offers by 40 Companies Closed Campus only for LNCT Group of Colleges" />
+          <WhyCard content="Unbeatable Record Placement of Central India with 1800+ Offers by 40 Companies Closed Campus only for LNCPS Group of Colleges" />
         </div>
       </div>
     </>
