@@ -249,11 +249,7 @@ export default function Home() {
           height={650}
         />
       </div>
-<<<<<<< Updated upstream
-   
-=======
-      <Pahal/>
->>>>>>> Stashed changes
+     
 
       <NumberOne
         img="/number-1.png"
@@ -281,15 +277,15 @@ export default function Home() {
         <ParallaxScroll images={imagess} />
       </div> */}
       <section
-  className="academic-programme mx-auto mt-10 flex justify-center"
+  className="academic-programme mx-auto mt-10 flex justify-center overflow-auto"
   style={{
     background: "url('/baggi.jpg')",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   }}
 >
-  <div className="container flex flex-col lg:flex-row items-center bg-opacity-75 bg-[#d76d03] h-auto lg:h-[580px] p-4">
-    <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4 overflow-auto">
+  <div className="container flex flex-col lg:flex-row  items-center bg-opacity-75 bg-[#d76d03] h-auto lg:h-[580px] p-4">
+    <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4 overflow-hidden">
       <h2 className="text-3xl w-80 text-white text-center font-semibold mb-6">
         Academic Programme
       </h2>
