@@ -9,6 +9,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Slider from "../Slider/Slider";
 import { head } from "lodash";
+import FacultyCard from "../FacultyCard/FacultyCard";
+
 
 export default function DeptEr({ dept }) {
   const images = ["/ar-3.jpg"];
@@ -374,35 +376,14 @@ export default function DeptEr({ dept }) {
         </div>
         <div className="w-full p-2"></div>
       </div>
-      <div className=" w-10/12 mx-auto p-10">
-        <h1 className="py-3 text-center text-3xl text-orange-500 font-bold">
-          List of Faculties
-        </h1>
-        <div className="overflow-x-auto">
-          <table className="table-auto min-w-full">
-            <thead>
-              <tr className=" border-b ">
-                <th className="px-2 py-3 text-left">Name</th>
-                <th className="px-2 py-3 text-left">Designation</th>
-                <th className="px-2 py-3 text-left">Qualification</th>
-                <th className="px-2 py-3 text-left">Experience</th>
-              </tr>
-            </thead>
-            <tbody>
-              {faculties.map((faculty, index) => (
-                <tr key={index} className="border-b">
-                  <td className="px-2 py-3">{faculty.name}</td>
-                  <td className="px-2 py-3">{faculty.position}</td>
-                  <td className="px-2 py-3">{faculty.degree}</td>
-                  <td className="px-2 py-3">{faculty.experience}</td>
-                </tr>
-              ))}
+      <div>
+      <h1 className="text-3xl text-center font-semibold border-b">Facult at LNCPS</h1>
+    </div>
+      <div className="p-5 flex items-center justify-center">
+        
+      <FacultyCard/>
+    </div>
 
-              {/* Add more rows as needed */}
-            </tbody>
-          </table>
-        </div>
-      </div>
     </div>
   );
 }
