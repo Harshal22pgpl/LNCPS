@@ -26,12 +26,15 @@ const testimonials = [
     image: "/principals.JPG",
   },
   {
-    image: "/LNCPS-awards.jpg",
+    image: "/carasol1.jpg",
   },
   {
     image: "/mdsir.jpg",
   },
   {
     image: "/mdmaam.jpg",
+  },
+  {
+    image: "/carasol2.jpg",
   },
 ];
