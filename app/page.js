@@ -249,7 +249,11 @@ export default function Home() {
           height={650}
         />
       </div>
+<<<<<<< Updated upstream
    
+=======
+      <Pahal/>
+>>>>>>> Stashed changes
 
       <NumberOne
         img="/number-1.png"
