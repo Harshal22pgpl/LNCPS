@@ -37,7 +37,8 @@ export default function Home() {
 
   // Function to toggle submenu
 
-  const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/carasol1.jpg", "/carasol2.jpg"];
+  const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/GRPlncps.jpg" ,   ];
+  const imagesss = ["/Lncpsbuild.png", "/lncpsbuild2.jpg",  ];
 
   const EventData = [
     {
@@ -156,31 +157,31 @@ export default function Home() {
     // Add more events as needed
   ];
 
-  const imagess = [
-    "/speaker.JPG",
-    "/award.JPG",
-    "/principals.JPG",
-    "/baja.jpg",
-    "/grp.jpg",
-    "/Sports.jpg",
-    "/LNCPS-sports.jpg",
-    "/LNCPS-stunt.jpg",
-    "/mdsir.jpg",
-    "/LNCPS-awards2.jpg",
-    "/studentgrp.jpg",
-    "/baja2.jpg",
-    "/mdmaam.jpg",
-    "/student.jpg",
-    "/ar-1.jpg",
-    "/ar-2.jpg",
-    "/ar-3.jpg",
-    "/ar-1.jpg",
-    "/ar-2.jpg",
-    "/ar-3.jpg",
-    "/ar-1.jpg",
-    "/ar-2.jpg",
-    "/ar-3.jpg",
-  ];
+  // const imagess = [
+  //   "/speaker.JPG",
+  //   "/award.JPG",
+  //   "/principals.JPG",
+  //   "/carasol2.jpg",
+  //   "/grp.jpg",
+  //   "/Sports.jpg",
+  //   "/LNCPS-sports.jpg",
+  //   "/LNCPS-stunt.jpg",
+  //   "/mdsir.jpg",
+  //   "/carasol1.jpg",
+  //   "/studentgrp.jpg",
+  //   "/baja2.jpg",
+  //   "/mdmaam.jpg",
+  //   "/student.jpg",
+  //   "/ar-1.jpg",
+  //   "/ar-2.jpg",
+  //   "/ar-3.jpg",
+  //   "/ar-1.jpg",
+  //   "/ar-2.jpg",
+  //   "/ar-3.jpg",
+  //   "/ar-1.jpg",
+  //   "/ar-2.jpg",
+  //   "/ar-3.jpg",
+  // ];
 
   const ScarouselData = [
     {
@@ -556,8 +557,10 @@ export default function Home() {
                 </Link>
               </h3> */}
               <Image
+
                 className="duration-200 px-5 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
                 src={images[currentSlide]}
+
                 alt="Hero Image"
                 width={700}
                 height={650}
