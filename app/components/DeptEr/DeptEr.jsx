@@ -379,9 +379,38 @@ export default function DeptEr({ dept }) {
       <div>
       <h1 className="text-3xl text-center font-semibold border-b">Facult at LNCPS</h1>
     </div>
-      <div className="p-5 flex items-center justify-center">
+      
+      <div className=" grid ">
+         
+         <div>
+            {faculties.map((faculty, index) => (
+              <div className=" mt-1 mb-5  p-2  rounded-lg shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] " key={index}>
+              <div className=" flex gap-6 ">
+                <div className="w-48 h-40   relative  overflow-hidden rounded-lg">
+                  <Image
+                    src={faculty.image}
+                    alt="Img Not Found"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <div className=" py-4">
+                  <h1 className="my-2 font-bold text-lg mt-1">
+                  <span className="font-semibold"> Name : </span> {faculty.name}
+                  </h1>
+                  <h1 className="text-sm mt-1"><span className="font-semibold"> Designation : </span>   {faculty.position}</h1>
+                  <h2 className="text-sm"><span className="font-semibold"> Qualification : </span> {faculty.degree}</h2>
+                  <h3 className="text-sm mt-1"><span className="font-semibold"> Experience : </span>  {faculty.experience}</h3>
+                  <h3 className="text-sm mt-1"><span className="font-semibold"> Gmail </span>{faculty.email}</h3>
+                </div>
+              </div>
+            </div>
+            ))}
+
+            {/* Add more rows as needed */}
         
-      <FacultyCard/>
+       
+    </div>
     </div>
 
     </div>
