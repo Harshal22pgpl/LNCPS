@@ -6,26 +6,20 @@ import Monument from "@/app/components/Monument/Monument";
 export default function page() {
   return (
     <>
+
+
+      <div
+        className="w-full border-2 h-96 flex justify-center  items-center"
+        style={{
+          backgroundImage: "url('/clg.jpg')",
+          backgroundSize: "cover",
+        }}
+      >
+        <h1 className=" uppercase font-bold text-5xl">welcome to -LNCPS</h1>
+      </div>
+
    
-   <div className="w-full flex h-[650px]  ">
-        <div className="w-[850px] h-full flex flex-col justify-center items-center p-4 ">
-          <h1 className="text-2xl font-semibold tracking-[10px]  text-[#FF3344] flex items-center text-[#FF3344] ">
-            Professional Studies at -LNCPS INDORE
-          </h1>
-          <p className="text-black text-justify pt-2">
-            {" "}
-            NIT Rourkela is one of the institutes of national importance under
-            Ministry of Education, Government of India. Government of India has
-            elevated the Regional Engineering College, Rourkela to an autonomous
-            institution under the name of National Institute of Technology,
-            Rourkela.
-          </p>
-          </div>
-          <div className="w-full  relative -z-10 ">
-          {" "}
-          <Image src="/mainImg.jpeg" alt="img" fill />
-        </div>
-        </div>
+  
       <div
         className="w-full h-screen  "
         style={{ height: "calc(100vh - 60px)" }}
@@ -37,37 +31,19 @@ export default function page() {
               <h1 className="my-6 text-4xl  font-bold"> LNCPS INDORE</h1>
 
               <p className=" mt-2 font-extralight text-sm  text-justify">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Inventore totam nesciunt illum, voluptatem obcaecati ut iure
-                accusamus illo reiciendis, commodi quam? Veniam asperiores
-                maiores distinctio consectetur, ratione eius, sunt voluptatum,
-                voluptatem tempore ipsa iusto dignissimos voluptates eum
-                commodi? Eius nobis odio doloribus ipsa, ducimus quos vitae
-                mollitia. Recusandae, mollitia omnis? Quasi, amet numquam
-                voluptatum culpa in voluptas cumque laborum atque iste qui quo
-                harum quis, sed praesentium eius tempore? Perferendis beatae
-                nostrum debitis ad, tempora iusto iure dicta provident illum
-                doloremque aesentium iusto natus aut laudantium animi eligendi
-                veritatis architecto suscipit? Expedita voluptates quae placeat,
-                sed libero, recusandae sequi assumenda est impedit, suscipit aut
-                quisquam animi fugit! Libero ducimus ipsa non, nemo laboriosam
-                minima distinctio doloribus ratione
+                Lakshmi Narain College of Professional Studies (LNCPS) has been established in 2018 with a vision to spread the culture of staying rooted with values and ethics and at the same time develop
+                skills and competencies to help every student that joins the institute to give back to society and take nation to the zenith.
+                The institute is poised to impart the best quality of Higher Education, through the versatile infrastructure of Indore campus. 
+                The institute has an excellent Library, laboratories and fully equipped Computer Lab with Wi-Fi facility.
+                We offer full time regular under graduate courses affiliated with Devi Ahilya Vishwavidyalaya, Indore. 
+                MP Higher Education. In Science stream: B.Sc. (Computer Science), B.Sc. (Biotechnology with Pharmaceutical Chemistry). B.Sc. (PCM). In Commerce: stream B.Com (Tax), B.Com (Plain) and In Business Studies: BBA, BA (Economics) and MBA in dual specialization of Marketing, Finance, HRM, Operations and IT.
               </p>
 
               <p className=" mt-2 font-extralight text-sm text-justify">
-                incidunt, excepturi deleniti fugit corrupti numquam at natus
-                quidem assumenda sed fugiat quibusdam quis voluptate blanditiis?
-                Consectetur iure ut, dolorum est magnam assumenda? Eum culpa,
-                cum facere nesciunt, quia, fuga voluptatem facilis magnam
-                quibusdam corporis ab pariatur voluptates. Ipsum iste mollitia
-                repellendus. Omnis, alias. Quasi aliquid vitae at qui
-                voluptatibus ea ipsum maxime adipisci doloribus quo, tenetur
-                quisquam laborum officia labore harum accusantium neque quod cum
-                modi quos, similique provident inventore perspiciatis quis?
-                Ipsum enim quis cupiditate, sapiente ullam nam numquam atque
-                voluptates itaque temporibus vel minus veniam recusandae
-                laudantium laboriosam eaque id neque earum, quaerat nisi dolore
-                ratione.
+              Welcome to the Lakshmi Narain College of Professional Studies, where academic excellence meets real-world application. Our programs are designed to equip students with the skills and knowledge needed to excel in today's dynamic professional landscape.
+              With a focus on interdisciplinary learning, practical experience, and innovation, we offer a wide range of undergraduate and graduate programs tailored to meet the needs of diverse industries. Our faculty comprises experienced professionals and scholars dedicated to fostering a learning environment that encourages critical thinking, collaboration, and personal growth.
+              Whether you're advancing your current career or embarking on a new professional journey, 
+              the College of Professional Studies is committed to helping you achieve your goals
               </p>
             </div>
           </div>
@@ -84,7 +60,7 @@ export default function page() {
         </div>
       </div>
       <div className="w-full mx-auto py-2 px-20">
-        <Monument/>
+        <Monument />
       </div>
     </>
   );
