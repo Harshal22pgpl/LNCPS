@@ -4,7 +4,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 
 export default function Navlink({ name, link }) {
   return (
-    <div className=" py-3  px-1 text-gray-700 hover:text-orange-600">
+    <div className=" py-3  px-1 text-gray-700 hover:text-[#FF3344]">
       <Link className="flex gap-1 items-center" href={link}>
         <IoMdArrowDropright/>
         {name}

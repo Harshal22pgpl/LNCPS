@@ -290,7 +290,7 @@ export default function CareerForm({ selectedCareerId, careers }) {
 
                 <div className="flex items-center justify-between">
                     <button
-                        className="bg-[#fd8d1d] hover:bg-[#e07c18] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        className="bg-[#fd8d1d] hover:bg-[#89131D] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                         type="submit"
                     >
                         {isEditMode ? 'Update' : 'Submit'}

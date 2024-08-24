@@ -18,14 +18,14 @@ export default function Library() {
         img1="/lib.jpg"
       />
      <section className=" w-11/12 mx-auto mt-10">
-        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow   bg-[#f6820f]">
+        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow   bg-[#FF3344]">
           <div className="  ">
             <Counter
               initialValue={0}
               targetValue={2000}
               speed={0.001}
               text="Highest Package"
-              textColor="text-orange-600"
+              textColor="text-[#FF3344]"
               title="First Counter"
               color=""
             />
@@ -64,14 +64,14 @@ export default function Library() {
             />
           </div>
         </div>
-        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow  mb-12 bg-[#f6820f]">
+        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow  mb-12 bg-[#FF3344]">
           <div className=" ">
             <Counter
               initialValue={0}
               targetValue={2000}
               speed={0.001}
               text="NIRF All India Rank"
-              textColor="text-orange-600"
+              textColor="text-[#FF3344]"
               title="First Counter"
               color=""
             />

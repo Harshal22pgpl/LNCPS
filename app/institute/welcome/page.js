@@ -7,6 +7,7 @@ export default function page() {
   return (
     <>
 
+
       <div
         className="w-full border-2 h-96 flex justify-center  items-center"
         style={{
@@ -16,6 +17,9 @@ export default function page() {
       >
         <h1 className=" uppercase font-bold text-5xl">welcome to -LNCPS</h1>
       </div>
+
+   
+  
       <div
         className="w-full h-screen  "
         style={{ height: "calc(100vh - 60px)" }}
@@ -23,7 +27,7 @@ export default function page() {
         <div className="w-full flex px-5 py-5  gap-5">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" tracking-[10px] text-lg text-orange-700">WELCOME TO</h2>
+              <h2 className=" tracking-[10px] text-lg text-[#FF3344]">WELCOME TO</h2>
               <h1 className="my-6 text-4xl  font-bold"> LNCPS INDORE</h1>
 
               <p className=" mt-2 font-extralight text-sm  text-justify">

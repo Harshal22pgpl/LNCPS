@@ -26,7 +26,7 @@ export default function DeptEr({ dept }) {
       title: "postgraduate students",
       value: "60",
       textColor: "text-red-600",
-      color: "bg-yellow-500",
+      color: "bg-[#FF3344]",
       speed: "35",
     },
     {
@@ -40,7 +40,7 @@ export default function DeptEr({ dept }) {
       title: "recent job offers",
       value: "300",
       textColor: "text-red-600",
-      color: "bg-yellow-500",
+      color: "bg-[#FF3344]",
       speed: "30",
     },
     {
@@ -245,7 +245,7 @@ export default function DeptEr({ dept }) {
         <div className="w-full flex px-20 py-10  gap-7">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" text-4xl text-orange-700 my-5">
+              <h2 className=" text-4xl text-[#FF3344] my-5">
                 About the Department
               </h2>
               <div className="w-full   mt-5">
@@ -325,26 +325,26 @@ export default function DeptEr({ dept }) {
         </div>
 
         <div className="w-full flex flex-col px-20 gap-4 py-6">
-          <h1 className="text-4xl text-orange-500 font-bold p-2">
+          <h1 className="text-4xl text-[#C80D1D] font-bold p-2">
             Academic Programmes
           </h1>
           <div className="w-full flex justify-center gap-20 ">
             <ProgramCard
               course={"Undergraduate"}
-              bgcolor={"bg-[#f6820f]"}
+              bgcolor={"bg-[#FF3344]"}
               admission={"JEE"}
               dept={"civil engineering"}
             />
             <ProgramCard
               course={"Post-Graduate"}
-              bgcolor={"bg-[#e07c18]"}
+              bgcolor={"bg-[#89131D]"}
               admission={"JEE"}
               dept={"civil engineering"}
             />
           </div>
         </div>
         <div className="w-full flex flex-col px-20 gap-4 py-6 ">
-          <h1 className="font-bold text-4xl text-orange-500">
+          <h1 className="font-bold text-4xl text-[#C80D1D]">
             Head Of Department
           </h1>
           <div className="flex justify-between gap-10">
@@ -379,9 +379,38 @@ export default function DeptEr({ dept }) {
       <div>
       <h1 className="text-3xl text-center font-semibold border-b">Faculty at LNCPS</h1>
     </div>
-      <div className="p-5 flex items-center justify-center">
+      
+      <div className=" grid ">
+         
+         <div>
+            {faculties.map((faculty, index) => (
+              <div className=" mt-1 mb-5  p-2  rounded-lg shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] " key={index}>
+              <div className=" flex gap-6 ">
+                <div className="w-48 h-40   relative  overflow-hidden rounded-lg">
+                  <Image
+                    src={faculty.image}
+                    alt="Img Not Found"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <div className=" py-4">
+                  <h1 className="my-2 font-bold text-lg mt-1">
+                  <span className="font-semibold"> Name : </span> {faculty.name}
+                  </h1>
+                  <h1 className="text-sm mt-1"><span className="font-semibold"> Designation : </span>   {faculty.position}</h1>
+                  <h2 className="text-sm"><span className="font-semibold"> Qualification : </span> {faculty.degree}</h2>
+                  <h3 className="text-sm mt-1"><span className="font-semibold"> Experience : </span>  {faculty.experience}</h3>
+                  <h3 className="text-sm mt-1"><span className="font-semibold"> Gmail </span>{faculty.email}</h3>
+                </div>
+              </div>
+            </div>
+            ))}
+
+            {/* Add more rows as needed */}
         
-      <FacultyCard/>
+       
+    </div>
     </div>
 
     </div>

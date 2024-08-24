@@ -3,7 +3,7 @@ import React from "react";
 export default function AbouttheInstitute() {
   return (
     <>
-      <div className="  w-11/12 mx-auto mt-10 justify-around bg-gradient-to-r from-[#f97e19] to-[#dc9a00]">
+      <div className="  w-11/12 mx-auto mt-10 justify-around bg-gradient-to-r from-[#A50F1C] to-[#C80D1D]">
         <div className="   ">
           <h1 className="text-4xl lg:pt-10 lg:pb-5 lg:px-10 p-4 ">
             About the Institute
@@ -75,7 +75,7 @@ export default function AbouttheInstitute() {
               </p>
             </div>
             <div className="w-full  flex justify-around items-end ">
-              <img src="/founderr.png" alt="" className=" w-full" />
+              <img src="/founderr.png" alt="" className=" h-[300px] " />
             </div>
           </div>
         </div>
