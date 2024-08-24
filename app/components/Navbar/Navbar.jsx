@@ -687,6 +687,24 @@ export default function Navbar() {
         },
       ],
     },
+    {
+      main: "E-Content",
+      child: [
+        {
+          name: "E-Content",
+          subchild: [
+            {
+              name: "Contents",
+              link: "/econtent",
+            },
+            // {
+            //   name: "Industrial Consultancy",
+            //   link: "/ic",
+            // },
+          ],
+        },
+      ],
+    },
   ];
 
   useEffect(() => {
