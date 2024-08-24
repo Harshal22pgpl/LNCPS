@@ -16,7 +16,7 @@ export default function Pahal() {
           />
           <RuleCard bgcolor="bg-green-200" link="https://drive.google.com/file/d/1f2rMc8Tt1WJWCAgDJV6IjNleinyeSwlL/view" heading="Pahal 2 " />
           <RuleCard bgcolor="bg-gray-200" link="https://drive.google.com/file/d/1KNcGwpKq6B1dIrpO5x5ADGCnM3TaE3o8/view" heading="Pahal 3" />
-          <RuleCard bgcolor="bg-orange-300" link="https://drive.google.com/file/d/1BABCug7-rijbPa5tS1u5l6pRPulWiDqE/view?usp=sharing" heading="Pahal 4" />
+          <RuleCard bgcolor="bg-[#C80D1D]" link="https://drive.google.com/file/d/1BABCug7-rijbPa5tS1u5l6pRPulWiDqE/view?usp=sharing" heading="Pahal 4" />
           <RuleCard bgcolor="bg-pink-200" link="https://drive.google.com/file/d/1TvZlbth4wsHYpvb_ONPTe4ztM7RdH-cf/view?usp=sharing" heading="Pahal 5" />
           <RuleCard bgcolor="bg-yellow-200" link="https://drive.google.com/file/d/1roUsXEyLey_mWMfS4F3EzxzQLpPgRj5o/view?usp=sharing" heading="Pahal 6" />
          

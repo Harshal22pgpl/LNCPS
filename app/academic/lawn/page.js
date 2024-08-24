@@ -49,7 +49,7 @@ export default function page() {
             ipsam cumque beatae dolorem! Laborum reiciendis enim asperiores sint
             laudantium. Sint, explicabo.
           </div>
-          <h1 className="my-2 p-2 text-lg text-orange-500 ">
+          <h1 className="my-2 p-2 text-lg text-[#C80D1D] ">
             Professor in Charge
           </h1>
           <div className="px-5 py-2">

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Card = ({ title, content, imageUrl }) => {
   return (
-    <div className="bg-[#bc8d1f] shadow-md rounded-md p-2 border border-white">
+    <div className="bg-[#A50F1C] shadow-md rounded-md p-2 border border-white">
       {imageUrl && (
         <img src={imageUrl} alt={title} className="flex justify-center items-center h-30 object-cover mb-6 rounded-md mx-auto" />
       )}

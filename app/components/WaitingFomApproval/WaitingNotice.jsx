@@ -96,7 +96,7 @@ export default function WaitingForApproval({ notices }) {
                 <td className="px-6 py-4">
                   <button
                     onClick={() => handleStatusChange(notice.uuid, 'REJECTED')}
-                    className="font-medium text-yellow-600 dark:text-yellow-500 hover:underline"
+                    className="font-medium text-yellow-600 dark:text-[#FF3344] hover:underline"
                   >
                     Reject
                   </button>

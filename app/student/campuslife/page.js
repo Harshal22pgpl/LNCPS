@@ -6,7 +6,10 @@ export default function page() {
     const images=[]
   return (
     <>
-    <SliderMain images={images} heading="Campus and Facilities" />
+     <div className="w-full h-80 bg-cover capitalize flex justify-center items-center"
+        style={{ backgroundImage: `url('/about-banner.jpg')` }}>
+          <h1 className='text-4xl text-white font-semibold'>INDORES NUMBER ONE CAMPUS AT LNCPS</h1>
+        </div>
     <div className="p-10">
       <CampusMap
         heading1="Our buildings"
