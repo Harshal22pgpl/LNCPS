@@ -8,6 +8,7 @@ export default function page() {
       <div>
         <Monument />
       </div>
+      
     </>
   );
 }

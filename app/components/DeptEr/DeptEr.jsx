@@ -66,11 +66,11 @@ export default function DeptEr({ dept }) {
       slogan = "Engineering Tomorrow, Innovating Today ,Unleash Your Potential with Us!";
       author = "Dr.Mumuksha Jain ";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Mechanical Engineering Department at -LNCPS Indore is a hub of innovation and excellence, dedicated to the study and application of mechanical systems. Our department focuses on providing a robust education that combines theoretical knowledge with practical experience. Students engage in a variety of subjects, including thermodynamics, fluid mechanics, materials science, and robotics. Through hands-on projects, state-of-the-art laboratories, and industry collaborations, we prepare our students to solve real-world engineering challenges. Our faculty, renowned for their expertise and research contributions, are committed to mentoring students and fostering a learning environment that encourages creativity and critical thinking. Whether it's designing the next generation of sustainable energy systems or developing advanced manufacturing techniques, our Mechanical Engineering Department is at the forefront of technological advancement and prepares graduates to excel in diverse engineering careers";
+      aboutDept = "The Commerce Department at -LNCPS Indore is a hub of innovation and excellence, dedicated to the study and application of mechanical systems. Our department focuses on providing a robust education that combines theoretical knowledge with practical experience. Students engage in a variety of subjects, including thermodynamics, fluid mechanics, materials science, and robotics. Through hands-on projects, state-of-the-art laboratories, and industry collaborations, we prepare our students to solve real-world engineering challenges. Our faculty, renowned for their expertise and research contributions, are committed to mentoring students and fostering a learning environment that encourages creativity and critical thinking. Whether it's designing the next generation of sustainable energy systems or developing advanced manufacturing techniques, our Mechanical Engineering Department is at the forefront of technological advancement and prepares graduates to excel in diverse engineering careers";
       dept = "Commerce";
       headD = "Dr.Mumuksha Jain ";
 
-      headImg = "/faculty/com_HOD.jpg";
+      headImg = "/mumuksha.jpg";
       phoneHead = "8368766792";
       emailHead = "mumukshaj@gmail.com";
       faculties = [
@@ -377,7 +377,7 @@ export default function DeptEr({ dept }) {
         <div className="w-full p-2"></div>
       </div>
       <div>
-      <h1 className="text-3xl text-center font-semibold border-b">Facult at LNCPS</h1>
+      <h1 className="text-3xl text-center font-semibold border-b">Faculty at LNCPS</h1>
     </div>
       <div className="p-5 flex items-center justify-center">
         

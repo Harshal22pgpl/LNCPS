@@ -12,20 +12,20 @@ const Monument = () => {
       title: "Vision",
       content:
         "Our vision at LNCPS Indore is to emerge as a premier institution of higher education known for its commitment to excellence, innovation, and inclusivity. We aspire to create a vibrant learning community where diversity is celebrated, creativity is encouraged, and intellectual curiosity thrives. By fostering a culture of collaboration, critical thinking, and lifelong learning, we seek to empower our students to become leaders in their respective fields, driving positive change and making a meaningful impact on the world.",
-      img: "/cp-1.jpg",
+      img: "/vision.png",
     },
     {
       id: 2,
       title: "Mission",
       content:
         "At LNCPS Indore, our mission is to provide a transformative learning experience that empowers our students to excel in their chosen fields and become responsible global citizens. We are committed to fostering academic excellence, innovation, and ethical values. Through rigorous curriculum, experiential learning opportunities, and holistic development programs, we aim to nurture individuals who are well-equipped to meet the challenges of the ever-evolving world and contribute positively to society.",
-      img: "/cp-2.jpg",
+      img: "/mission.png",
     },
     {
       id: 3,
-      title: "Guiding Principles",
-      content: "Content for Section 3",
-      img: "/rules.jpg",
+      title: "Values",
+      content: "In the College of Professional Studies, our core values guide everything we do. We believe in the power of integrity, innovation, and inclusivity as the foundation of professional excellence. Integrity drives us to uphold the highest ethical standards in all our endeavors, fostering trust and accountability. Innovation fuels our commitment to continuous improvement and creative problem-solving, empowering students to lead in an ever-changing world. Inclusivity ensures that every voice is heard and respected, creating a diverse and supportive learning environment. Together, these values inspire us to nurture a community where individuals are encouraged to reach their full potential and contribute meaningfully to society.",
+      img: "/values.png",
     },
   ];
 
