@@ -13,7 +13,7 @@ export default function page() {
     <div>
       <SliderMain images={images} />
       <div className="w-10/12 p-20 mx-auto  flex flex-col gap-4 ">
-        <h1 className=" text-center text-3xl font-bold text-orange-600">
+        <h1 className=" text-center text-3xl font-bold text-[#FF3344]">
           CENTRAL RESEARCH FACILITY
         </h1>
         <h2 className=" text-center">
@@ -52,7 +52,7 @@ export default function page() {
                 targetValue={12}
                 speed={0.001}
                 text="DEPARTMENTS UNDER"
-                textColor="text-orange-600"
+                textColor="text-[#FF3344]"
                 title="First Counter"
                 color="bg-[#bd5638]"
                 textsize="text-base"

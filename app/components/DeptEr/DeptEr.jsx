@@ -26,7 +26,7 @@ export default function DeptEr({ dept }) {
       title: "postgraduate students",
       value: "60",
       textColor: "text-red-600",
-      color: "bg-yellow-500",
+      color: "bg-[#FF3344]",
       speed: "35",
     },
     {
@@ -40,7 +40,7 @@ export default function DeptEr({ dept }) {
       title: "recent job offers",
       value: "300",
       textColor: "text-red-600",
-      color: "bg-yellow-500",
+      color: "bg-[#FF3344]",
       speed: "30",
     },
     {
@@ -245,7 +245,7 @@ export default function DeptEr({ dept }) {
         <div className="w-full flex px-20 py-10  gap-7">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" text-4xl text-orange-700 my-5">
+              <h2 className=" text-4xl text-[#FF3344] my-5">
                 About the Department
               </h2>
               <div className="w-full   mt-5">
@@ -325,26 +325,26 @@ export default function DeptEr({ dept }) {
         </div>
 
         <div className="w-full flex flex-col px-20 gap-4 py-6">
-          <h1 className="text-4xl text-orange-500 font-bold p-2">
+          <h1 className="text-4xl text-[#C80D1D] font-bold p-2">
             Academic Programmes
           </h1>
           <div className="w-full flex justify-center gap-20 ">
             <ProgramCard
               course={"Undergraduate"}
-              bgcolor={"bg-[#f6820f]"}
+              bgcolor={"bg-[#FF3344]"}
               admission={"JEE"}
               dept={"civil engineering"}
             />
             <ProgramCard
               course={"Post-Graduate"}
-              bgcolor={"bg-[#e07c18]"}
+              bgcolor={"bg-[#89131D]"}
               admission={"JEE"}
               dept={"civil engineering"}
             />
           </div>
         </div>
         <div className="w-full flex flex-col px-20 gap-4 py-6 ">
-          <h1 className="font-bold text-4xl text-orange-500">
+          <h1 className="font-bold text-4xl text-[#C80D1D]">
             Head Of Department
           </h1>
           <div className="flex justify-between gap-10">

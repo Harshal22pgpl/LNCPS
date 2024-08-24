@@ -7,15 +7,25 @@ export default function page() {
   return (
     <>
    
-      <div
-        className="w-full border-2 h-96 flex justify-center  items-center"
-        style={{
-          backgroundImage: "url('/clg.jpg')",
-          backgroundSize: "cover",
-        }}
-      >
-        <h1 className=" uppercase font-bold text-5xl">welcome to -LNCPS</h1>
-      </div>
+   <div className="w-full flex h-[650px]  ">
+        <div className="w-[850px] h-full flex flex-col justify-center items-center p-4 ">
+          <h1 className="text-2xl font-semibold tracking-[10px]  text-[#FF3344] flex items-center text-[#FF3344] ">
+            Professional Studies at -LNCPS INDORE
+          </h1>
+          <p className="text-black text-justify pt-2">
+            {" "}
+            NIT Rourkela is one of the institutes of national importance under
+            Ministry of Education, Government of India. Government of India has
+            elevated the Regional Engineering College, Rourkela to an autonomous
+            institution under the name of National Institute of Technology,
+            Rourkela.
+          </p>
+          </div>
+          <div className="w-full  relative -z-10 ">
+          {" "}
+          <Image src="/mainImg.jpeg" alt="img" fill />
+        </div>
+        </div>
       <div
         className="w-full h-screen  "
         style={{ height: "calc(100vh - 60px)" }}
@@ -23,7 +33,7 @@ export default function page() {
         <div className="w-full flex px-5 py-5  gap-5">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" tracking-[10px] text-lg text-orange-700">WELCOME TO</h2>
+              <h2 className=" tracking-[10px] text-lg text-[#FF3344]">WELCOME TO</h2>
               <h1 className="my-6 text-4xl  font-bold"> LNCPS INDORE</h1>
 
               <p className=" mt-2 font-extralight text-sm  text-justify">
