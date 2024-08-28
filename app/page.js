@@ -285,11 +285,11 @@ export default function Home() {
     backgroundSize: "cover",
   }}
 >
-  <div className="container flex flex-col lg:flex-row  items-center bg-opacity-75 bg-[#d76d03] h-auto lg:h-[580px] p-4">
+  <div className="container flex flex-col lg:flex-row  items-center bg-opacity-75 bg-[#89131D] h-auto lg:h-[580px] p-4">
     <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4 overflow-hidden">
 
       <ul className="space-y-2 bg-white rounded-xl p-4 w-full lg:w-auto">
-        <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
           <button
             onClick={() => handleTabClick("undergraduate")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -300,7 +300,7 @@ export default function Home() {
             Bachelor of Business Administration (BBA)
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
           <button
             onClick={() => handleTabClick("postgraduate")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -311,7 +311,7 @@ export default function Home() {
             Bachelor of Commerce (B.Com. - Plain)
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
           <button
             onClick={() => handleTabClick("bcmp")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -366,7 +366,7 @@ export default function Home() {
          Bachelor of Commerce (B.Com. - Tax)
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
           <button
             onClick={() => handleTabClick("executive")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -377,7 +377,7 @@ export default function Home() {
           BJMC – (Print Journalism, Broadcast (Radio and TV) Journalism and Web Journalism)
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
           <button
             onClick={() => handleTabClick("parttime")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -737,7 +737,7 @@ Refund of Fee: The fee is non-refundable in case a student takes admission to an
       <AbouttheInstitute />
 
       <section class=" flex  lg:h-[300px] w-11/12 mx-auto mt-10 lg:flex-row flex-col  ">
-        <div class="items flex-1 w-full bg-yellow-500 text-white p-6 pt-14 text-center  ">
+        <div class="items flex-1 w-full bg-[#FF3344] text-white p-6 pt-14 text-center  ">
           <h2 className="font-semibold text-2xl">Thought of the Day</h2>
           <h5 className="font-semibold text-xl py-5 text-justify">
             Sometimes the biggest strength can be found in how you understand
@@ -747,8 +747,8 @@ Refund of Fee: The fee is non-refundable in case a student takes admission to an
             <i>--Michael Springer--</i>
           </h5>
         </div>
-        <div class="item flex-1 w-full bg-[#d76d03] p-6 pt-14  items-center text-center ">
-          <h2 className="font-semibold text-2xl">bg-[#f98819] the Day</h2>
+        <div class="item flex-1 w-full bg-[#89131D] p-6 pt-14  items-center text-center ">
+          <h2 className="font-semibold text-2xl">bg-[#C80D1D] the Day</h2>
           <h5 className="font-semibold text-xl py-5">कार्यात्मक</h5>
           <h5 className="font-semibold text-2xl">FUNCTIONAL</h5>
         </div>
@@ -770,7 +770,7 @@ Refund of Fee: The fee is non-refundable in case a student takes admission to an
                 targetValue={2000}
                 speed={0.001}
                 text="Highest Package"
-                textColor="text-orange-600"
+                textColor="text-[#FF3344]"
                 title="First Counter"
                 color=""
               />
@@ -816,7 +816,7 @@ Refund of Fee: The fee is non-refundable in case a student takes admission to an
                 targetValue={2000}
                 speed={0.001}
                 text="NIRF All India Rank"
-                textColor="text-orange-600"
+                textColor="text-[#FF3344]"
                 title="First Counter"
                 color=""
               />
@@ -857,8 +857,13 @@ Refund of Fee: The fee is non-refundable in case a student takes admission to an
           </div>
         </div>
       </section>
-      <section className="lg:w-11/12 w-full mx-auto">
-        <div className=" bg-[#e9cd2c]">
+      <section className="lg:w-11/12 w-full mx-auto mb-10">
+        <div className=" "  style={{
+            backgroundImage: "url('/svg/linessvg.svg')",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}>
           <div
             //
             className="flex lg:flex-row flex-col "
@@ -877,8 +882,10 @@ Refund of Fee: The fee is non-refundable in case a student takes admission to an
                 </Link>
               </h3> */}
               <Image
-                className="duration-200 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
-                src={imagesss[currentSlide]}
+
+                className="duration-200 px-5 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
+                src={images[currentSlide]}
+
                 alt="Hero Image"
                 width={700}
                 height={650}

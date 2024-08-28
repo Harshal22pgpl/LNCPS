@@ -76,7 +76,7 @@ const NewsTable = ({ noticeList=[], onDelete, onEdit }) => {
                 <td className="px-6 py-4">
                   <button
                     onClick={() => handleDelete(news.uuid)}
-                    className="font-medium text-orange-600 dark:text-orange-500 hover:underline"
+                    className="font-medium text-[#FF3344] dark:text-[#C80D1D] hover:underline"
                   >
                     Delete
                   </button>
@@ -84,7 +84,7 @@ const NewsTable = ({ noticeList=[], onDelete, onEdit }) => {
                 <td className="px-6 py-4">
                   <button
                     onClick={() => handleEdit(news.uuid)}
-                    className="font-medium text-orange-600 dark:text-orange-500 hover:underline"
+                    className="font-medium text-[#FF3344] dark:text-[#C80D1D] hover:underline"
                   >
                     Edit
                   </button>
