@@ -11,7 +11,7 @@ const eventDetails = {
   location: "LNCPS College, Bhaurasa",
   startTime: "2.30 pm",
   endTime: "5.30pm",
-  heading: "Inter School Dance Competitions",
+  heading: "Inter School Dance Competition",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa porro perferendis cum voluptatem ad sapiente? Cupiditate vero aliquid ipsam nisi eum sequi, quas tempora similique dicta reprehenderit laudantium. Accusamus in illum similique hic. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat.",
 };
@@ -62,7 +62,7 @@ const EventCard = ({ eventDetails }) => {
             </h2>
           </div>
           <Link
-            className="text-lg md:text-2xl lg:text-2xl font-bold mt-5 hover:text-#fecce3 text-start"
+            className="text-lg md:text-2xl lg:text-2xl font-bold mt-5 hover:text-yellow-200 text-start"
             href={{ pathname: "/event/particularEvent" }}
           >
             {heading}
@@ -72,7 +72,7 @@ const EventCard = ({ eventDetails }) => {
                             router.push({
                             });
                         }}
-                        className='text-lg md:text-2xl lg:text-2xl font-bold mt-5 hover:text-#fecce3 text-start'>{heading}
+                        className='text-lg md:text-2xl lg:text-2xl font-bold mt-5 hover:text-yellow-200 text-start'>{heading}
                     </button> */}
         </div>
       </div>

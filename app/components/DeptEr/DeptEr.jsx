@@ -140,7 +140,7 @@ export default function DeptEr({ dept }) {
         "The Electronics and Communication Engineering (ECE) Department at -LNCPS,indore is a hub of technological innovation and academic excellence. Our department focuses on the study and application of electronic systems, communication technologies, and signal processing. Students are immersed in a comprehensive curriculum that covers a wide range of topics, including digital electronics, telecommunications, embedded systems, and VLSI design. With access to cutting-edge laboratories and industry-standard tools, students gain hands-on experience that prepares them for the dynamic field of electronics and communication. Our dedicated faculty, known for their research and industry involvement, mentor students to develop critical thinking and problem-solving skills. The ECE Department is committed to fostering a learning environment that encourages creativity, innovation, and collaboration, ensuring that our graduates are well-equipped to excel in the fast-paced world of technology and communication.";
       dept = "Science";
       headD = "Prof.Manisha Singh";
-      headImg = "/faculty/arts_HOD.jpg";
+      headImg = "/manishasingh.jpg";
       phoneHead = "9977791266";
       emailHead = "Email.gautammanisha305@gmail.com";
       faculties = [

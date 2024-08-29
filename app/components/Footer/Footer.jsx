@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 export default function Footer() {
-    const path = usePathname();
+  const path = usePathname();
   return (
     <>
       {path.includes("admin") || path.includes("payments") ? (
@@ -12,17 +12,22 @@ export default function Footer() {
         <footer class="bg-blue-600 text-white  py-12">
           <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="item">
-              <p class="text-center">
-                <img
-                  src="/logo1.png"
-                  class="w-20 mx-auto mb-4"
-                  alt="Logo"
-                ></img>
-              </p>
+             
+                <div class="item-img w-28 m-auto">
+                  <a
+                    href="/assets/images/gallery3.jpg"
+                    data-fancybox="mygallery"
+                    data-caption=""
+                    title=""
+                  >
+                    <img src="/LNCPS-IND.png" class="w-full" alt=""></img>
+                  </a>
+                </div>
+           
               <p class="font-bold text-center mt-6">
-              Bhawrasla Sanwer Road, Reoti  Range
-Behind Shree Aurobindo Hospital, Indore (M.P)
-Pin Code-453111
+                Bhawrasla Sanwer Road, Reoti  Range
+                Behind Shree Aurobindo Hospital, Indore (M.P)
+                Pin Code-453111
 
               </p>
               <div class="contact-info text-center mt-8">
@@ -101,7 +106,7 @@ Pin Code-453111
                   <li className="p-2">
                     <a href="/Academic/AcademicTimeTable">
                       {" "}
-                     Library
+                      Library
                     </a>
                   </li>
                   <li className="p-2">
@@ -143,7 +148,7 @@ Pin Code-453111
                   <li className="p-2">
                     <a href="https://website.nitrkl.ac.in/Institute/NAD/">
                       {" "}
-                     Health Care
+                      Health Care
                     </a>
                   </li>
                   <li className="p-2">
@@ -154,18 +159,18 @@ Pin Code-453111
                   </li>
                   <li className="p-2">
                     <a href="https://icc.nitrkl.ac.in/">
-                     Admission Process
+                      Admission Process
                     </a>
                   </li>
                   <li className="p-2">
                     <a href="https://www.ics-nitrkl.in/">
                       {" "}
-                     Why LNCPS
+                      Why LNCPS
                     </a>
                   </li>
                   <li className="p-2">
                     <a href="https://nitrkl.ac.in/CRF/">
-                    Student Testimonial
+                      Student Testimonial
                     </a>
                   </li>
                   <li className="p-2">
@@ -176,7 +181,7 @@ Pin Code-453111
             </div>
             <div class="item">
               {/* <h4 class="font-bold">Photo Gallery</h4> */}
-              <div class="grid grid-cols-2 gap-2 p-2">
+              <div class="grid grid-cols-1 text-2xl gap-8 p-2">
                 <div class="item-img">
                   <a
                     href="/assets/images/gallery1.jpg"
@@ -184,7 +189,7 @@ Pin Code-453111
                     data-caption=""
                     title=""
                   >
-                    <img src="/LNCPS-IND.png" class="w-full" alt=""></img>
+                    <div className="flex gap-2 items-center"><span>Apply Now</span> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
                   </a>
                 </div>
                 <div class="item-img">
@@ -194,7 +199,30 @@ Pin Code-453111
                     data-caption=""
                     title=""
                   >
-                    <img src="/LNCPSS-GWL.png" class="w-full" alt=""></img>
+                    <div className="flex gap-2 items-center"><span>About Us Us</span> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
+                  </a>
+                </div>
+
+                <div class="item-img">
+                  <a
+                    href="/assets/images/gallery3.jpg"
+                    data-fancybox="mygallery"
+                    data-caption=""
+                    title=""
+                  >
+                    <div className="flex gap-2 items-center"><span>Contact Us</span> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
+                  </a>
+                </div>
+
+                <div class="item-img">
+                  <a
+                    href="/assets/images/gallery3.jpg"
+                    data-fancybox="mygallery"
+                    data-caption=""
+                    title=""
+                  >
+
+                    <div className="flex gap-2 items-center"><span>Admissions</span> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
                   </a>
                 </div>
                 <div class="item-img">
@@ -204,79 +232,12 @@ Pin Code-453111
                     data-caption=""
                     title=""
                   >
-                    <img src="/LNCPSS-IND.png" class="w-full" alt=""></img>
+                    <div className="flex gap-2 items-center"><span>FAQ&apos;S</span> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
                   </a>
                 </div>
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/LNMC-BPL.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/JDCN-IND.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/JDCP-IND.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/LNCP-IND.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/LNCPS-IND.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/logo1.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/logo1.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
+
+
+
               </div>
             </div>
           </div>
@@ -297,7 +258,7 @@ Pin Code-453111
                   </li>
                   <li className="p-2">
                     <a href="/Home/PrivacyPolicy"> Privacy Policy</a>
-                  </li> 
+                  </li>
                 </ul>
               </div>
             </div>
