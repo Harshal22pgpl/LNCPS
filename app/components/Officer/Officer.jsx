@@ -9,12 +9,12 @@ export default function Officer() {
          Officer At  LNCPS
           </h1>
         </div>
-      <div className=" text-blue-500 relative  mb-10  w-full h-[400px]    mx-auto border-2">
+      <div className=" text-blue-800 relative  mb-10  w-full h-[400px]    mx-auto border-2">
         <Image src="/clg.jpg" alt="" fill />
         
       </div>
       <div className=" p-10 ">
-        <h1 className="text-4xl text-center text-blue-500 border-b-2 border-blue-500 font-semibold ">
+        <h1 className="text-4xl text-center text-blue-800 border-b-2 border-blue-800 font-semibold ">
           About Officer
         </h1>
         <div className="w-full mx-auto pt-5 ml-15">

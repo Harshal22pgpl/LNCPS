@@ -186,7 +186,7 @@ const CareerForm = () => {
                     id="applicantName"
                     value={studentData.applicantName}
                     onChange={(e) => handleClientDataChange(e, 'text')}
-                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-800 focus:ring-blue-800"
                   />
                   {errors.applicantName && <p className="text-red-500">{errors.applicantName}</p>}
                 </div>
@@ -200,7 +200,7 @@ const CareerForm = () => {
                     id="email"
                     value={studentData.email}
                     onChange={(e) => handleClientDataChange(e, 'email')}
-                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-800 focus:ring-blue-800"
                   />
                   {errors.email && <p className="text-red-500">{errors.email}</p>}
                 </div>
@@ -214,7 +214,7 @@ const CareerForm = () => {
                     id="jobUuid"
                     value={studentData.jobUuid}
                     onChange={(e) => handleClientDataChange(e, 'text')}
-                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-800 focus:ring-blue-800"
                   />
                   {errors.jobUuid && <p className="text-red-500">{errors.jobUuid}</p>}
                 </div>
@@ -228,7 +228,7 @@ const CareerForm = () => {
                     id="isOpen"
                     checked={studentData.isOpen}
                     onChange={(e) => handleClientDataChange(e, 'checkbox')}
-                    className="mt-1 block rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                    className="mt-1 block rounded-md shadow-sm focus:ring-blue-800 focus:border-blue-800"
                   />
                 </div>
                 <div className="p-3">
@@ -241,7 +241,7 @@ const CareerForm = () => {
                     id="collegeName"
                     value={studentData.collegeName}
                     onChange={(e) => handleClientDataChange(e, 'text')}
-                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-800 focus:ring-blue-800"
                   />
                   {errors.collegeName && <p className="text-red-500">{errors.collegeName}</p>}
                 </div>
@@ -255,7 +255,7 @@ const CareerForm = () => {
                     id="phone"
                     value={studentData.phone}
                     onChange={(e) => handleClientDataChange(e, 'text')}
-                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-800 focus:ring-blue-800"
                   />
                   {errors.phone && <p className="text-red-500">{errors.phone}</p>}
                 </div>
@@ -269,7 +269,7 @@ const CareerForm = () => {
                     id="qualifications"
                     value={studentData.qualifications}
                     onChange={(e) => handleClientDataChange(e, 'text')}
-                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-800 focus:ring-blue-800"
                   />
                   {errors.qualifications && <p className="text-red-500">{errors.qualifications}</p>}
                 </div>
@@ -283,7 +283,7 @@ const CareerForm = () => {
                     id="experience"
                     value={studentData.experience}
                     onChange={(e) => handleClientDataChange(e, 'text')}
-                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="mt-1 block outline-none border-b-2 border-black w-full rounded-md shadow-sm focus:border-blue-800 focus:ring-blue-800"
                   />
                   {errors.experience && <p className="text-red-500">{errors.experience}</p>}
                 </div>
@@ -312,7 +312,7 @@ const CareerForm = () => {
                     name="additionalInfo"
                     value={studentData.additionalInfo}
                     onChange={(e) => handleClientDataChange(e, 'text')}
-                    className="mt-1 block w-full outline-none border-b-2 border-black rounded-md shadow-sm focus:ring-blue-500"
+                    className="mt-1 block w-full outline-none border-b-2 border-black rounded-md shadow-sm focus:ring-blue-800"
                     rows="4"
                   ></textarea>
                   {errors.additionalInfo && <p className="text-red-500">{errors.additionalInfo}</p>}

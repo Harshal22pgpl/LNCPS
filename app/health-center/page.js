@@ -18,7 +18,7 @@ export default function page() {
           <div className="w-[650px] h-[540px]  relative my-8 ml-[500px] ">
             <Image src="/a-o.png" alt="image" fill />
 <<<<<<< HEAD
-            <div className=" absolute w-[620px] h-[320px]  top-24  right-[520px] bg-fuchsia-300 p-8">
+            <div className=" absolute w-[620px] h-[320px]  top-24  right-[520px] bg-blue-800 p-8">
 =======
             <div className=" absolute w-[620px] h-[320px]  top-24  right-[520px] bg-blue-900 p-8">
 >>>>>>> c004d86733130ae587aba2382bf98165b434c351

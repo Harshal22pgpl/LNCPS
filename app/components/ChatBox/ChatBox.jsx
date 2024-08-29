@@ -46,7 +46,7 @@
 //             className="rounded-2xl bg-gray-100 py-3 px-5 w-full"
 //           />
 //         </div>
-//         <div className="h-12 w-12 p-2 bg-blue-500 rounded-full text-white font-semibold flex items-center justify-center">
+//         <div className="h-12 w-12 p-2 bg-blue-800 rounded-full text-white font-semibold flex items-center justify-center">
 //           RA
 //         </div>
 //       </div>
@@ -83,7 +83,7 @@
 //         <div className="w-full px-5 flex flex-col justify-between">
 //           <div className="flex flex-col mt-5">
 //             <div className="flex justify-end mb-4">
-//               <div className="mr-2 py-3 px-4 bg-blue-500 rounded-bl-3xl rounded-tl-3xl rounded-tr-xl text-white">
+//               <div className="mr-2 py-3 px-4 bg-blue-800 rounded-bl-3xl rounded-tl-3xl rounded-tr-xl text-white">
 //                 Welcome to group everyone!
 //               </div>
 //               <img

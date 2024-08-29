@@ -33,7 +33,7 @@ const StudentTable = ({ students, onUpdate, onDelete }) => {
                 </button>
                 <button
                   onClick={() => onDelete(student)}
-                  className="text-white p-2 px-6 bg-red-500 hover:bg-fuchsia-300 rounded-md  hover:underline"
+                  className="text-white p-2 px-6 bg-red-500 hover:bg-blue-800 rounded-md  hover:underline"
                 >
                   Delete
                 </button>

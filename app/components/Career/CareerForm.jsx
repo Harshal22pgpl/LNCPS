@@ -291,7 +291,7 @@ export default function CareerForm({ selectedCareerId, careers }) {
                 <div className="flex items-center justify-between">
                     <button
 <<<<<<< HEAD
-                        className="bg-[#fd8d1d] hover:bg-fuchsia-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        className="bg-[#fd8d1d] hover:bg-blue-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
 =======
                         className="bg-[#fd8d1d] hover:bg-blue-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
 >>>>>>> c004d86733130ae587aba2382bf98165b434c351

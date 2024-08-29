@@ -217,7 +217,7 @@ Pin Code-453111
                     <img src="/LNMC-BPL.png" class="w-full" alt=""></img>
                   </a>
                 </div>
-                {/* <div class="item-img">
+                <div class="item-img">
                   <a
                     href="/assets/images/gallery3.jpg"
                     data-fancybox="mygallery"
@@ -226,8 +226,8 @@ Pin Code-453111
                   >
                     <img src="/JDCN-IND.png" class="w-full" alt=""></img>
                   </a>
-                </div> */}
-                {/* <div class="item-img">
+                </div>
+                <div class="item-img">
                   <a
                     href="/assets/images/gallery3.jpg"
                     data-fancybox="mygallery"
@@ -236,7 +236,7 @@ Pin Code-453111
                   >
                     <img src="/JDCP-IND.png" class="w-full" alt=""></img>
                   </a>
-                </div> */}
+                </div>
                 <div class="item-img">
                   <a
                     href="/assets/images/gallery3.jpg"
@@ -257,7 +257,7 @@ Pin Code-453111
                     <img src="/LNCPS-IND.png" class="w-full" alt=""></img>
                   </a>
                 </div>
-                {/* <div class="item-img">
+                <div class="item-img">
                   <a
                     href="/assets/images/gallery3.jpg"
                     data-fancybox="mygallery"
@@ -266,8 +266,8 @@ Pin Code-453111
                   >
                     <img src="/logo1.png" class="w-full" alt=""></img>
                   </a>
-                </div> */}
-                {/* <div class="item-img">
+                </div>
+                <div class="item-img">
                   <a
                     href="/assets/images/gallery3.jpg"
                     data-fancybox="mygallery"
@@ -276,7 +276,7 @@ Pin Code-453111
                   >
                     <img src="/logo1.png" class="w-full" alt=""></img>
                   </a>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

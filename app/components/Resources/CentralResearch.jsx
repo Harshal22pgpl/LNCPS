@@ -23,7 +23,7 @@ export default function CentralResearch() {
             </div>
           </div>
           <div className='h-5 '>
-            <a className='bg-fuchsia-300 text-white text-[14px] py-[3px] px-[10px] rounded-[4px] ml-56' href="">Login for External users</a>
+            <a className='bg-blue-800 text-white text-[14px] py-[3px] px-[10px] rounded-[4px] ml-56' href="">Login for External users</a>
           </div>
         </div>
         <div className='flex mt-2'>
@@ -45,7 +45,7 @@ export default function CentralResearch() {
       </div>
       <div>
         <div className='mb-[50px] ml-44'>
-          <h2 className='text-[30px] text-fuchsia-900 font-bold p-10 pb-0 ml-40'><span className='text-blue-500'>CENTRAL</span> RESEARCH FACILITY</h2>
+          <h2 className='text-[30px] text-fuchsia-900 font-bold p-10 pb-0 ml-40'><span className='text-blue-800'>CENTRAL</span> RESEARCH FACILITY</h2>
           <div>
             <p className='text-[14px] ml-20 text-gray-700'>Providing central facility of advanced techniques for research in various areas of science and technology</p>
             <div className='border-b-4 border-fuchsia-900 w-28 ml-[370px] mt-3'></div>
@@ -73,7 +73,7 @@ export default function CentralResearch() {
               targetValue={20}
               speed={200}
               text="Seed"
-              textColor="text-blue-500"
+              textColor="text-blue-800"
               title="Departments"
               color="bg-[#bd5638]"
             />
@@ -95,7 +95,7 @@ export default function CentralResearch() {
               targetValue={200}
               speed={30}
               text="Seed"
-              textColor="text-fuchsia-300"
+              textColor="text-blue-800"
               title="OTHER INSTRUMENTS"
               color="bg-[#223250]"
             />
@@ -107,7 +107,7 @@ export default function CentralResearch() {
               targetValue={2675}
               speed={1}
               text="Seed"
-              textColor="text-fuchsia-300"
+              textColor="text-blue-800"
               title="EXTERNAL BOOKINGSThird "
               color="bg-[#22472d]"
             />
@@ -116,7 +116,7 @@ export default function CentralResearch() {
       </section>
       <div>
         <div className='mb-[50px] ml-52'>
-          <h2 className='text-[30px] text-fuchsia-900 font-bold p-10 pb-3 ml-40'><span className='text-blue-500'>OUR</span>  R & D RESOURSES</h2>
+          <h2 className='text-[30px] text-fuchsia-900 font-bold p-10 pb-3 ml-40'><span className='text-blue-800'>OUR</span>  R & D RESOURSES</h2>
           <div>
             <p className='text-[14px] ml-52 text-gray-700'>
               In service of Education, Research and Industry.</p>
@@ -150,7 +150,7 @@ export default function CentralResearch() {
       </div>
       <div className='h-96 mt-32 bg-cyan-500'>
         <div className='mb-[50px] ml-52'>
-          <h2 className='text-[30px] text-fuchsia-900 font-bold p-10 pb-3 ml-40'><span className='text-blue-500'>WHAT</span>  PEOPLE SAY</h2>
+          <h2 className='text-[30px] text-fuchsia-900 font-bold p-10 pb-3 ml-40'><span className='text-blue-800'>WHAT</span>  PEOPLE SAY</h2>
           <div className='border-b-4 border-fuchsia-900 w-28 ml-[300px] mt-5'>
           </div>
         </div>
@@ -166,13 +166,13 @@ export default function CentralResearch() {
       <div>
         <div className='mb-[50px] ml-52'>
           <h2 className='text-[30px] text-fuchsia-900 font-bold p-10 pb-3 ml-40'>
-            <span className='text-blue-500'>EVENTS &</span>  ACTIVITIES</h2>
+            <span className='text-blue-800'>EVENTS &</span>  ACTIVITIES</h2>
           <div className='border-b-4 border-fuchsia-900 w-28 ml-[300px] mt-5'>
           </div>
           <div className='grid grid-cols-2 mt-10 gap-4 -ml-32 mr-16'>
             <div className='flex border border-gray-400 p-3'>
               <div className='w-[100%]'><img className='w-full m-2 ' src="welcome.jpeg" alt="" /></div>
-              <div className='ml-5'><h2 className='capitalize  hover:text-blue-500 text-fuchsia-900 font-bold text-[14px] mb-3'>Vigyan Jyoti Programme of DST Govt. of India</h2>
+              <div className='ml-5'><h2 className='capitalize  hover:text-blue-800 text-fuchsia-900 font-bold text-[14px] mb-3'>Vigyan Jyoti Programme of DST Govt. of India</h2>
                 <div className='flex'><img className='w-4 h-4' src="calendar.png" alt="" /> <span className='text-[14px] font-semibold text-gray-900'>December 12, 2022</span>
                 </div>
                 <p className='text-[13px] mt-4 text-gray-700'>Under Vigyan Jyoti programme (Empowering girls in STEM) of DST Govt. of India, 51 girls and 6 staffs of Jawahar Navodaya Vidyalaya (JNV Sundergarh) visited the central facilities of NIT Rourkela.</p>
@@ -180,7 +180,7 @@ export default function CentralResearch() {
             </div>
             <div className='flex border border-gray-400 p-3'>
               <div className='w-[100%]'><img className='w-full m-2 ' src="welcome.jpeg" alt="" /></div>
-              <div className='ml-5'><h2 className='capitalize  hover:text-blue-500 text-fuchsia-900 font-bold text-[14px] mb-3'>Vigyan Jyoti Programme of DST Govt. of India</h2>
+              <div className='ml-5'><h2 className='capitalize  hover:text-blue-800 text-fuchsia-900 font-bold text-[14px] mb-3'>Vigyan Jyoti Programme of DST Govt. of India</h2>
                 <div className='flex'><img className='w-4 h-4' src="calendar.png" alt="" /> <span className='text-[14px] font-semibold text-gray-900'>December 12, 2022</span>
                 </div>
                 <p className='text-[13px] mt-4  text-gray-700'>Under Vigyan Jyoti programme (Empowering girls in STEM) of DST Govt. of India, 51 girls and 6 staffs of Jawahar Navodaya Vidyalaya (JNV Sundergarh) visited the central facilities of NIT Rourkela.</p>
@@ -190,7 +190,7 @@ export default function CentralResearch() {
               <div className=''>
                 <img className='w-full m-2 ' src="welcome.jpeg" alt="" /></div>
               <div className='ml-5 w-'>
-                <h2 className='capitalize hover:text-blue-500 text-fuchsia-900 font-bold text-[14px] mb-3'>I-STEM Tech Management Conclave 2023</h2>
+                <h2 className='capitalize hover:text-blue-800 text-fuchsia-900 font-bold text-[14px] mb-3'>I-STEM Tech Management Conclave 2023</h2>
                 <div className='flex'>
                   <img className='w-4 h-4' src="calendar.png" alt="" />
                   <span className='text-[14px] font-semibold text-gray-900'>January 19 - 20, 2023</span>
@@ -203,7 +203,7 @@ export default function CentralResearch() {
               <div className='w-[90%]'>
                 <img className='w-full m-2 ' src="welcome.jpeg" alt="" /></div>
                <div className='ml-5 w-'>
-                <h2 className='capitalize  hover:text-blue-500 text-fuchsia-900 font-bold text-[14px] mb-3'>Training program for WDXRF</h2>
+                <h2 className='capitalize  hover:text-blue-800 text-fuchsia-900 font-bold text-[14px] mb-3'>Training program for WDXRF</h2>
                 <div className='flex'>
                   <img className='w-4 h-4' src="calendar.png" alt="" />
                   <span className='text-[14px] font-semibold text-gray-900'>February 4 - 10, 2022</span>
@@ -216,7 +216,7 @@ export default function CentralResearch() {
               <div className='w-[90%]'>
                 <img className='w-full m-2 ' src="welcome.jpeg" alt="" /></div>
               <div className='ml-5 w-'>
-                <h2 className='capitalize  hover:text-blue-500 text-fuchsia-900 font-bold text-[14px] mb-3'>Training programs for HRMS</h2>
+                <h2 className='capitalize  hover:text-blue-800 text-fuchsia-900 font-bold text-[14px] mb-3'>Training programs for HRMS</h2>
                 <div className='flex'>
                   <img className='w-4 h-4' src="calendar.png" alt="" />
                   <span className='text-[14px] font-semibold text-gray-900'>February 10 - 11, 2022</span>
@@ -229,7 +229,7 @@ export default function CentralResearch() {
               <div className='w-[90%]'>
                 <img className='w-full m-2 ' src="welcome.jpeg" alt="" /></div>
               <div className='ml-5 w-'>
-                <h2 className='capitalize  hover:text-blue-500 text-fuchsia-900 font-bold text-[14px] mb-3'>Training programs for LSCM</h2>
+                <h2 className='capitalize  hover:text-blue-800 text-fuchsia-900 font-bold text-[14px] mb-3'>Training programs for LSCM</h2>
                 <div className='flex'>
                   <img className='w-4 h-4' src="calendar.png" alt="" />
                   <span className='text-[14px] font-semibold text-gray-900'> February 10 - 12, 2022</span>

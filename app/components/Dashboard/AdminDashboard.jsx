@@ -33,7 +33,7 @@ const Dashboard = ({ clientProps }) => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="stroke-current text-fuchsia-300 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
+              className="stroke-current text-blue-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
             >
               <path
                 stroke-linecap="round"
@@ -56,7 +56,7 @@ const Dashboard = ({ clientProps }) => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="stroke-current text-fuchsia-300 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
+              className="stroke-current text-blue-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
             >
               <path
                 stroke-linecap="round"
@@ -79,7 +79,7 @@ const Dashboard = ({ clientProps }) => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="stroke-current text-fuchsia-300 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
+              className="stroke-current text-blue-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
             >
               <path
                 stroke-linecap="round"
@@ -102,7 +102,7 @@ const Dashboard = ({ clientProps }) => {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              className="stroke-current text-fuchsia-300 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
+              className="stroke-current text-blue-800 dark:text-gray-800 transform transition-transform duration-500 ease-in-out"
             >
               <path
                 stroke-linecap="round"
@@ -245,7 +245,7 @@ const Dashboard = ({ clientProps }) => {
           <h3 className="text-lg font-semibold">
             Task summaries of recent sprints
           </h3>
-        <Link href='/admin/approval'>  <h2 className="text-md font-bold text-center bg-blue-500 p-2 w-[300px]">View Waiting For Approval</h2></Link>
+        <Link href='/admin/approval'>  <h2 className="text-md font-bold text-center bg-blue-800 p-2 w-[300px]">View Waiting For Approval</h2></Link>
         </div>
         <div className="md:col-span-2 xl:col-span-1">
           <div className="rounded bg-gray-200 dark:bg-gray-800 p-3  min-h-[350px] overflow-y-auto">
@@ -570,7 +570,7 @@ const Dashboard = ({ clientProps }) => {
     </div> */}
 
       <div className="mt-8 mx-4">
-        <div className="p-4 bg-yellow-50 dark:bg-gray-800 dark:text-gray-50 border border-blue-500 dark:border-gray-500 rounded-lg shadow-md">
+        <div className="p-4 bg-yellow-50 dark:bg-gray-800 dark:text-gray-50 border border-blue-800 dark:border-gray-500 rounded-lg shadow-md">
           <h4 className="text-lg font-semibold">
             Have taken ideas & reused components from the following resources:
           </h4>

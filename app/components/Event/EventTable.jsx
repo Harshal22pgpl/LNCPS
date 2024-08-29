@@ -78,7 +78,7 @@ const EventTable = ({ events, onDelete, onEdit }) => {
               <td className="px-6 py-4">
                 <button
                   onClick={() => handleDelete(event.uuid)}
-                  className="font-medium text-fuchsia-300 dark:text-red-500 hover:underline"
+                  className="font-medium text-blue-800 dark:text-red-500 hover:underline"
                 >
                   Delete
                 </button>
@@ -89,7 +89,7 @@ const EventTable = ({ events, onDelete, onEdit }) => {
 <<<<<<< HEAD
                   className="font-medium text-#fecce3 dark:text-[#FF3344] hover:underline"
 =======
-                  className="font-medium text-yellow-600 dark:text-blue-500 hover:underline"
+                  className="font-medium text-yellow-600 dark:text-blue-800 hover:underline"
 >>>>>>> c004d86733130ae587aba2382bf98165b434c351
                 >
                   Edit
