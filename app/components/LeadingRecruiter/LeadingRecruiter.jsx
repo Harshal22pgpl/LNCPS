@@ -56,7 +56,7 @@ export default function LeadingRecruiter({ title, content }) {
       </div>
       <div className="text-center w-3/4 mx-auto  ">
         <h1 className=" font-semibold text-4xl p-2 ">Leading Recruiters</h1>
-        <p className="text-md pb-2">Hering Companys </p>
+        <p className="text-md pb-2">Hiring Companies </p>
       </div>
 
       <div className="w-full mx-auto pt-5 pb-10 ml-15">
@@ -110,7 +110,7 @@ export default function LeadingRecruiter({ title, content }) {
 
       <div className=" border-b-2   w-3/4 mx-auto  rounded-b-2xl ">
         <h1 className=" font-semibold text-4xl p-2  text-center">
-          Regular Activite
+          Our Recruiters
         </h1>
       </div>
       <div className=" flex justify-around p-10">
