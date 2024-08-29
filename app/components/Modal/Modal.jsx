@@ -60,7 +60,7 @@ const Modal = ({ showModal, toggleModal }) => {
                     </div>
                 </div>
                 <div className='col-span-1 flex items-center justify-center w-full'>
-  <button type="submit" className="text-white justify-center flex items-center bg-[#FF3344] hover:bg-green-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[#89131D] dark:hover:bg-[#89131D] dark:focus:ring-blue-800">
+  <button type="submit" className="text-white justify-center flex items-center bg-blue-500 hover:bg-green-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-900 dark:hover:bg-blue-900 dark:focus:ring-blue-800">
     <svg className="me-1 -ms-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path>
     </svg>

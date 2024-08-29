@@ -86,7 +86,7 @@ const CareerTable = ({ events, onDelete, onEdit }) => {
               <td className="px-6 py-4">
                 <button
                   onClick={() => handleEdit(event.uuid)}
-                  className="font-medium text-yellow-600 dark:text-[#FF3344] hover:underline"
+                  className="font-medium text-yellow-600 dark:text-blue-500 hover:underline"
                 >
                   Edit
                 </button>

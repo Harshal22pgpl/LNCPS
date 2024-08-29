@@ -20,7 +20,7 @@ export default function Eminent() {
 
       <div className="flex flex-col md:flex-row justify-around  m-10 p-10 w-11/12 mx-auto">
         <div className="w-full md:w-1/2 mb-6 md:mb-0">
-          <h1 className="text-[#FF3344]  text-4xl">About</h1>
+          <h1 className="text-blue-500  text-4xl">About</h1>
           <p className="text-2xl">
             We serve as a bridge between the university and the alumni.
           </p>
@@ -103,7 +103,7 @@ export default function Eminent() {
           alumni@LNCPS.ac.in
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-2 pt-10 pb-2">
-          <div className="text-white rounded-xl p-3 bg-[#fd8d1d] px-10 hover:bg-[#FF3344] hover:text-black">
+          <div className="text-white rounded-xl p-3 bg-[#fd8d1d] px-10 hover:bg-blue-500 hover:text-black">
             Join us
           </div>
           <div className="bg-black rounded-xl p-3 px-10 hover:bg-gray-800 hover:text-white">

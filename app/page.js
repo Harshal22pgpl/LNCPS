@@ -285,13 +285,13 @@ export default function Home() {
     backgroundSize: "cover",
   }}
 >
-  <div className="container flex flex-col lg:flex-row  items-center bg-opacity-75 bg-[#89131D] h-auto lg:h-[580px] p-4">
+  <div className="container flex flex-col lg:flex-row  items-center bg-opacity-75 bg-blue-900 h-auto lg:h-[580px] p-4">
     <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4 overflow-hidden">
       <h2 className="text-3xl w-80 text-white text-center font-semibold mb-6">
         Academic Programme
       </h2>
       <ul className="space-y-2 bg-white rounded-xl p-4 w-full lg:w-auto">
-        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+        <li className="bg-white rounded-lg text-black hover:bg-blue-500">
           <button
             onClick={() => handleTabClick("undergraduate")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -302,7 +302,7 @@ export default function Home() {
             Bachelor of Business Administration (BBA)
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+        <li className="bg-white rounded-lg text-black hover:bg-blue-500">
           <button
             onClick={() => handleTabClick("postgraduate")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -313,7 +313,7 @@ export default function Home() {
             Bachelor of Commerce (B.Com. - Plain)
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+        <li className="bg-white rounded-lg text-black hover:bg-blue-500">
           <button
             onClick={() => handleTabClick("doctoral")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -324,7 +324,7 @@ export default function Home() {
           Bachelor of Commerce (B.Com. - Plain)
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+        <li className="bg-white rounded-lg text-black hover:bg-blue-500">
           <button
             onClick={() => handleTabClick("executive")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -335,7 +335,7 @@ export default function Home() {
           BJMC – (Print Journalism, Broadcast (Radio and TV) Journalism and Web Journalism)
           </button>
         </li>
-        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+        <li className="bg-white rounded-lg text-black hover:bg-blue-500">
           <button
             onClick={() => handleTabClick("parttime")}
             className={`p-4 w-full lg:w-auto text-left nav-link ${
@@ -412,7 +412,7 @@ export default function Home() {
       <AbouttheInstitute />
 
       <section class=" flex  lg:h-[300px] w-11/12 mx-auto mt-10 lg:flex-row flex-col  ">
-        <div class="items flex-1 w-full bg-[#FF3344] text-white p-6 pt-14 text-center  ">
+        <div class="items flex-1 w-full bg-blue-500 text-white p-6 pt-14 text-center  ">
           <h2 className="font-semibold text-2xl">Thought of the Day</h2>
           <h5 className="font-semibold text-xl py-5 text-justify">
             Sometimes the biggest strength can be found in how you understand
@@ -422,8 +422,8 @@ export default function Home() {
             <i>--Michael Springer--</i>
           </h5>
         </div>
-        <div class="item flex-1 w-full bg-[#89131D] p-6 pt-14  items-center text-center ">
-          <h2 className="font-semibold text-2xl">bg-[#C80D1D] the Day</h2>
+        <div class="item flex-1 w-full bg-blue-900 p-6 pt-14  items-center text-center ">
+          <h2 className="font-semibold text-2xl">bg-blue-700 the Day</h2>
           <h5 className="font-semibold text-xl py-5">कार्यात्मक</h5>
           <h5 className="font-semibold text-2xl">FUNCTIONAL</h5>
         </div>
@@ -445,7 +445,7 @@ export default function Home() {
                 targetValue={2000}
                 speed={0.001}
                 text="Highest Package"
-                textColor="text-[#FF3344]"
+                textColor="text-blue-500"
                 title="First Counter"
                 color=""
               />
@@ -491,7 +491,7 @@ export default function Home() {
                 targetValue={2000}
                 speed={0.001}
                 text="NIRF All India Rank"
-                textColor="text-[#FF3344]"
+                textColor="text-blue-500"
                 title="First Counter"
                 color=""
               />
@@ -534,7 +534,7 @@ export default function Home() {
       </section>
       <section className="lg:w-11/12 w-full mx-auto mb-10">
         <div className=" "  style={{
-            backgroundImage: "url('/svg/linessvg.svg')",
+            backgroundImage: "url('/svg/linessvg.sv')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",

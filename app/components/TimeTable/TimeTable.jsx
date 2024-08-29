@@ -22,7 +22,7 @@ export default function TimeTable() {
               <h1 className="text-xl pb-2 text-center">
                 Click Here to Download 👇
               </h1>
-              <button className="bg-[#89131D] mx-auto flex justify-center items-center w-2/3 hover:bg-[#fd8d1d] text-center p-5 rounded-2xl text-white">
+              <button className="bg-blue-900 mx-auto flex justify-center items-center w-2/3 hover:bg-[#fd8d1d] text-center p-5 rounded-2xl text-white">
                 Download
               </button>
             </div>

@@ -70,7 +70,7 @@ export default function StudentTestimonial({img,title,content}) {
       </div>
       <div className=" flex justify-around m-10 p-10 w-11/12 mx-auto">
         <div className=" w-full ">
-          <h1 className="  text-[#FF3344] text-4xl">About</h1>
+          <h1 className="  text-blue-500 text-4xl">About</h1>
           <h1 className=" text-2xl">
             We serve as a bridge between the university and the alumni
           </h1>

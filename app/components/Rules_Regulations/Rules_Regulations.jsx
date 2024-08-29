@@ -5,6 +5,12 @@ import RuleCard from '../RuleCard/RuleCard'
 export default function Pahal() {
   return (
     <>
+     <div className="w-full h-80 bg-cover capitalize flex justify-center items-center"
+        style={{ backgroundImage: `url('/about-banner.jpg')` }}>
+          <h2 className="font-bold text-3xl w-4/5 uppercase text-center text-white">
+        pahal - LNCPS INDORE | Central India&apos;s No. 1 Engineering Institute - Indore
+        </h2>
+          </div>
     <h1 className='text-4xl text-black font-semibold p-10'>Pahal</h1>
     <div className="w-full mx-auto flex relative">
         
