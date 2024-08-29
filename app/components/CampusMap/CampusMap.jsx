@@ -29,7 +29,7 @@ export default function CampusMap({
         <div className="w-1/2     ">
           <Image src={img2} alt="img" width={700} height={200} />
         </div>
-        <div className="w-1/2  justify-center bg-yellow-300 flex flex-col">
+        <div className="w-1/2  justify-center bg-#fecce3 flex flex-col">
           <h1 className=" text-3xl px-7  py-2  capitalize font-semibold">
             {heading2}
           </h1>

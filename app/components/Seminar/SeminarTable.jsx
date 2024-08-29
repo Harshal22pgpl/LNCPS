@@ -118,7 +118,7 @@ console.log(seminarList,'seminar dataaaa')
                 </button>
                 <button
                   onClick={handleConfirmDelete}
-                  className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600"
+                  className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-fuchsia-300"
                 >
                   Delete
                 </button>

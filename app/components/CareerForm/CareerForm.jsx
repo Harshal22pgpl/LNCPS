@@ -321,7 +321,7 @@ const CareerForm = () => {
               <div className="p-3">
                 <button
                   type="submit"
-                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-yellow-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-#fecce3 hover:bg-[#C80D1D] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FF3344]"
                   onSubmit={handleSubmit}
                 >
                   Submit

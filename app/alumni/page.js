@@ -195,7 +195,7 @@ const MyComponent = () => {
               targetValue={15}
               speed={200}
               text="LNCPSians Serving MNC"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="Third Counter"
               color=""
             />
@@ -230,7 +230,7 @@ const MyComponent = () => {
               targetValue={15}
               speed={200}
               text="Offers For Core Branch"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="Third Counter"
               color=""
             />
@@ -242,7 +242,7 @@ const MyComponent = () => {
               targetValue={15}
               speed={200}
               text="Ph.D Faculties"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="Third Counter"
               color=""
             />

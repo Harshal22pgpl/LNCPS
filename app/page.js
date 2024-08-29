@@ -38,7 +38,7 @@ export default function Home() {
   // Function to toggle submenu
 
   const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/GRPlncps.jpg" ,   ];
-  const imagesss = ["/Lncpsbuild.png", "/lncpsbuild2.jpg",  ];
+  const imagesss = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/mdsir.jpg" ];
 
   const EventData = [
     {
@@ -285,7 +285,7 @@ export default function Home() {
     backgroundSize: "cover",
   }}
 >
-  <div className="container flex flex-col lg:flex-row  items-center bg-opacity-75 bg-blue-900 h-auto lg:h-[580px] p-4">
+  <div className="container flex flex-col lg:flex-row  items-center bg-opacity-75 bg-fuchsia-300 h-auto lg:h-[580px] p-4">
     <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4 overflow-hidden">
       <h2 className="text-3xl w-80 text-white text-center font-semibold mb-6">
         Academic Programme
@@ -422,8 +422,8 @@ export default function Home() {
             <i>--Michael Springer--</i>
           </h5>
         </div>
-        <div class="item flex-1 w-full bg-blue-900 p-6 pt-14  items-center text-center ">
-          <h2 className="font-semibold text-2xl">bg-blue-700 the Day</h2>
+        <div class="item flex-1 w-full bg-fuchsia-300 p-6 pt-14  items-center text-center ">
+          <h2 className="font-semibold text-2xl">bg-[#C80D1D] the Day</h2>
           <h5 className="font-semibold text-xl py-5">कार्यात्मक</h5>
           <h5 className="font-semibold text-2xl">FUNCTIONAL</h5>
         </div>
@@ -478,7 +478,7 @@ export default function Home() {
                 targetValue={15}
                 speed={200}
                 text="LNCPSians Serving MNC"
-                textColor="text-red-600"
+                textColor="text-fuchsia-300"
                 title="Third Counter"
                 color=""
               />
@@ -513,7 +513,7 @@ export default function Home() {
                 targetValue={15}
                 speed={200}
                 text="Offers For Core Branch"
-                textColor="text-red-600"
+                textColor="text-fuchsia-300"
                 title="Third Counter"
                 color=""
               />
@@ -524,7 +524,7 @@ export default function Home() {
                 targetValue={15}
                 speed={200}
                 text="Ph.D Faculties"
-                textColor="text-red-600"
+                textColor="text-fuchsia-300"
                 title="Third Counter"
                 color=""
               />
@@ -559,7 +559,7 @@ export default function Home() {
               <Image
 
                 className="duration-200 px-5 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
-                src={images[currentSlide]}
+                src={imagesss[currentSlide]}
 
                 alt="Hero Image"
                 width={700}

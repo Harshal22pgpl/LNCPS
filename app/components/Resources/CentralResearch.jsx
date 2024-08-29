@@ -23,7 +23,7 @@ export default function CentralResearch() {
             </div>
           </div>
           <div className='h-5 '>
-            <a className='bg-red-600 text-white text-[14px] py-[3px] px-[10px] rounded-[4px] ml-56' href="">Login for External users</a>
+            <a className='bg-fuchsia-300 text-white text-[14px] py-[3px] px-[10px] rounded-[4px] ml-56' href="">Login for External users</a>
           </div>
         </div>
         <div className='flex mt-2'>
@@ -95,7 +95,7 @@ export default function CentralResearch() {
               targetValue={200}
               speed={30}
               text="Seed"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="OTHER INSTRUMENTS"
               color="bg-[#223250]"
             />
@@ -107,7 +107,7 @@ export default function CentralResearch() {
               targetValue={2675}
               speed={1}
               text="Seed"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="EXTERNAL BOOKINGSThird "
               color="bg-[#22472d]"
             />

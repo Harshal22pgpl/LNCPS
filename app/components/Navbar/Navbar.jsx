@@ -734,7 +734,7 @@ export default function Navbar() {
         <></>
       ) : (
         <div className="text-white z-50 w-full">
-          <div className="flex items-center justify-between p-2 bg-blue-900">
+          <div className="flex items-center justify-between p-2 bg-gradient-to-r from-fuchsia-300 to-purple-600">
             <div className="items-center gap-4 hidden lg:flex">
               <p>Admissions</p>
               <p>Placement</p>
@@ -787,7 +787,7 @@ export default function Navbar() {
             )}
           </div>
 
-          <div className="bg-gradient-to-r from-blue-700 to-blue-500 w-full">
+          <div className="bg-gradient-to-r from-fuchsia-600 to-purple-600 w-full">
             <div className="w-9/12 mx-auto flex items-center justify-between px-4 py-2">
               <div className="flex items-center gap-4 lg:flex-row flex-col">
                 <div className="w-[90px] h-[91px] relative">
@@ -817,8 +817,8 @@ export default function Navbar() {
           </div>
 
           {!isSmallScreen && (
-            <div className="w-full bg-blue-900">
-              <div className="flex flex-wrap w-full mx-auto gap-4 justify-center bg-blue-900 relative items-center">
+            <div className="w-full bg-gradient-to-r from-fuchsia-600 to-purple-600">
+              <div className="flex flex-wrap w-full mx-auto gap-4 justify-center bg-fuchsia-300 relative items-center">
                 <Link href="/" className="text-3xl p-1">
                   <FaHome className="hover:scale-105 duration-500 hover:text-gray-400 cursor-pointer" />
                 </Link>
@@ -859,8 +859,8 @@ export default function Navbar() {
                     <div key={index} className="relative group z-50">
                       <Link
                         href="#"
-                        className={`text-white font-semibold text-lg hover:text-gray-300 hover:bg-blue-900 flex gap-2 items-center px-3 py-4  ${
-                          openSubMenuId === item.main ? "bg-blue-500" : ""
+                        className={`text-white font-semibold text-lg hover:text-gray-300 hover:bg-fuchsia-300 flex gap-2 items-center px-3 py-4  ${
+                          openSubMenuId === item.main ? "bg-[#FF3344]" : ""
                         }`}
                         onClick={() => toggleSubMenu(item.main)}
                       >

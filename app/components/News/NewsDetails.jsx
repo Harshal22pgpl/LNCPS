@@ -76,7 +76,7 @@ const EventDetail = ({ newsData, schoolUuid = "" }) => {
             onSubmit={handleSubmit}
             className="space-y-4 bg-white p-4  w-full md:w-full shadow-md flex flex-col border-indigo-200 rounded-xl "
           >
-            <h1 className=" text-xl bg-clip-text bg-gradient-to-r to-yellow-600 from-pink-400">
+            <h1 className=" text-xl bg-clip-text bg-gradient-to-r to-#fecce3 from-pink-400">
               Admisson Form
             </h1>
             <input
