@@ -125,7 +125,7 @@ export default function Navbar() {
           link: "/",
         },
         {
-          name: "AICTE Regulations",
+          name: "DAVV Regulations",
           link: "https://forms-peach.vercel.app/",
         },
       ],
@@ -239,10 +239,10 @@ export default function Navbar() {
     {
       name: "Existing Students",
       values: [
-        {
-          name: " Pahal Editions",
-          link: "/students/rules_regulations",
-        },
+        // {
+        //   name: " Pahal Editions",
+        //   link: "/students/rules_regulations",
+        // },
         {
           name: "Academic Calendar",
           link: "/academic/calender",
@@ -315,6 +315,10 @@ export default function Navbar() {
     {
       name: "Alumni",
       values: [
+        {
+          name: "Register Alumni",
+          link: "/alumni-form",
+        },
         {
           name: "About Alumni Cell",
           link: "/alumni",
@@ -435,7 +439,7 @@ export default function Navbar() {
               link: "https://www.pratibhaglobalschool.com/payments/login/40e032b8-a995-47ab-a854-c3aec4812c0e",
             },
             {
-              name: "AICTE Regulations",
+              name: "DAVV Regulations",
               link: "https://forms-peach.vercel.app/",
             },
           ],
@@ -559,10 +563,10 @@ export default function Navbar() {
         {
           name: "Existing Students",
           subchild: [
-            {
-              name: "Pahal Edition",
-              link: "/students/rules_regulations",
-            },
+            // {
+            //   name: "Pahal Edition",
+            //   link: "/students/rules_regulations",
+            // },
             {
               name: "Academic Calendar",
               link: "/academic/calender",
@@ -645,6 +649,10 @@ export default function Navbar() {
         {
           name: "Alumni",
           subchild: [
+            {
+              name: "Register Alumni",
+              link: "/alumni-form",
+            },
             {
               name: "About Alumni Cell",
               link: "/alumni",
