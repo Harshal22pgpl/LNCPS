@@ -17,35 +17,35 @@ export default function DeptEr({ dept }) {
     {
       title: "undergraduate students",
       value: "120",
-      textColor: "text-fuchsia-300",
+      textColor: "text-blue-800",
       color: "bg-red-500",
       speed: "40",
     },
     {
       title: "postgraduate students",
       value: "60",
-      textColor: "text-fuchsia-300",
+      textColor: "text-blue-800",
       color: "bg-[#FF3344]",
       speed: "35",
     },
     {
       title: "doctoral students",
       value: "30",
-      textColor: "text-fuchsia-300",
+      textColor: "text-blue-800",
       color: "bg-pink-500",
       speed: "30",
     },
     {
       title: "recent job offers",
       value: "300",
-      textColor: "text-fuchsia-300",
+      textColor: "text-blue-800",
       color: "bg-[#FF3344]",
       speed: "30",
     },
     {
       title: "faculties",
       value: "60",
-      textColor: "text-fuchsia-300",
+      textColor: "text-blue-800",
       color: "bg-teal-500",
       speed: "30",
     },
@@ -259,7 +259,7 @@ export default function DeptEr({ dept }) {
         <div className="w-full flex px-20 py-10  gap-7">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" text-4xl text-blue-500 my-5">
+              <h2 className=" text-4xl text-blue-800 my-5">
                 About the Department
               </h2>
               <div className="w-full   mt-5">
@@ -345,13 +345,13 @@ export default function DeptEr({ dept }) {
           <div className="w-full flex justify-center gap-20 ">
             <ProgramCard
               course={"Undergraduate"}
-              bgcolor={"bg-blue-500"}
+              bgcolor={"bg-blue-800"}
               admission={"JEE"}
               dept={"civil engineering"}
             />
             <ProgramCard
               course={"Post-Graduate"}
-              bgcolor={"bg-fuchsia-300"}
+              bgcolor={"bg-blue-800"}
               admission={"JEE"}
               dept={"civil engineering"}
             />

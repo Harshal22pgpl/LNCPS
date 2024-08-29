@@ -22,7 +22,7 @@ const StudentCard = ({ student }) => {
         <p className="text-gray-700 text-base">Address: {student.address}</p>
       </div>
       <div className="px-6 pt-4 pb-2 flex justify-between">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <button className="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Update
         </button>
         <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">

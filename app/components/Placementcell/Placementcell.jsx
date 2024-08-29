@@ -65,7 +65,7 @@ export default function Placementcell({ img, title, content }) {
         </div>
       </div>
       <div className=" p-10 ">
-        <h1 className="text-4xl text-center text-blue-500 border-b-2 border-blue-500">
+        <h1 className="text-4xl text-center text-blue-800 border-b-2 border-blue-800">
           Overview...
         </h1>
         <div className="w-full mx-auto pt-5 ml-20">
@@ -103,11 +103,11 @@ export default function Placementcell({ img, title, content }) {
       </div>
       <div className="p-10">
         <div>
-          <h1 className="text-4xl text-blue-500 pb-10 font-semibold ">
+          <h1 className="text-4xl text-blue-800 pb-10 font-semibold ">
             Internship At  LNCPS
           </h1>
         </div>
-        <div className=" text-blue-500    relative  mx-auto border-2">
+        <div className=" text-blue-800    relative  mx-auto border-2">
           <Image src="/clg.jpg" alt="" fill />
           <div className="p-4">
             <h1 className="  text-5xl relative">2000+</h1>
@@ -127,7 +127,7 @@ export default function Placementcell({ img, title, content }) {
       </div>
 
       <div className=" p-10 ">
-        <h1 className="text-4xl text-center text-blue-500 border-b-2 border-blue-500 font-semibold ">
+        <h1 className="text-4xl text-center text-blue-800 border-b-2 border-blue-800 font-semibold ">
           Overview...
         </h1>
         <div className="w-full mx-auto pt-5 ml-15">

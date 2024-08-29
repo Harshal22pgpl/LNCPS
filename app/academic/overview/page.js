@@ -44,7 +44,7 @@ export default function page() {
         </h1>
         <div className="w-[600px] h-[540px]  relative my-8 ml-[540px] ">
           <Image src="/a-o.png" alt="image" fill />
-          <div className=" absolute w-[690px] h-[340px]  top-24  right-[480px] bg-fuchsia-300 p-8">
+          <div className=" absolute w-[690px] h-[340px]  top-24  right-[480px] bg-blue-800 p-8">
             <h1 className="text-3xl font-bold">Admission at LNCPS Indore</h1>
             <p className=" py-2 text-gray-200 p-1">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
