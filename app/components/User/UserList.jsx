@@ -75,7 +75,7 @@ const UserList = ({ users = {} }) => {
                         aria-describedby="helper-checkbox-text"
                         type="checkbox"
                         value=""
-                        class="w-4 h-4 text-orange-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        class="w-4 h-4 text-[#FF3344] bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                       />
                       <div class="relative hidden w-8 h-8 mr-3 rounded-full md:block">
                         <img

@@ -15,7 +15,7 @@ export default function page() {
             </div>
             <div className="w-full  border-2 p-20 ">
                 <div className=" flex  rounded-xl bg-yellow-100">
-                    <div className="w-1/3 flex flex-col gap-2 bg-[#f98819]">
+                    <div className="w-1/3 flex flex-col gap-2 bg-[#C80D1D]">
                         <div className="w-full h-72 border-2 relative overflow-hidden">
                             <Image
                                 src="/faculty/principle.jpg"

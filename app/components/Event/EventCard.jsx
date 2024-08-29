@@ -62,7 +62,7 @@ const EventCard = ({ eventDetails }) => {
             </h2>
           </div>
           <Link
-            className="text-lg md:text-2xl lg:text-2xl font-bold mt-5 hover:text-yellow-200 text-start"
+            className="text-lg md:text-2xl lg:text-2xl font-bold mt-5 hover:text-#fecce3 text-start"
             href={{ pathname: "/event/particularEvent" }}
           >
             {heading}
@@ -72,7 +72,7 @@ const EventCard = ({ eventDetails }) => {
                             router.push({
                             });
                         }}
-                        className='text-lg md:text-2xl lg:text-2xl font-bold mt-5 hover:text-yellow-200 text-start'>{heading}
+                        className='text-lg md:text-2xl lg:text-2xl font-bold mt-5 hover:text-#fecce3 text-start'>{heading}
                     </button> */}
         </div>
       </div>

@@ -687,6 +687,24 @@ export default function Navbar() {
         },
       ],
     },
+    {
+      main: "E-Content",
+      child: [
+        {
+          name: "E-Content",
+          subchild: [
+            {
+              name: "Contents",
+              link: "/econtent",
+            },
+            // {
+            //   name: "Industrial Consultancy",
+            //   link: "/ic",
+            // },
+          ],
+        },
+      ],
+    },
   ];
 
   useEffect(() => {
@@ -716,7 +734,7 @@ export default function Navbar() {
         <></>
       ) : (
         <div className="text-white z-50 w-full">
-          <div className="flex items-center justify-between p-2 bg-[#d76d03]">
+          <div className="flex items-center justify-between p-2 bg-gradient-to-r from-fuchsia-300 to-purple-600">
             <div className="items-center gap-4 hidden lg:flex">
               <p>Admissions</p>
               <p>Placement</p>
@@ -769,7 +787,7 @@ export default function Navbar() {
             )}
           </div>
 
-          <div className="bg-gradient-to-r from-[#f98819] to-[#fcee45] w-full">
+          <div className="bg-gradient-to-r from-fuchsia-600 to-purple-600 w-full">
             <div className="w-9/12 mx-auto flex items-center justify-between px-4 py-2">
               <div className="flex items-center gap-4 lg:flex-row flex-col">
                 <div className="w-[90px] h-[91px] relative">
@@ -799,8 +817,8 @@ export default function Navbar() {
           </div>
 
           {!isSmallScreen && (
-            <div className="w-full bg-[#d76d03]">
-              <div className="flex flex-wrap w-full mx-auto gap-4 justify-center bg-[#d76d03] relative items-center">
+            <div className="w-full bg-gradient-to-r from-fuchsia-600 to-purple-600">
+              <div className="flex flex-wrap w-full mx-auto gap-4 justify-center bg-fuchsia-300 relative items-center">
                 <Link href="/" className="text-3xl p-1">
                   <FaHome className="hover:scale-105 duration-500 hover:text-gray-400 cursor-pointer" />
                 </Link>
@@ -841,8 +859,8 @@ export default function Navbar() {
                     <div key={index} className="relative group z-50">
                       <Link
                         href="#"
-                        className={`text-white font-semibold text-lg hover:text-gray-300 hover:bg-[#e07c18] flex gap-2 items-center px-3 py-4  ${
-                          openSubMenuId === item.main ? "bg-[#d67310]" : ""
+                        className={`text-white font-semibold text-lg hover:text-gray-300 hover:bg-fuchsia-300 flex gap-2 items-center px-3 py-4  ${
+                          openSubMenuId === item.main ? "bg-[#FF3344]" : ""
                         }`}
                         onClick={() => toggleSubMenu(item.main)}
                       >
@@ -858,7 +876,7 @@ export default function Navbar() {
                       >
                         {item.child.map((link, index) => (
                           <div key={index} className="p-2">
-                            <h4 className="text-orange-700 font-bold text-lg">
+                            <h4 className="text-[#FF3344] font-bold text-lg">
                               <Link href="#">{link.name}</Link>
                             </h4>
                             <ul className="mt-2 space-y-2">
@@ -926,7 +944,7 @@ const Sidebar = ({ isOpen, onClose, dropdownItems }) => {
                           onClick={() => toggleDropdown(index)}
                           className="flex items-center cursor-pointer justify-between p-5"
                         >
-                          <p className="font-bold text-orange-600">{name}</p>
+                          <p className="font-bold text-[#FF3344]">{name}</p>
                           {values.length > 0 && (
                             <div
                               className={`w-6 h-6 transition-transform border-2 ${
@@ -961,7 +979,7 @@ const Sidebar = ({ isOpen, onClose, dropdownItems }) => {
                                   onClick={() =>
                                     handleSidebarItemClick(value.link)
                                   }
-                                  className="p-3 shadow-md rounded-lg text-orange-100 text-orange-600"
+                                  className="p-3 shadow-md rounded-lg text-orange-100 text-[#FF3344]"
                                 >
                                   {value.name}
                                 </div>

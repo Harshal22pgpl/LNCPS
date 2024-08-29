@@ -99,20 +99,20 @@ const MyComponent = () => {
           {/* Left 30% width */}
           <ul className="bg-gray-200 p-4 rounded-lg">
             {/* Elementor widget list */}
-            <li className="mb-5 hover:bg-[#f6820f] p-4 rounded-md">AIC</li>
-            <li className="mb-5 hover:bg-[#f6820f] p-4 rounded-md">
+            <li className="mb-5 hover:bg-[#FF3344] p-4 rounded-md">AIC</li>
+            <li className="mb-5 hover:bg-[#FF3344] p-4 rounded-md">
               Message From Head
             </li>
-            <li className="mb-5 hover:bg-[#f6820f] p-4 rounded-md">
+            <li className="mb-5 hover:bg-[#FF3344] p-4 rounded-md">
               Alumni Affairs
             </li>
-            <li className="mb-5 hover:bg-[#f6820f] p-4 rounded-md">Services</li>
-            <li className="mb-5 hover:bg-[#f6820f] p-4 rounded-md">News</li>
-            <li className="mb-5 hover:bg-[#f6820f] p-4 rounded-md">
+            <li className="mb-5 hover:bg-[#FF3344] p-4 rounded-md">Services</li>
+            <li className="mb-5 hover:bg-[#FF3344] p-4 rounded-md">News</li>
+            <li className="mb-5 hover:bg-[#FF3344] p-4 rounded-md">
               Success Stories
             </li>
-            <li className="mb-5 hover:bg-[#f6820f] p-4 rounded-md">Reunions</li>
-            <li className=" hover:bg-[#f6820f] p-4 rounded-md">Contact Us</li>
+            <li className="mb-5 hover:bg-[#FF3344] p-4 rounded-md">Reunions</li>
+            <li className=" hover:bg-[#FF3344] p-4 rounded-md">Contact Us</li>
           </ul>
         </div>
         <div className="w-[70%] p-4">
@@ -154,14 +154,14 @@ const MyComponent = () => {
       </div>
 
       <section className=" w-11/12 mx-auto">
-        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow   bg-[#f6820f]">
+        <div className=" w-8/9 rounded-t-md  sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow   bg-[#FF3344]">
           <div className="  ">
             <Counter
               initialValue={0}
               targetValue={2000}
               speed={0.001}
               text="Highest Package"
-              textColor="text-orange-600"
+              textColor="text-[#FF3344]"
               title="First Counter"
               color=""
             />
@@ -195,20 +195,20 @@ const MyComponent = () => {
               targetValue={15}
               speed={200}
               text="LNCPSians Serving MNC"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="Third Counter"
               color=""
             />
           </div>
         </div>
-        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow  mb-12 bg-[#f6820f]">
+        <div className=" rounded-b-md   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dyellow  mb-12 bg-[#FF3344]">
           <div className=" ">
             <Counter
               initialValue={0}
               targetValue={2000}
               speed={0.001}
               text="NIRF All India Rank"
-              textColor="text-orange-600"
+              textColor="text-[#FF3344]"
               title="First Counter"
               color=""
             />
@@ -230,7 +230,7 @@ const MyComponent = () => {
               targetValue={15}
               speed={200}
               text="Offers For Core Branch"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="Third Counter"
               color=""
             />
@@ -242,7 +242,7 @@ const MyComponent = () => {
               targetValue={15}
               speed={200}
               text="Ph.D Faculties"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="Third Counter"
               color=""
             />
