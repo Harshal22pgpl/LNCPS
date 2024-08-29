@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <div className=" text-white z-50">
-      <div className="flex items-center justify-between p-2 bg-blue-900">
+      <div className="flex items-center justify-between p-2 bg-fuchsia-300">
         <div className="items-center flex gap-4 ">
           <p className=" animate-pulse">Admissions</p>
           <p>Placement</p>
@@ -55,7 +55,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="flex items-center justify-between px-4 bg-blue-900">
+      <div className="flex items-center justify-between px-4 bg-fuchsia-300">
         {/* Logo and college name */}
         <div className="flex items-center gap-4">
           <div className="w-[100px] h-[100px] relative">
@@ -81,7 +81,7 @@ export default function Navbar() {
           />
         </div>
       </div>
-      <div className="flex justify-around bg-blue-900 p-4">
+      <div className="flex justify-around bg-fuchsia-300 p-4">
         <div id="tmenu-institute">
           <a
             href="#"
@@ -94,7 +94,7 @@ export default function Navbar() {
             </span>
           </a>
           <div
-            className={`megamenu-panel absolute top-30 left-0 w-screen bg-blue-900 nav-submenu  ${
+            className={`megamenu-panel absolute top-30 left-0 w-screen bg-fuchsia-300 nav-submenu  ${
               openSubMenuId === "institute" ? "" : "hidden"
             }`}
           >

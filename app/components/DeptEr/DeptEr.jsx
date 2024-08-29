@@ -17,35 +17,35 @@ export default function DeptEr({ dept }) {
     {
       title: "undergraduate students",
       value: "120",
-      textColor: "text-red-600",
+      textColor: "text-fuchsia-300",
       color: "bg-red-500",
       speed: "40",
     },
     {
       title: "postgraduate students",
       value: "60",
-      textColor: "text-red-600",
-      color: "bg-blue-500",
+      textColor: "text-fuchsia-300",
+      color: "bg-[#FF3344]",
       speed: "35",
     },
     {
       title: "doctoral students",
       value: "30",
-      textColor: "text-red-600",
+      textColor: "text-fuchsia-300",
       color: "bg-pink-500",
       speed: "30",
     },
     {
       title: "recent job offers",
       value: "300",
-      textColor: "text-red-600",
-      color: "bg-blue-500",
+      textColor: "text-fuchsia-300",
+      color: "bg-[#FF3344]",
       speed: "30",
     },
     {
       title: "faculties",
       value: "60",
-      textColor: "text-red-600",
+      textColor: "text-fuchsia-300",
       color: "bg-teal-500",
       speed: "30",
     },
@@ -66,12 +66,7 @@ export default function DeptEr({ dept }) {
         "Engineering Tomorrow, Innovating Today ,Unleash Your Potential with Us!";
       author = "Dr.Mumuksha Jain ";
       deptImg = "/dept-m-v.jpg";
-<<<<<<< Updated upstream
       aboutDept = "The Commerce Department at -LNCPS Indore is a hub of innovation and excellence, dedicated to the study and application of mechanical systems. Our department focuses on providing a robust education that combines theoretical knowledge with practical experience. Students engage in a variety of subjects, including thermodynamics, fluid mechanics, materials science, and robotics. Through hands-on projects, state-of-the-art laboratories, and industry collaborations, we prepare our students to solve real-world engineering challenges. Our faculty, renowned for their expertise and research contributions, are committed to mentoring students and fostering a learning environment that encourages creativity and critical thinking. Whether it's designing the next generation of sustainable energy systems or developing advanced manufacturing techniques, our Mechanical Engineering Department is at the forefront of technological advancement and prepares graduates to excel in diverse engineering careers";
-=======
-      aboutDept =
-        "The Mechanical Engineering Department at -LNCPS Indore is a hub of innovation and excellence, dedicated to the study and application of mechanical systems. Our department focuses on providing a robust education that combines theoretical knowledge with practical experience. Students engage in a variety of subjects, including thermodynamics, fluid mechanics, materials science, and robotics. Through hands-on projects, state-of-the-art laboratories, and industry collaborations, we prepare our students to solve real-world engineering challenges. Our faculty, renowned for their expertise and research contributions, are committed to mentoring students and fostering a learning environment that encourages creativity and critical thinking. Whether it's designing the next generation of sustainable energy systems or developing advanced manufacturing techniques, our Mechanical Engineering Department is at the forefront of technological advancement and prepares graduates to excel in diverse engineering careers";
->>>>>>> Stashed changes
       dept = "Commerce";
       headD = "Dr.Mumuksha Jain ";
 
@@ -80,12 +75,14 @@ export default function DeptEr({ dept }) {
       emailHead = "mumukshaj@gmail.com";
       faculties = [
         {
+          image: "/muskanjain.jpg",
           name: "Prof. Muskan Jain",
           position: "Assistant Professor",
           degree: "Pursuing  Ph.D from DAVV,M.Com, B.Com",
           experience: "3 years",
         },
         {
+          image: "/chirag.png",
           name: "Prof.Chirag Sharma",
           position: "Assistant Professor",
           degree: "Pursuing Ph.D from DAVV, M.Com, B.com ",
@@ -110,20 +107,21 @@ export default function DeptEr({ dept }) {
       emailHead = "swati.bpl2009@gmail.com ";
       faculties = [
         {
+          image: "/sarveshmishra.jpg",
           name: "Prof. SARVESH MISHRA",
           position: "Assistant Professor",
-          degree:
-            " M.Sc. GATE-2007, M.Tech.(L.S.A.) C.G. SET-2017 , Ph.D. Pursuing ",
-
+          degree: " M.Sc. GATE-2007, M.Tech.(L.S.A.) C.G. SET-2017 , Ph.D. Pursuing ",
           experience: "12 years",
         },
         {
+          image: "",
           name: "Prof.kiti Bamaniya",
           position: "Assistant Professor",
           degree: "M.Sc(Applied Chemistry),B.Sc",
           experience: "1 years",
         },
         {
+          image: "/nikitayadav.jpg",
           name: "Prof Nikita yadav",
           position: "Assistant Professor",
           degree: "Ph.D Pursuing, M.Sc(BioChemistry),B.Sc",
@@ -147,24 +145,26 @@ export default function DeptEr({ dept }) {
       emailHead = "Email.gautammanisha305@gmail.com";
       faculties = [
         {
+          image: "",
           name: "Prof. Hemant Vijay Bharat Singh",
           position: "HOD of Journalism & Mass Communication",
           degree: "M.Sc. in Mass Communication Journalism And Advertising",
           experience: "12 years",
         },
         {
+          image: "",
           name: "Prof. Harsh Sharma",
           position: "Assistant Professor",
           degree: "MMA in Hindi Literature MBA ( Finance-Marketing) PGDCA",
           experience: "3 years",
         },
-        {
+        { image: "/shalinisoni.jpg",
           name: "Prof.Shalini Soni",
           position: "Assistant Professor",
           degree: "M.A,M.Com, PGDM",
           experience: "1 years",
         },
-        {
+        { image: "",
           name: "Prof.Bhagat Singh Dawar",
           position: "Assistant Professor",
           degree: "- Ph.D.Pursuing,  M.A (Economics) B.Ed",
@@ -188,6 +188,7 @@ export default function DeptEr({ dept }) {
       emailHead = "hodex.LNCPS@LNCPSindore.com,";
       faculties = [
         {
+          image: "",
           name: "MS. GARIMA MAHESHWARI",
           position: "Assistant Professor",
           degree: "M.E.",
@@ -221,22 +222,26 @@ export default function DeptEr({ dept }) {
       emailHead = "abc@gmail.com";
       faculties = [
         {
+          image: "",
           name: "John Doe",
           position: "Software Engineer",
           degree: "Bachelors in Computer Science",
           experience: "5 years",
         },
         {
+          image: "",
           name: "Jane Smith",
           position: "Data Scientist",
           degree: "Masters in Data Science",
           experience: "3 years",
         },
         {
+          image: "",
           name: "Emily Johnson",
           position: "Project Manager",
           degree: "MBA",
           experience: "7 years",
+
         },
         // Add more faculty members as needed
       ];
@@ -346,7 +351,7 @@ export default function DeptEr({ dept }) {
             />
             <ProgramCard
               course={"Post-Graduate"}
-              bgcolor={"bg-blue-900"}
+              bgcolor={"bg-fuchsia-300"}
               admission={"JEE"}
               dept={"civil engineering"}
             />
@@ -383,17 +388,9 @@ export default function DeptEr({ dept }) {
         <div className="w-full p-2"></div>
       </div>
       <div>
-<<<<<<< Updated upstream
       <h1 className="text-3xl text-center font-semibold border-b">Faculty at LNCPS</h1>
     </div>
       
-=======
-        <h1 className="text-3xl text-center font-semibold border-b">
-          Facult at LNCPS
-        </h1>
-      </div>
-
->>>>>>> Stashed changes
       <div className=" grid ">
         <div>
           {faculties.map((faculty, index) => (

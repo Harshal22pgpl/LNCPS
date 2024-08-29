@@ -6,7 +6,7 @@ export default function Why({ img, title, content }) {
   return (
     <>
       <div className=" w-full ">
-        <div className="relative bg-gradient-to-r from-orange-900 via-blue-900 to-blue-900 text-white overflow-hidden -z-10 ">
+        <div className="relative bg-gradient-to-r from-orange-900 via-fuchsia-300 to-fuchsia-300 text-white overflow-hidden -z-10 ">
           {/* SVG Waves */}
           <svg
             id="wave"

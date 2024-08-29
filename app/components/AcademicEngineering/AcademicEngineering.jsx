@@ -25,8 +25,8 @@ export default function AcademicEngineering() {
           <Image src="/mainImg.jpeg" alt="img" fill />
         </div>
       </div>
-      <h1 className="text-3xl bg-blue-900 p-6  text-white "> DEPARTMENT</h1>
-      <div className="w-full grid grid-cols-3 justify-around text-white   bg-blue-900 p-4">
+      <h1 className="text-3xl bg-fuchsia-300 p-6  text-white "> DEPARTMENT</h1>
+      <div className="w-full grid grid-cols-3 justify-around text-white   bg-fuchsia-300 p-4">
         <div className="mx-auto p-4">
           <Image src="/bme.png" alt="img" width={80} height={80} />
           <h1 className="text-xl font-semibold w-80 ">
@@ -97,7 +97,7 @@ export default function AcademicEngineering() {
               targetValue={15}
               speed={200}
               text="Seed"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="Third Counter"
               color="bg-[#223250]"
             />
@@ -109,7 +109,7 @@ export default function AcademicEngineering() {
               targetValue={15}
               speed={200}
               text="Seed"
-              textColor="text-red-600"
+              textColor="text-fuchsia-300"
               title="Third Counter"
               color="bg-[#22472d]"
             />

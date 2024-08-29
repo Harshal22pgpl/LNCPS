@@ -6,7 +6,7 @@ export default function RuleCard({ bgcolor, link, heading }) {
   return (
     <div className={`w-48 h-52 rounded-lg flex flex-col p-2 ${bgcolor}`}>
       <div className="flex justify-center items-center p-4">
-        <FaFilePdf size={45} className="text-red-600" />
+        <FaFilePdf size={45} className="text-fuchsia-300" />
       </div>
       <div className="p-3">
         <Link href={link}>

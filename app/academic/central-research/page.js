@@ -77,7 +77,7 @@ export default function page() {
                 speed={200}
                 text="OTHER INSTRUMENTS
               "
-                textColor="text-red-600"
+                textColor="text-fuchsia-300"
                 title="Third Counter"
                 color="bg-[#223250]"
                 textsize="text-base"
@@ -90,7 +90,7 @@ export default function page() {
                 targetValue={30}
                 speed={200}
                 text="EXTERNAL BOOKINGS"
-                textColor="text-red-600"
+                textColor="text-fuchsia-300"
                 title="Third Counter"
                 color="bg-[#22472d]"
                 textsize="text-base"
