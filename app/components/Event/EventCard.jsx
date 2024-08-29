@@ -11,7 +11,7 @@ const eventDetails = {
   location: "LNCPS College, Bhaurasa",
   startTime: "2.30 pm",
   endTime: "5.30pm",
-  heading: "Inter School Dance Competition",
+  heading: "Inter School Dance Competitions",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa porro perferendis cum voluptatem ad sapiente? Cupiditate vero aliquid ipsam nisi eum sequi, quas tempora similique dicta reprehenderit laudantium. Accusamus in illum similique hic. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat.",
 };

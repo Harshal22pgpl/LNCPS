@@ -77,7 +77,7 @@ console.log(seminarList,'seminar dataaaa')
                 <td className="px-6 py-4">
                   <button
                     onClick={() => handleDelete(seminar.uuid)}
-                    className="font-medium text-[#FF3344] dark:text-[#C80D1D] hover:underline"
+                    className="font-medium text-blue-500 dark:text-blue-700 hover:underline"
                   >
                     Delete
                   </button>
@@ -85,7 +85,7 @@ console.log(seminarList,'seminar dataaaa')
                 <td className="px-6 py-4">
                   <button
                     onClick={() => handleEdit(seminar.uuid)}
-                    className="font-medium text-[#FF3344] dark:text-[#C80D1D] hover:underline"
+                    className="font-medium text-blue-500 dark:text-blue-700 hover:underline"
                   >
                     Edit
                   </button>

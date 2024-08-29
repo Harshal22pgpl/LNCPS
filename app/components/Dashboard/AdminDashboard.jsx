@@ -245,7 +245,7 @@ const Dashboard = ({ clientProps }) => {
           <h3 className="text-lg font-semibold">
             Task summaries of recent sprints
           </h3>
-        <Link href='/admin/approval'>  <h2 className="text-md font-bold text-center bg-[#FF3344] p-2 w-[300px]">View Waiting For Approval</h2></Link>
+        <Link href='/admin/approval'>  <h2 className="text-md font-bold text-center bg-blue-500 p-2 w-[300px]">View Waiting For Approval</h2></Link>
         </div>
         <div className="md:col-span-2 xl:col-span-1">
           <div className="rounded bg-gray-200 dark:bg-gray-800 p-3  min-h-[350px] overflow-y-auto">
@@ -570,14 +570,14 @@ const Dashboard = ({ clientProps }) => {
     </div> */}
 
       <div className="mt-8 mx-4">
-        <div className="p-4 bg-yellow-50 dark:bg-gray-800 dark:text-gray-50 border border-[#FF3344] dark:border-gray-500 rounded-lg shadow-md">
+        <div className="p-4 bg-yellow-50 dark:bg-gray-800 dark:text-gray-50 border border-blue-500 dark:border-gray-500 rounded-lg shadow-md">
           <h4 className="text-lg font-semibold">
             Have taken ideas & reused components from the following resources:
           </h4>
           <ul>
             <li className="mt-3">
               <a
-                className="flex items-center text-[#C80D1D] dark:text-gray-100"
+                className="flex items-center text-blue-700 dark:text-gray-100"
                 href="https://tailwindcomponents.com/component/sidebar-navigation-1"
                 target="_blank"
               >
@@ -601,7 +601,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-[#C80D1D] dark:text-gray-100"
+                className="flex items-center text-blue-700 dark:text-gray-100"
                 href="https://tailwindcomponents.com/component/contact-form-1"
                 target="_blank"
               >
@@ -625,7 +625,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-[#C80D1D] dark:text-gray-100"
+                className="flex items-center text-blue-700 dark:text-gray-100"
                 href="https://tailwindcomponents.com/component/trello-panel-clone"
                 target="_blank"
               >
@@ -651,7 +651,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-[#C80D1D] dark:text-gray-100"
+                className="flex items-center text-blue-700 dark:text-gray-100"
                 href="https://windmill-dashboard.vercel.app/"
                 target="_blank"
               >
@@ -675,7 +675,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-[#C80D1D] dark:text-gray-100"
+                className="flex items-center text-blue-700 dark:text-gray-100"
                 href="https://demos.creative-tim.com/notus-js/pages/admin/dashboard.html"
                 target="_blank"
               >
@@ -701,7 +701,7 @@ const Dashboard = ({ clientProps }) => {
             </li>
             <li className="mt-2">
               <a
-                className="flex items-center text-[#C80D1D] dark:text-gray-100"
+                className="flex items-center text-blue-700 dark:text-gray-100"
                 href="https://mosaic.cruip.com"
                 target="_blank"
               >

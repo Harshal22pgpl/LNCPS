@@ -122,7 +122,7 @@ export default function Navbar() {
       values: [
         {
           name: "Digital Payments",
-          link: "https://www.pratibhaglobalschool.com/payments/login/40e032b8-a995-47ab-a854-c3aec4812c0e",
+          link: "/",
         },
         {
           name: "AICTE Regulations",
@@ -550,10 +550,10 @@ export default function Navbar() {
               name: "Academic Programs",
               link: "/academic/programs",
             },
-            {
-              name: "Admission Process",
-              link: "/admission",
-            },
+            // {
+            //   name: "Admission Process",
+            //   link: "/admission",
+            // },
           ],
         },
         {
@@ -876,7 +876,7 @@ export default function Navbar() {
                       >
                         {item.child.map((link, index) => (
                           <div key={index} className="p-2">
-                            <h4 className="text-[#FF3344] font-bold text-lg">
+                            <h4 className="text-blue-500 font-bold text-lg">
                               <Link href="#">{link.name}</Link>
                             </h4>
                             <ul className="mt-2 space-y-2">
@@ -944,7 +944,7 @@ const Sidebar = ({ isOpen, onClose, dropdownItems }) => {
                           onClick={() => toggleDropdown(index)}
                           className="flex items-center cursor-pointer justify-between p-5"
                         >
-                          <p className="font-bold text-[#FF3344]">{name}</p>
+                          <p className="font-bold text-blue-500">{name}</p>
                           {values.length > 0 && (
                             <div
                               className={`w-6 h-6 transition-transform border-2 ${
@@ -979,7 +979,7 @@ const Sidebar = ({ isOpen, onClose, dropdownItems }) => {
                                   onClick={() =>
                                     handleSidebarItemClick(value.link)
                                   }
-                                  className="p-3 shadow-md rounded-lg text-orange-100 text-[#FF3344]"
+                                  className="p-3 shadow-md rounded-lg text-orange-100 text-blue-500"
                                 >
                                   {value.name}
                                 </div>

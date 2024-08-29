@@ -164,7 +164,7 @@ const ListItem = ({ item }) => {
               {title}
             </h1>
             <div className="flex justify-start py-4 items-center text-sm font-semibold">
-              <h1 className="px-2 p-1 font-semibold rounded-lg capitalize bg-[#C80D1D]">
+              <h1 className="px-2 p-1 font-semibold rounded-lg capitalize bg-blue-700">
                 {formattedEndDate}
               </h1>
             </div>

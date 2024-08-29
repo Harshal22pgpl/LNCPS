@@ -11,7 +11,6 @@ import Slider from "../Slider/Slider";
 import { head } from "lodash";
 import FacultyCard from "../FacultyCard/FacultyCard";
 
-
 export default function DeptEr({ dept }) {
   const images = ["/ar-3.jpg"];
   const counter = [
@@ -63,7 +62,8 @@ export default function DeptEr({ dept }) {
   let author;
   switch (dept) {
     case "me":
-      slogan = "Engineering Tomorrow, Innovating Today ,Unleash Your Potential with Us!";
+      slogan =
+        "Engineering Tomorrow, Innovating Today ,Unleash Your Potential with Us!";
       author = "Dr.Mumuksha Jain ";
       deptImg = "/dept-m-v.jpg";
       aboutDept = "The Commerce Department at -LNCPS Indore is a hub of innovation and excellence, dedicated to the study and application of mechanical systems. Our department focuses on providing a robust education that combines theoretical knowledge with practical experience. Students engage in a variety of subjects, including thermodynamics, fluid mechanics, materials science, and robotics. Through hands-on projects, state-of-the-art laboratories, and industry collaborations, we prepare our students to solve real-world engineering challenges. Our faculty, renowned for their expertise and research contributions, are committed to mentoring students and fostering a learning environment that encourages creativity and critical thinking. Whether it's designing the next generation of sustainable energy systems or developing advanced manufacturing techniques, our Mechanical Engineering Department is at the forefront of technological advancement and prepares graduates to excel in diverse engineering careers";
@@ -88,16 +88,18 @@ export default function DeptEr({ dept }) {
           degree: "Pursuing Ph.D from DAVV, M.Com, B.com ",
           experience: "3 years",
         },
-       
+
         // Add more faculty members as needed
       ];
 
       break;
     case "cse":
-      slogan = "Empowering Innovation, Shaping the Future: Where Technology Meets Excellence";
+      slogan =
+        "Empowering Innovation, Shaping the Future: Where Technology Meets Excellence";
       author = "Prof. Swati Patil";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Computer Science Department at -LNCPS indore is a vibrant and dynamic community dedicated to advancing the frontiers of technology and innovation. Our curriculum is designed to equip students with a solid foundation in computing principles, software development, and data analysis. With courses ranging from artificial intelligence and cybersecurity to software engineering and machine learning, our program prepares students for the rapidly evolving tech industry. Our state-of-the-art labs, collaborative research projects, and industry partnerships provide hands-on experience and practical skills essential for real-world applications. Our distinguished faculty, renowned for their cutting-edge research and industry expertise, are committed to guiding students in their academic and professional growth. Whether you aspire to develop groundbreaking software, solve complex computational problems, or lead technological advancements, the Computer Science Department at -LNCPS indore is the ideal place to start your journey.";
+      aboutDept =
+        "The Computer Science Department at -LNCPS indore is a vibrant and dynamic community dedicated to advancing the frontiers of technology and innovation. Our curriculum is designed to equip students with a solid foundation in computing principles, software development, and data analysis. With courses ranging from artificial intelligence and cybersecurity to software engineering and machine learning, our program prepares students for the rapidly evolving tech industry. Our state-of-the-art labs, collaborative research projects, and industry partnerships provide hands-on experience and practical skills essential for real-world applications. Our distinguished faculty, renowned for their cutting-edge research and industry expertise, are committed to guiding students in their academic and professional growth. Whether you aspire to develop groundbreaking software, solve complex computational problems, or lead technological advancements, the Computer Science Department at -LNCPS indore is the ideal place to start your journey.";
       dept = "Computer Science";
       headD = "Prof. Swati Patil";
       headImg = "/faculty/sci_HOD.jpg";
@@ -130,10 +132,12 @@ export default function DeptEr({ dept }) {
 
       break;
     case "ece":
-      slogan = "Connecting Ideas, Creating Futures: Innovate with Electronics and Communication!";
+      slogan =
+        "Connecting Ideas, Creating Futures: Innovate with Electronics and Communication!";
       author = "Manisha Singh";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Electronics and Communication Engineering (ECE) Department at -LNCPS,indore is a hub of technological innovation and academic excellence. Our department focuses on the study and application of electronic systems, communication technologies, and signal processing. Students are immersed in a comprehensive curriculum that covers a wide range of topics, including digital electronics, telecommunications, embedded systems, and VLSI design. With access to cutting-edge laboratories and industry-standard tools, students gain hands-on experience that prepares them for the dynamic field of electronics and communication. Our dedicated faculty, known for their research and industry involvement, mentor students to develop critical thinking and problem-solving skills. The ECE Department is committed to fostering a learning environment that encourages creativity, innovation, and collaboration, ensuring that our graduates are well-equipped to excel in the fast-paced world of technology and communication.";
+      aboutDept =
+        "The Electronics and Communication Engineering (ECE) Department at -LNCPS,indore is a hub of technological innovation and academic excellence. Our department focuses on the study and application of electronic systems, communication technologies, and signal processing. Students are immersed in a comprehensive curriculum that covers a wide range of topics, including digital electronics, telecommunications, embedded systems, and VLSI design. With access to cutting-edge laboratories and industry-standard tools, students gain hands-on experience that prepares them for the dynamic field of electronics and communication. Our dedicated faculty, known for their research and industry involvement, mentor students to develop critical thinking and problem-solving skills. The ECE Department is committed to fostering a learning environment that encourages creativity, innovation, and collaboration, ensuring that our graduates are well-equipped to excel in the fast-paced world of technology and communication.";
       dept = "Science";
       headD = "Prof.Manisha Singh";
       headImg = "/faculty/arts_HOD.jpg";
@@ -171,10 +175,12 @@ export default function DeptEr({ dept }) {
 
       break;
     case "eet":
-      slogan = "Powering Innovation, Electrifying the Future: Harness the Potential with Electrical Engineering!";
+      slogan =
+        "Powering Innovation, Electrifying the Future: Harness the Potential with Electrical Engineering!";
       author = "DILIP SAHASTRABUDHE";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Electrical Engineering (EE) Department at -LNCPS,indore is a center of excellence, dedicated to the study and advancement of electrical systems and technologies. Our curriculum is designed to provide students with a deep understanding of electrical circuits, power systems, control engineering, and renewable energy technologies. Through hands-on laboratory work, innovative research projects, and industry partnerships, students gain practical skills and real-world experience that prepare them for the challenges of the electrical engineering field. Our distinguished faculty, renowned for their research contributions and industry expertise, are committed to mentoring students and fostering an environment of intellectual growth and innovation. The EE Department is devoted to developing the next generation of electrical engineers who will lead advancements in technology and contribute to sustainable solutions for a better future.";
+      aboutDept =
+        "The Electrical Engineering (EE) Department at -LNCPS,indore is a center of excellence, dedicated to the study and advancement of electrical systems and technologies. Our curriculum is designed to provide students with a deep understanding of electrical circuits, power systems, control engineering, and renewable energy technologies. Through hands-on laboratory work, innovative research projects, and industry partnerships, students gain practical skills and real-world experience that prepare them for the challenges of the electrical engineering field. Our distinguished faculty, renowned for their research contributions and industry expertise, are committed to mentoring students and fostering an environment of intellectual growth and innovation. The EE Department is devoted to developing the next generation of electrical engineers who will lead advancements in technology and contribute to sustainable solutions for a better future.";
       dept = "Physical Education";
       headD = "MR.DILIP SAHASTRABUDHE";
       headImg = "/exhod.jpg";
@@ -253,7 +259,7 @@ export default function DeptEr({ dept }) {
         <div className="w-full flex px-20 py-10  gap-7">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" text-4xl text-[#FF3344] my-5">
+              <h2 className=" text-4xl text-blue-500 my-5">
                 About the Department
               </h2>
               <div className="w-full   mt-5">
@@ -333,13 +339,13 @@ export default function DeptEr({ dept }) {
         </div>
 
         <div className="w-full flex flex-col px-20 gap-4 py-6">
-          <h1 className="text-4xl text-[#C80D1D] font-bold p-2">
+          <h1 className="text-4xl text-blue-700 font-bold p-2">
             Academic Programmes
           </h1>
           <div className="w-full flex justify-center gap-20 ">
             <ProgramCard
               course={"Undergraduate"}
-              bgcolor={"bg-[#FF3344]"}
+              bgcolor={"bg-blue-500"}
               admission={"JEE"}
               dept={"civil engineering"}
             />
@@ -352,7 +358,7 @@ export default function DeptEr({ dept }) {
           </div>
         </div>
         <div className="w-full flex flex-col px-20 gap-4 py-6 ">
-          <h1 className="font-bold text-4xl text-[#C80D1D]">
+          <h1 className="font-bold text-4xl text-blue-700">
             Head Of Department
           </h1>
           <div className="flex justify-between gap-10">
@@ -374,10 +380,7 @@ export default function DeptEr({ dept }) {
               </div>
             </div>
             <div className="w-1/2  flex flex-col justify-center items-center">
-              <p className="p-5 text-3xl text-center">
-                {" "}
-                {slogan}
-              </p>
+              <p className="p-5 text-3xl text-center"> {slogan}</p>
               <h1 className=" italic  text-2xl">- {author}</h1>
             </div>
           </div>
@@ -389,10 +392,12 @@ export default function DeptEr({ dept }) {
     </div>
       
       <div className=" grid ">
-         
-         <div>
-            {faculties.map((faculty, index) => (
-              <div className=" mt-1 mb-5  p-2  rounded-lg shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] " key={index}>
+        <div>
+          {faculties.map((faculty, index) => (
+            <div
+              className=" mt-1 mb-5  p-2  rounded-lg shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] "
+              key={index}
+            >
               <div className=" flex gap-6 ">
                 <div className="w-48 h-40   relative  overflow-hidden rounded-lg">
                   <Image
@@ -404,23 +409,33 @@ export default function DeptEr({ dept }) {
                 </div>
                 <div className=" py-4">
                   <h1 className="my-2 font-bold text-lg mt-1">
-                  <span className="font-semibold"> Name : </span> {faculty.name}
+                    <span className="font-semibold"> Name : </span>{" "}
+                    {faculty.name}
                   </h1>
-                  <h1 className="text-sm mt-1"><span className="font-semibold"> Designation : </span>   {faculty.position}</h1>
-                  <h2 className="text-sm"><span className="font-semibold"> Qualification : </span> {faculty.degree}</h2>
-                  <h3 className="text-sm mt-1"><span className="font-semibold"> Experience : </span>  {faculty.experience}</h3>
-                  <h3 className="text-sm mt-1"><span className="font-semibold"> Gmail </span>{faculty.email}</h3>
+                  <h1 className="text-sm mt-1">
+                    <span className="font-semibold"> Designation : </span>{" "}
+                    {faculty.position}
+                  </h1>
+                  <h2 className="text-sm">
+                    <span className="font-semibold"> Qualification : </span>{" "}
+                    {faculty.degree}
+                  </h2>
+                  <h3 className="text-sm mt-1">
+                    <span className="font-semibold"> Experience : </span>{" "}
+                    {faculty.experience}
+                  </h3>
+                  <h3 className="text-sm mt-1">
+                    <span className="font-semibold"> Gmail </span>
+                    {faculty.email}
+                  </h3>
                 </div>
               </div>
             </div>
-            ))}
+          ))}
 
-            {/* Add more rows as needed */}
-        
-       
-    </div>
-    </div>
-
+          {/* Add more rows as needed */}
+        </div>
+      </div>
     </div>
   );
 }

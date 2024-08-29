@@ -48,7 +48,7 @@ export default function Faculty() {
           </div>
         </div>
       </div>
-        <div className=" text-[#FF3344] mb-10   relative  mx-auto ">
+        <div className=" text-blue-500 mb-10   relative  mx-auto ">
           <Image src="/clg.jpg" alt="" fill />
           <div className="p-4">
             <h1 className="  text-5xl relative">200+</h1>

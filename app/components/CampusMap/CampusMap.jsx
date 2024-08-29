@@ -13,7 +13,7 @@ export default function CampusMap({
     <>
     
       <div className="flex justify-around w-11/12 mx-auto  text-white">
-        <div className="w-1/2   justify-center  bg-[#C80D1D] flex flex-col">
+        <div className="w-1/2   justify-center  bg-blue-700 flex flex-col">
           <h1 className=" text-3xl px-7  py-2  capitalize  font-semibold">
             {heading1}
           </h1>

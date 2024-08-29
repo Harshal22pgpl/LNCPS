@@ -26,7 +26,7 @@ function Table() {
                 <td className="border px-4 py-2 md:py-3 text-center text-black">{item.id}</td>
                 <td className="border px-4 py-2 md:py-3 text-black text-center text-sm w-3/4">{item.title}</td>
                 <td className="border px-4 py-2 md:py-3 text-center">
-                  <button className="bg-orange-400 hover:bg-[#FF3344] text-white font-bold py-2 px-4 rounded-md">
+                  <button className="bg-orange-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-md">
                     View / Download
                   </button>
                  

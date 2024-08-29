@@ -8,7 +8,7 @@ export default function AcademicEngineering() {
     <>
       <div className="w-full flex h-[650px]  ">
         <div className="w-[850px] h-full flex flex-col justify-center items-center p-4 ">
-          <h1 className="text-4xl font-semibold flex items-center text-[#FF3344] ">
+          <h1 className="text-4xl font-semibold flex items-center text-blue-500 ">
             Professional Studies at -LNCPS INDORE
           </h1>
           <p className="text-black text-justify pt-2">
@@ -64,7 +64,7 @@ export default function AcademicEngineering() {
       </div>
       <section>
         <div className=" flex flex-col justify-center  mx-auto items-center p-10">
-          <h1 className="text-[#FF3344] font-light  text-center  text-4xl">
+          <h1 className="text-blue-500 font-light  text-center  text-4xl">
             Engineering @ NITR at a glance
           </h1>
         </div>
@@ -75,7 +75,7 @@ export default function AcademicEngineering() {
               targetValue={2000}
               speed={0.001}
               text="Seed"
-              textColor="text-[#FF3344]"
+              textColor="text-blue-500"
               title="First Counter"
               color="bg-[#bd5638]"
             />
@@ -117,7 +117,7 @@ export default function AcademicEngineering() {
         </div>
       </section>
       <div className=" flex flex-col justify-center  mx-auto items-center p-10">
-        <h1 className="text-[#FF3344] font-light  text-center  text-4xl">
+        <h1 className="text-blue-500 font-light  text-center  text-4xl">
           Engineering is not only about making things work, but about making
           things work better.
         </h1>

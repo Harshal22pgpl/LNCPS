@@ -9,14 +9,15 @@ export default function page() {
   return (
     <div className="w-full">
       <SliderMain images={images} />
+      <div className="w-11/12 mx-auto">
       <div className=" w-11/12 mx-auto  p-3">
         <h1 className="text-4xl font-bold py-2 border-b-4 border-red-500 inline-block ">
           Overview
         </h1>
-        <div className="w-[600px] h-[440px]  relative my-8">
+        <div className="w-[600px] h-[440px]   relative my-8">
           <Image src="/a-o.png" alt="image" fill />
-          <div className=" absolute w-[580px] h-[400px]  top-5 left-[580px] text-orange-100 p-2">
-            <h1 className="text-3xl font-bold">
+          <div className="absolute w-[690px] h-[370px] text-white  top-4  right-[-600px] bg-blue-900 p-8 ">
+            <h1 className="text-3xl text-black font-bold">
               Programs and Course Structure at  LNCPS Indore
             </h1>
             <p className=" py-3">
@@ -61,6 +62,7 @@ export default function page() {
             </button>
           </div>
         </div>
+      </div>
       </div>
 
       <div className=" w-11/12 mx-auto  p-3">

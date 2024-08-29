@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const FixedButtons = () => {
   return (
-    <div className="fixed bottom-4  flex flex-col animate-pulse gap-4">
+    <div className="fixed bottom-4  flex flex-col  gap-4">
       <Link href="/contact">
         <button
           href="#_"

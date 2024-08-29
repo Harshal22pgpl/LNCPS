@@ -183,7 +183,7 @@ const ListItem = ({ item }) => {
     <li className="border-gray-400 flex flex-col">
       <Link href={`/events/${uuid}`}>
         <div className="w-full flex gap-2 px-2 ">
-          <div className="p-4 bg-[#FF3344] text-center">
+          <div className="p-4 bg-blue-500 text-center">
             <p>9 April</p>
           </div>
           <div className="w-full justify-center p-2 items-start flex flex-col">
@@ -191,7 +191,7 @@ const ListItem = ({ item }) => {
               {title}
             </h1>
             <div className="flex justify-start py-4 items-center text-sm font-semibold">
-              <h1 className="px-2 p-1 font-semibold rounded-lg capitalize bg-[#C80D1D]">
+              <h1 className="px-2 p-1 font-semibold rounded-lg capitalize bg-blue-700">
                 {type}
               </h1>
             </div>
