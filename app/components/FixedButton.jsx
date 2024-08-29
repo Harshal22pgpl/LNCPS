@@ -5,7 +5,7 @@ import Link from "next/link";
 const FixedButtons = () => {
   return (
     <div className="fixed bottom-4  flex flex-col  gap-4">
-      <Link href="/contact">
+      <Link href="/institute/contact">
         <button
           href="#_"
           class="relative px-5 py-2 font-medium text-white group"
