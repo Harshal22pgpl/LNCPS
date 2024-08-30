@@ -8,10 +8,10 @@ import Seminar from "@/app/components/Seminar";
 
 import Notices from "@/app/components/News-Notices";
 
-import { ParallaxScroll } from "@/components/ParallaxScroll/ParallaxScroll";
-import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo/InfiniteMovingCardsDemo";
-import Pahal from "./components/Pahal/Pahal";
-import AcademicProgram from "@/components/AcademicProgram/AcademicProgram";
+import { ParallaxScroll } from "./ParallaxScroll/ParallaxScroll";
+import { InfiniteMovingCardsDemo } from "./InfiniteMovingCardsDemo/InfiniteMovingCardsDemo";
+import Pahal from "./Pahal/Pahal";
+import AcademicProgram from "./AcademicProgram/AcademicProgram";
 import Footer from "./Footer/Footer";
 import AbouttheInstitute from "./AbouttheInstitute/AbouttheInstitute";
 import NumberOne from "./NumberOne/NumberOne";
