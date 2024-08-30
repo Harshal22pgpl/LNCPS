@@ -305,7 +305,7 @@ export default function Navbar() {
         {
           name: "Student Testimonial",
           link: "student_testimonial",
-        },
+        },  
         {
           name: "Career",
           link: "/career/?college=LNCPS",
