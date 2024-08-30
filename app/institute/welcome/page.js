@@ -36,9 +36,9 @@ export default function page() {
               </p>
 
               <p className=" mt-2 font-extralight text-sm text-justify">
-              Welcome to the Lakshmi Narain College of Professional Studies, where academic excellence meets real-world application. Our programs are designed to equip students with the skills and knowledge needed to excel in today's dynamic professional landscape.
+              Welcome to the Lakshmi Narain College of Professional Studies, where academic excellence meets real-world application. Our programs are designed to equip students with the skills and knowledge needed to excel in today is dynamic professional landscape.
               With a focus on interdisciplinary learning, practical experience, and innovation, we offer a wide range of undergraduate and graduate programs tailored to meet the needs of diverse industries. Our faculty comprises experienced professionals and scholars dedicated to fostering a learning environment that encourages critical thinking, collaboration, and personal growth.
-              Whether you're advancing your current career or embarking on a new professional journey, 
+              Whether you are advancing your current career or embarking on a new professional journey, 
               the College of Professional Studies is committed to helping you achieve your goals
               </p>
             </div>
