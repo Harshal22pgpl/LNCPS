@@ -275,11 +275,7 @@ const UserForm = ({ roles = [], schoolUuid, schools }) => {
                           onChange={handleChange}
                           class="sr-only peer"
                         />
-<<<<<<< HEAD
-                        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-800"></div>
-=======
                         <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-900"></div>
->>>>>>> c004d86733130ae587aba2382bf98165b434c351
                         <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">
                           Mark as Active
                         </span>
@@ -293,11 +289,7 @@ const UserForm = ({ roles = [], schoolUuid, schools }) => {
                           onChange={handleChange}
                           class="sr-only peer"
                         />
-<<<<<<< HEAD
-                        <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-800"></div>
-=======
                         <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-900"></div>
->>>>>>> c004d86733130ae587aba2382bf98165b434c351
                         <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">
                           Mark as Suspicious
                         </span>
@@ -316,22 +308,14 @@ const UserForm = ({ roles = [], schoolUuid, schools }) => {
                       {isEmpty(userState.user) ? (
                         <button
                           onClick={handleUser}
-<<<<<<< HEAD
-                          class="bg-[#fd8d1d] hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
-=======
                           class="bg-[#fd8d1d] hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
->>>>>>> c004d86733130ae587aba2382bf98165b434c351
                         >
                           Save
                         </button>
                       ) : (
                         <button
                           onClick={handleUpdate}
-<<<<<<< HEAD
-                          class="bg-[#fd8d1d] hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
-=======
                           class="bg-[#fd8d1d] hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
->>>>>>> c004d86733130ae587aba2382bf98165b434c351
                         >
                           Update
                         </button>
@@ -339,7 +323,7 @@ const UserForm = ({ roles = [], schoolUuid, schools }) => {
                       {!isEmpty(userState.user) && (
                         <button
                           onClick={handleCancel}
-                          class="bg-red-700 hover:bg-red-900 text-white font-bold py-2 px-4 rounded"
+                          class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded"
                         >
                           Cancel
                         </button>
