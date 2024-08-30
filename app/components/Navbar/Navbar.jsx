@@ -304,7 +304,7 @@ export default function Navbar() {
       values: [
         {
           name: "Student Testimonial",
-          link: "student_testimonial",
+          link: "/student_testimonial",
         },
         {
           name: "Career",
@@ -633,7 +633,7 @@ export default function Navbar() {
           subchild: [
             {
               name: "Student Testimonial",
-              link: "student_testimonial",
+              link: "/student_testimonial",
             },
             {
               name: "Career",
@@ -747,6 +747,8 @@ export default function Navbar() {
               <p>Admissions</p>
               <p>Placement</p>
               <p>Careers</p>
+              <Link href="/courses-offered">Courese-Offered </Link>
+              <Link href="/governing-body">Governing Body </Link>
             </div>
 
             <div className="flex items-center gap-4">

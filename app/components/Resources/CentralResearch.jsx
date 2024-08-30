@@ -7,8 +7,8 @@ export default function CentralResearch() {
   return (
     <div>
       <div>
-        <div className='h-8 bg-cyan-500 p-1 flex'>
-          <div className='flex ml-24 mt-1'>
+        {/* <div className='h-8 bg-cyan-500 p-1 flex'> */}
+          {/* <div className='flex ml-24 mt-1'>
             <div className='flex '>
               <img className='h-4 mt-0' src="clock.png" alt="" />
               <p className='text-white text-xs ml-4'>Monday - Friday 09:00 hr to 18:00 hr</p>
@@ -21,11 +21,11 @@ export default function CentralResearch() {
               <img className='h-4 mt-0' src="email.png" alt="" />
               <p className='text-white text-xs ml-3'>LNCPS@gmail.com</p>
             </div>
-          </div>
-          <div className='h-5 '>
+          </div> */}
+          {/* <div className='h-5 '>
             <a className='bg-blue-800 text-white text-[14px] py-[3px] px-[10px] rounded-[4px] ml-56' href="">Login for External users</a>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         <div className='flex mt-2'>
           <div className='ml-96 flex'>
             <div>
