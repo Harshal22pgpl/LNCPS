@@ -96,7 +96,7 @@ export default function Navbar() {
           <div
             className={`megamenu-panel absolute top-30 left-0 w-screen bg-blue-800 nav-submenu  ${
               openSubMenuId === "institute" ? "" : "hidden"
-            }`}
+            }`} 
           >
             <ul class=" flex justify-around list-none">
               <li class="py-4 ">

@@ -85,7 +85,7 @@ const InfiniteMovingCards = ({
               <img
                 src={item.image}
                 alt={item.image}
-                className=" w-full h-full  "
+                className=" w-full  "
               />
             </div>
           </li>

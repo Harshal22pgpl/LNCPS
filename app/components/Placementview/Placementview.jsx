@@ -4,15 +4,12 @@ import React from "react";
 export default function Placementview() {
   return (
     <>
-      <div className=" w-full h-80 bg-cover capitalize flex justify-center items-center "
-                style={{ backgroundImage: `url('about-banner.jpg')` }}>
-
-                <h2 className="font-bold text-4xl uppercase  text-center text-white" >
-                    PLACEMENT OVERVIEW
-                </h2>
-                
-
-            </div>
+     <div className="w-full h-80 bg-cover capitalize flex justify-center items-center"
+        style={{ backgroundImage: `url('/about-banner.jpg')` }}>
+        <h2 className="font-bold text-3xl w-4/5 uppercase text-center text-white">
+        Placement View - LNCPS INDORE | Central India&apos;s No. 1 Engineering Institute - Indore
+        </h2>
+      </div>
       <div className=" p-10 -z-10  ">
         <h1 className="text-4xl text-center border-b-2  font-semibold ">
           Placement Overview At <span className="text-red-500"></span> LNCPS
@@ -46,7 +43,7 @@ export default function Placementview() {
         </div>
       </div>
       <h1 className="text-4xl text-center mt-10   font-semibold ">
-        Placement <span className="text-red-500">Students </span>
+        Placement <span className="text-blue-500">Students </span>
         List{" "}
       </h1>
       <div className=" gap-2 w-11/12 mx-auto flex   justify-around pt-10 pb-20 ">
@@ -58,7 +55,7 @@ export default function Placementview() {
             12 LPA.
           </h1>
         </div>
-        <div className=" shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] w-80  flex-col flex  items-center p-2 ">
+        <div className=" shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] w-80   flex-col flex  items-center p-2 ">
           <Image src="/ibm.png" alt="" width={200} height={200} />
           <Image src="/founder.png" alt="" width={200} height={200} />
           <h1 className="text-2xl p-1">Founder</h1>
