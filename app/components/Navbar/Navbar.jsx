@@ -987,7 +987,7 @@ const Sidebar = ({ isOpen, onClose, dropdownItems }) => {
                                   onClick={() =>
                                     handleSidebarItemClick(value.link)
                                   }
-                                  className="p-3 shadow-md rounded-lg text-orange-100 text-blue-800"
+                                  className="p-3 shadow-md rounded-lg  text-blue-800"
                                 >
                                   {value.name}
                                 </div>
