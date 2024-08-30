@@ -5,22 +5,21 @@ import { useState, useEffect } from "react";
 import Counter from "@/app/components/Counter";
 import Card from "@/app/components/Card";
 import Seminar from "@/app/components/Seminar";
-import Footer from "./components/Footer/Footer";
-import Notices from "./components/News-Notices";
-import AbouttheInstitute from "./components/AbouttheInstitute/AbouttheInstitute";
-import NumberOne from "./components/NumberOne/NumberOne";
-import { ParallaxScroll } from "./components/ParallaxScroll/ParallaxScroll";
-import { InfiniteMovingCardsDemo } from "./components/InfiniteMovingCardsDemo/InfiniteMovingCardsDemo";
+
+import Notices from "@/app/components/News-Notices";
+
+import { ParallaxScroll } from "@/components/ParallaxScroll/ParallaxScroll";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo/InfiniteMovingCardsDemo";
 import Pahal from "./components/Pahal/Pahal";
-import AcademicProgram from "./components/AcademicProgram/AcademicProgram";
+import AcademicProgram from "@/components/AcademicProgram/AcademicProgram";
+import Footer from "./Footer/Footer";
+import AbouttheInstitute from "./AbouttheInstitute/AbouttheInstitute";
+import NumberOne from "./NumberOne/NumberOne";
 
 export default function Home() {
- 
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Set default active tab to 'postgraduate'
-
-
 
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
@@ -36,8 +35,8 @@ export default function Home() {
 
   // Function to toggle submenu
 
-  const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/GRPlncps.jpg" ,   ];
-  const imagesss = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/mdsir.jpg" ];
+  const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/GRPlncps.jpg"];
+  const imagesss = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/mdsir.jpg"];
 
   const EventData = [
     {
@@ -249,7 +248,6 @@ export default function Home() {
           height={650}
         />
       </div>
-     
 
       <NumberOne
         img="/number-1.png"
@@ -276,13 +274,7 @@ export default function Home() {
       {/* <div className=" w-11/12 mx-auto">
         <ParallaxScroll images={imagess} />
       </div> */}
-      <AcademicProgram/>
-    
-
-
-
-
-
+      <AcademicProgram />
 
       <AbouttheInstitute />
 
@@ -408,12 +400,15 @@ export default function Home() {
         </div>
       </section>
       <section className="lg:w-11/12 w-full mx-auto mb-10">
-        <div className=" "  style={{
+        <div
+          className=" "
+          style={{
             backgroundImage: "url('/svg/linessvg.sv')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-          }}>
+          }}
+        >
           <div
             //
             className="flex lg:flex-row flex-col "
@@ -424,7 +419,7 @@ export default function Home() {
               backgroundSize: "cover",
             }}
           >
-          <div className="md:w-full lg:w-1/2 sm:w-full    ">
+            <div className="md:w-full lg:w-1/2 sm:w-full    ">
               {/* <h3 className="font-bold text-3xl p-5 ">
                 Ranking and Recognition &nbsp; &nbsp;&nbsp;
                 <Link href="/ranking" className="text-sm">
@@ -432,10 +427,8 @@ export default function Home() {
                 </Link>
               </h3> */}
               <Image
-
                 className="duration-200 px-5 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
                 src={imagesss[currentSlide]}
-
                 alt="Hero Image"
                 width={700}
                 height={650}
