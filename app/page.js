@@ -15,12 +15,9 @@ import Pahal from "./components/Pahal/Pahal";
 import AcademicProgram from "./components/AcademicProgram/AcademicProgram";
 
 export default function Home() {
- 
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Set default active tab to 'postgraduate'
-
-
 
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
@@ -36,8 +33,8 @@ export default function Home() {
 
   // Function to toggle submenu
 
-  const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/GRPlncps.jpg" ,   ];
-  const imagesss = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/mdsir.jpg" ];
+  const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/GRPlncps.jpg"];
+  const imagesss = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/mdsir.jpg"];
 
   const EventData = [
     {
@@ -249,7 +246,6 @@ export default function Home() {
           height={650}
         />
       </div>
-     
 
       <NumberOne
         img="/number-1.png"
@@ -276,13 +272,7 @@ export default function Home() {
       {/* <div className=" w-11/12 mx-auto">
         <ParallaxScroll images={imagess} />
       </div> */}
-      <AcademicProgram/>
-    
-
-
-
-
-
+      <AcademicProgram />
 
       <AbouttheInstitute />
 
@@ -298,7 +288,7 @@ export default function Home() {
           </h5>
         </div>
         <div class="item flex-1 w-full bg-blue-800 p-6 pt-14  items-center text-center ">
-          <h2 className="font-semibold text-2xl">bg-[#C80D1D] the Day</h2>
+          <h2 className="font-semibold text-2xl">Thought of the Day</h2>
           <h5 className="font-semibold text-xl py-5">कार्यात्मक</h5>
           <h5 className="font-semibold text-2xl">FUNCTIONAL</h5>
         </div>
@@ -408,12 +398,15 @@ export default function Home() {
         </div>
       </section>
       <section className="lg:w-11/12 w-full mx-auto mb-10">
-        <div className=" "  style={{
+        <div
+          className=" "
+          style={{
             backgroundImage: "url('/svg/linessvg.sv')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-          }}>
+          }}
+        >
           <div
             //
             className="flex lg:flex-row flex-col "
@@ -424,7 +417,7 @@ export default function Home() {
               backgroundSize: "cover",
             }}
           >
-          <div className="md:w-full lg:w-1/2 sm:w-full    ">
+            <div className="md:w-full lg:w-1/2 sm:w-full    ">
               {/* <h3 className="font-bold text-3xl p-5 ">
                 Ranking and Recognition &nbsp; &nbsp;&nbsp;
                 <Link href="/ranking" className="text-sm">
@@ -432,10 +425,8 @@ export default function Home() {
                 </Link>
               </h3> */}
               <Image
-
                 className="duration-200 px-5 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
                 src={imagesss[currentSlide]}
-
                 alt="Hero Image"
                 width={700}
                 height={650}
