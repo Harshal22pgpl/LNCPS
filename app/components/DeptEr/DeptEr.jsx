@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React,{useState} from "react";
 import SliderMain from "../SliderMain/SliderMain";
 import Image from "next/image";
 import Counter from "@/app/components/Counter";
@@ -10,6 +10,8 @@ import { MdEmail } from "react-icons/md";
 import Slider from "../Slider/Slider";
 import { head } from "lodash";
 import FacultyCard from "../FacultyCard/FacultyCard";
+import Curriculumn from "../Curriculumn/Curriculumn";
+// import { useState } from "react/cjs/react.development";
 
 export default function DeptEr({ dept }) {
   const images = ["/ar-3.jpg"];
@@ -251,12 +253,27 @@ export default function DeptEr({ dept }) {
     default:
       break;
   }
-
+ const [active, setActive] = useState(0)
+ const buttons=[
+  'About The Department','Course-curriculmn','Labs Facility','Faculty','Academic Programmes'
+ ]
   return (
+    <>
+    
     <div>
       <SliderMain images={images} heading={dept} />
+      <div className='mt-10 flex items-center gap-5'>
+      {
+        buttons.map((item,index)=>(
+          <button onClick={()=>setActive(index)} className='border-2 p-4 rounded-lg bg-blue-500 hover:bg-blue-700' key={index}>{item}</button>
+        ))
+      }
+      </div>
+      
       <div className="w-full   ">
-        <div className="w-full flex px-20 py-10  gap-7">
+        {
+          active===0 && (
+            <div className="w-full flex px-20 py-10  gap-7">
           <div className="w-2/3 ">
             <div className="p-10">
               <h2 className=" text-4xl text-blue-800 my-5">
@@ -294,7 +311,17 @@ export default function DeptEr({ dept }) {
             </div>
           </div>
         </div>
-        <div className="w-full flex px-20 py-4 gap-7">
+          )
+        }
+        {
+          active===1 && (
+            <div><Curriculumn/></div>
+          )
+        }
+        {
+          active===2 && (
+            <div>
+              <div className="w-full flex px-20 py-4 gap-7">
           <div className="w-3/5 h-[580px]">
             <div className="relative h-full">
               <Image
@@ -337,27 +364,13 @@ export default function DeptEr({ dept }) {
             </div>
           </div>
         </div>
-
-        <div className="w-full flex flex-col px-20 gap-4 py-6">
-          <h1 className="text-4xl text-blue-700 font-bold p-2">
-            Academic Programmes
-          </h1>
-          <div className="w-full flex justify-center gap-20 ">
-            <ProgramCard
-              course={"Undergraduate"}
-              bgcolor={"bg-blue-800"}
-              admission={"JEE"}
-              dept={"civil engineering"}
-            />
-            <ProgramCard
-              course={"Post-Graduate"}
-              bgcolor={"bg-blue-800"}
-              admission={"JEE"}
-              dept={"civil engineering"}
-            />
-          </div>
-        </div>
-        <div className="w-full flex flex-col px-20 gap-4 py-6 ">
+            </div>
+          )
+        }
+        {
+          active===3 && (
+            <>
+            <div className="w-full flex flex-col px-20 gap-4 py-6 ">
           <h1 className="font-bold text-4xl text-blue-700">
             Head Of Department
           </h1>
@@ -385,13 +398,8 @@ export default function DeptEr({ dept }) {
             </div>
           </div>
         </div>
-        <div className="w-full p-2"></div>
-      </div>
-      <div>
-      <h1 className="text-3xl text-center font-semibold border-b">Faculty at LNCPS</h1>
-    </div>
-      
-      <div className=" grid ">
+        <h1 className="text-3xl text-center font-semibold border-b">Faculty at LNCPS</h1>
+        <div className=" grid ">
         <div>
           {faculties.map((faculty, index) => (
             <div
@@ -436,6 +444,47 @@ export default function DeptEr({ dept }) {
           {/* Add more rows as needed */}
         </div>
       </div>
+            </>
+          )
+        }
+        {
+          active===4 && (
+            <>
+            <div className="w-full flex flex-col px-20 gap-4 py-6">
+          <h1 className="text-4xl text-blue-700 font-bold p-2">
+            Academic Programmes
+          </h1>
+          <div className="w-full flex justify-center gap-20 ">
+            <ProgramCard
+              course={"Undergraduate"}
+              bgcolor={"bg-blue-800"}
+              admission={"JEE"}
+              dept={"civil engineering"}
+            />
+            <ProgramCard
+              course={"Post-Graduate"}
+              bgcolor={"bg-blue-800"}
+              admission={"JEE"}
+              dept={"civil engineering"}
+            />
+          </div>
+        </div>
+            </>
+          )
+        }
+        
+        
+
+        
+        
+        {/* <div className="w-full p-2"></div> */}
+      </div>
+      <div>
+      
     </div>
+      
+      
+    </div>
+    </>
   );
 }

@@ -211,6 +211,33 @@ export default function Navbar() {
         },
       ],
     },
+
+    {
+      name: "College Committees",
+      values: [
+        {
+          name: "Academic Overview",
+          link: "/academic/overview",
+        },
+        {
+          name: "Academic Programs",
+          link: "/academic/programs",
+        },
+        {
+          name: "Academic Regulations",
+          link: "/students/rules_regulations",
+        },
+        {
+          name: "Academic Calendar",
+          link: "/academic/calender",
+        },
+        {
+          name: "Curriculum and Syllabus",
+          link: "/academic/syllabus",
+        },
+      ],
+    },
+
     {
       name: "Students",
       values: [
@@ -530,6 +557,92 @@ export default function Navbar() {
             },
           ],
         },
+      ],
+    },
+    {
+      main: "College Committees",
+      child: [
+        {
+          name: "Our Committees",
+          subchild: [
+            {
+              name: "Anti-Ragging Committee",
+              link: "/institute/fc",
+            },
+            {
+              name: "Academic Programs",
+              link: "/academic/programs",
+            },
+            {
+              name: "Academic Regulations",
+              link: "/students/rules_regulations",
+            },
+            {
+              name: "Academic Calendar",
+              link: "/academic/calender",
+            },
+            {
+              name: "Curriculum and Syllabus",
+              link: "/academic/syllabus",
+            },
+          ],
+        },
+        // {
+        //   name: "Departments",
+        //   subchild: [
+        //     {
+        //       name: "Commerce",
+        //       link: "/department/me",
+        //     },
+        //     {
+        //       name: "Computer Science",
+        //       link: "/department/cse",
+        //     },
+        //     {
+        //       name: "Science",
+        //       link: "/department/ece",
+        //     },
+        //     {
+        //       name: "Physical Education",
+        //       link: "/department/eet",
+        //     },
+        //     {
+        //       name: "Humanities",
+        //       link: "/department/it",
+        //     },
+        //   ],
+        
+        // },
+        // {
+        //   name: "Facilities",
+        //   subchild: [
+        //     {
+        //       name: "Central Workshop",
+        //       link: "/academic/central-workshop",
+        //     },
+        //     {
+        //       name: "Central Research Facility",
+        //       link: "/academic/central-research",
+        //     },
+        //     {
+        //       name: "High Performance Computing",
+        //       link: "/academic/hfc",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Technical Service Units",
+        //   subchild: [
+        //     {
+        //       name: "Health Care",
+        //       link: "/health-center",
+        //     },
+        //     {
+        //       name: "Lawn and Garden",
+        //       link: "/academic/lawn",
+        //     },
+        //   ],
+        // },
       ],
     },
     {
@@ -959,6 +1072,10 @@ export default function Navbar() {
                       dropdownLeft = "left-[-79px]";
                       break;
                     case "Academics":
+                      dropdownWidth = "w-[870px]";
+                      dropdownLeft = "left-[-460px]";
+                      break;
+                      case "College Committees":
                       dropdownWidth = "w-[870px]";
                       dropdownLeft = "left-[-460px]";
                       break;
