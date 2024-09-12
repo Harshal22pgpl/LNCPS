@@ -115,6 +115,10 @@ export default function Navbar() {
           name: "Annual Reports",
           link: "/institute/annual_reports",
         },
+        {
+          name: "Approval Documents",
+          link: "/approval-document",
+        },
       ],
     },
     {
@@ -211,6 +215,33 @@ export default function Navbar() {
         },
       ],
     },
+
+    {
+      name: "College Committees",
+      values: [
+        {
+          name: "Anti-Ragging Committee",
+          link: "/institute/fc",
+        },
+        {
+          name: "Website Committee",
+          link: "/institute/fc",
+        },
+        {
+          name: "Exam Committee",
+          link: "/institute/fc",
+        },
+        {
+          name: "NCC",
+          link: "/institute/fc",
+        },
+        {
+          name: "NSS",
+          link: "/institute/fc",
+        },
+      ],
+    },
+
     {
       name: "Students",
       values: [
@@ -429,6 +460,10 @@ export default function Navbar() {
               name: "Annual Reports",
               link: "/institute/annual_reports",
             },
+            {
+              name: "Approval Documents",
+              link: "/approval-document",
+            },
           ],
         },
         {
@@ -530,6 +565,92 @@ export default function Navbar() {
             },
           ],
         },
+      ],
+    },
+    {
+      main: "College Committees",
+      child: [
+        {
+          name: "Our Committees",
+          subchild: [
+            {
+              name: "Anti-Ragging Committee",
+              link: "/institute/fc",
+            },
+            {
+              name: "Website Committee",
+              link: "/institute/fc",
+            },
+            {
+              name: "Exam Committee",
+              link: "/institute/fc",
+            },
+            {
+              name: "NCC",
+              link: "/institute/fc",
+            },
+            {
+              name: "NSS",
+              link: "/institute/fc",
+            },
+          ],
+        },
+        // {
+        //   name: "Departments",
+        //   subchild: [
+        //     {
+        //       name: "Commerce",
+        //       link: "/department/me",
+        //     },
+        //     {
+        //       name: "Computer Science",
+        //       link: "/department/cse",
+        //     },
+        //     {
+        //       name: "Science",
+        //       link: "/department/ece",
+        //     },
+        //     {
+        //       name: "Physical Education",
+        //       link: "/department/eet",
+        //     },
+        //     {
+        //       name: "Humanities",
+        //       link: "/department/it",
+        //     },
+        //   ],
+        
+        // },
+        // {
+        //   name: "Facilities",
+        //   subchild: [
+        //     {
+        //       name: "Central Workshop",
+        //       link: "/academic/central-workshop",
+        //     },
+        //     {
+        //       name: "Central Research Facility",
+        //       link: "/academic/central-research",
+        //     },
+        //     {
+        //       name: "High Performance Computing",
+        //       link: "/academic/hfc",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Technical Service Units",
+        //   subchild: [
+        //     {
+        //       name: "Health Care",
+        //       link: "/health-center",
+        //     },
+        //     {
+        //       name: "Lawn and Garden",
+        //       link: "/academic/lawn",
+        //     },
+        //   ],
+        // },
       ],
     },
     {
@@ -960,6 +1081,10 @@ export default function Navbar() {
                       break;
                     case "Academics":
                       dropdownWidth = "w-[870px]";
+                      dropdownLeft = "left-[-460px]";
+                      break;
+                      case "College Committees":
+                      dropdownWidth = "w-[300px]";
                       dropdownLeft = "left-[-460px]";
                       break;
                     case "Students":
