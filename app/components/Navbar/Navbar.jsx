@@ -115,6 +115,10 @@ export default function Navbar() {
           name: "Annual Reports",
           link: "/institute/annual_reports",
         },
+        {
+          name: "Approval Documents",
+          link: "/approval-document",
+        },
       ],
     },
     {
@@ -216,24 +220,24 @@ export default function Navbar() {
       name: "College Committees",
       values: [
         {
-          name: "Academic Overview",
-          link: "/academic/overview",
+          name: "Anti-Ragging Committee",
+          link: "/institute/fc",
         },
         {
-          name: "Academic Programs",
-          link: "/academic/programs",
+          name: "Website Committee",
+          link: "/institute/fc",
         },
         {
-          name: "Academic Regulations",
-          link: "/students/rules_regulations",
+          name: "Exam Committee",
+          link: "/institute/fc",
         },
         {
-          name: "Academic Calendar",
-          link: "/academic/calender",
+          name: "NCC",
+          link: "/institute/fc",
         },
         {
-          name: "Curriculum and Syllabus",
-          link: "/academic/syllabus",
+          name: "NSS",
+          link: "/institute/fc",
         },
       ],
     },
@@ -456,6 +460,10 @@ export default function Navbar() {
               name: "Annual Reports",
               link: "/institute/annual_reports",
             },
+            {
+              name: "Approval Documents",
+              link: "/approval-document",
+            },
           ],
         },
         {
@@ -570,20 +578,20 @@ export default function Navbar() {
               link: "/institute/fc",
             },
             {
-              name: "Academic Programs",
-              link: "/academic/programs",
+              name: "Website Committee",
+              link: "/institute/fc",
             },
             {
-              name: "Academic Regulations",
-              link: "/students/rules_regulations",
+              name: "Exam Committee",
+              link: "/institute/fc",
             },
             {
-              name: "Academic Calendar",
-              link: "/academic/calender",
+              name: "NCC",
+              link: "/institute/fc",
             },
             {
-              name: "Curriculum and Syllabus",
-              link: "/academic/syllabus",
+              name: "NSS",
+              link: "/institute/fc",
             },
           ],
         },
@@ -1076,7 +1084,7 @@ export default function Navbar() {
                       dropdownLeft = "left-[-460px]";
                       break;
                       case "College Committees":
-                      dropdownWidth = "w-[870px]";
+                      dropdownWidth = "w-[300px]";
                       dropdownLeft = "left-[-460px]";
                       break;
                     case "Students":
