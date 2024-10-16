@@ -100,9 +100,8 @@ export default function DeptEr({ dept }) {
         "Empowering Innovation, Shaping the Future: Where Technology Meets Excellence";
       author = "Prof. Swati Patil";
       deptImg = "/dept-m-v.jpg";
-      aboutDept =
-        "The Computer Science Department at LNCPS is at the forefront of technological education, committed to producing skilled and innovative professionals ready to lead in the digital age. This department offers a robust curriculum that covers core areas such as software development, algorithms, data structures, artificial intelligence, cybersecurity, and machine learning. With a focus on both theoretical foundations and practical application, the department equips students with the ability to solve complex problems, develop cutting-edge software, and design intelligent systems. State-of-the-art laboratories and collaboration with industry partners provide hands-on experience, ensuring that students are well-prepared to meet the demands of the rapidly evolving tech industry. The Computer Science Department not only fosters technical expertise but also encourages creativity, critical thinking, and ethical responsibility, preparing students to excel in diverse career paths such as software engineering, data science, cybersecurity, and IT consultancy.";
-      dept = "Computer Science";
+      aboutDept ="The Science Department is dedicated to fostering a deep understanding of the natural world through inquiry, experimentation, and critical thinking. Our programs span a wide range of disciplines, including biology, chemistry, physics, and environmental science, offering students the tools to explore and solve complex scientific problems. With state-of-the-art laboratories, cutting-edge research opportunities, and a focus on hands-on learning, we prepare students to become innovators and leaders in their fields. Guided by a commitment to scientific integrity and discovery, the Science Department empowers students to make meaningful contributions to society through research, technology, and applied science.In the Science Department, we are passionate about cultivating curiosity and advancing knowledge that drives progress. Our faculty, composed of leading researchers and educators, mentor students in both foundational theories and cutting-edge developments across the sciences. Through collaborative projects, interdisciplinary studies, and real-world applications, students gain the skills to tackle global challenges such as climate change, public health, and technological innovation.";
+      dept = "Science";
       headD = "Prof. Swati Patil";
       headImg = "/faculty/sci_HOD.jpg";
       phoneHead = "9425435798";
@@ -115,13 +114,13 @@ export default function DeptEr({ dept }) {
           degree: " M.Sc. GATE-2007, M.Tech.(L.S.A.) C.G. SET-2017 , Ph.D. Pursuing ",
           experience: "12 years",
         },
-        {
-          image: "",
-          name: "Prof.kiti Bamaniya",
-          position: "Assistant Professor",
-          degree: "M.Sc(Applied Chemistry),B.Sc",
-          experience: "1 years",
-        },
+        // {
+        //   image: "",
+        //   name: "Prof.kiti Bamaniya",
+        //   position: "Assistant Professor",
+        //   degree: "M.Sc(Applied Chemistry),B.Sc",
+        //   experience: "1 years",
+        // },
         {
           image: "/nikitayadav.jpg",
           name: "Prof Nikita yadav",
@@ -138,23 +137,22 @@ export default function DeptEr({ dept }) {
         "Connecting Ideas, Creating Futures: Innovate with Electronics and Communication!";
       author = "Manisha Singh";
       deptImg = "/dept-m-v.jpg";
-      aboutDept =
-        "The Science Department at LNCPS is dedicated to fostering a deep understanding of the natural and physical sciences through rigorous academic programs and hands-on research. It offers a broad curriculum encompassing subjects like physics, chemistry, biology, mathematics, and environmental science, providing students with a strong foundation in scientific principles and methodologies. The department emphasizes critical thinking, experimental skills, and analytical reasoning, preparing students to tackle complex challenges in both academic and professional settings. With access to advanced laboratories, research facilities, and opportunities for interdisciplinary collaboration, students are encouraged to engage in innovative research and real-world problem-solving. The Science Department not only nurtures scientific curiosity and discovery but also equips students with the practical skills needed for careers in research, healthcare, engineering, environmental science, and beyond.";
-      dept = "Science";
+      aboutDept = "The Arts Department is a vibrant hub of creativity, expression, and innovation. Our programs offer a rich blend of traditional techniques and contemporary practices, encouraging students to explore their artistic potential across various disciplines, including visual arts, music, theater, and design. With a commitment to fostering critical thinking and cultural awareness, we provide a dynamic environment where aspiring artists can develop their craft and contribute to the world of art.In the Arts Department, we celebrate the transformative power of creativity and imagination. Our faculty, comprised of accomplished artists and scholars, guide students through immersive learning experiences, combining hands-on practice with theoretical exploration. Whether through painting, sculpture, digital media, or performance, we encourage students to push boundaries, challenge conventions, and develop their unique artistic voices. Our vibrant community thrives on collaboration, diversity, and a shared passion for the arts, preparing graduates to make meaningful contributions to both local and global cultural landscapes.";
+      dept = "Arts";
       headD = "Prof.Manisha Singh";
       headImg = "/manishasingh.jpg";
       phoneHead = "9977791266";
       emailHead = "Email.gautammanisha305@gmail.com";
       faculties = [
+        // {
+        //   image: "",
+        //   name: "Prof. Hemant Vijay Bharat Singh",
+        //   position: "HOD of Journalism & Mass Communication",
+        //   degree: "M.Sc. in Mass Communication Journalism And Advertising",
+        //   experience: "12 years",
+        // },
         {
-          image: "",
-          name: "Prof. Hemant Vijay Bharat Singh",
-          position: "HOD of Journalism & Mass Communication",
-          degree: "M.Sc. in Mass Communication Journalism And Advertising",
-          experience: "12 years",
-        },
-        {
-          image: "",
+          image: "/harshsir.jpg",
           name: "Prof. Harsh Sharma",
           position: "Assistant Professor",
           degree: "MMA in Hindi Literature MBA ( Finance-Marketing) PGDCA",
@@ -166,12 +164,12 @@ export default function DeptEr({ dept }) {
           degree: "M.A,M.Com, PGDM",
           experience: "1 years",
         },
-        { image: "",
-          name: "Prof.Bhagat Singh Dawar",
-          position: "Assistant Professor",
-          degree: "- Ph.D.Pursuing,  M.A (Economics) B.Ed",
-          experience: "2 years",
-        },
+        // { image: "",
+        //   name: "Prof.Bhagat Singh Dawar",
+        //   position: "Assistant Professor",
+        //   degree: "- Ph.D.Pursuing,  M.A (Economics) B.Ed",
+        //   experience: "2 years",
+        // },
         // Add more faculty members as needed
       ];
 
@@ -183,7 +181,7 @@ export default function DeptEr({ dept }) {
       deptImg = "/dept-m-v.jpg";
       aboutDept =
         "The Electrical Engineering (EE) Department at -LNCPS,indore is a center of excellence, dedicated to the study and advancement of electrical systems and technologies. Our curriculum is designed to provide students with a deep understanding of electrical circuits, power systems, control engineering, and renewable energy technologies. Through hands-on laboratory work, innovative research projects, and industry partnerships, students gain practical skills and real-world experience that prepare them for the challenges of the electrical engineering field. Our distinguished faculty, renowned for their research contributions and industry expertise, are committed to mentoring students and fostering an environment of intellectual growth and innovation. The EE Department is devoted to developing the next generation of electrical engineers who will lead advancements in technology and contribute to sustainable solutions for a better future.";
-      dept = "Physical Education";
+      dept = "Journalism";
       headD = "MR.DILIP SAHASTRABUDHE";
       headImg = "/exhod.jpg";
       phoneHead = "7509974000";
@@ -217,7 +215,7 @@ export default function DeptEr({ dept }) {
       author = "author slogan";
       deptImg = "/dept-m-v.jpg";
       aboutDept = "dfvbgsnha";
-      dept = "Humanities";
+      dept = "Dept. Of Management";
       headD = "Head Dept";
       headImg = "/director.png";
       phoneHead = "1234567890";
@@ -275,11 +273,11 @@ export default function DeptEr({ dept }) {
           active===0 && (
             <div className="w-full flex px-20 py-10  gap-7">
           <div className="w-2/3 ">
-            <div className="p-10">
+            <div className="pt-3 pb-5">
               <h2 className=" text-4xl text-blue-800 my-5">
                 About the Department
               </h2>
-              <div className="w-full   mt-5">
+              {/* <div className="w-full   mt-5">
                 <div className="w-full grid grid-cols-3 gap-5 ">
                   {counter.map((count) => (
                     <DeptCounter
@@ -293,9 +291,9 @@ export default function DeptEr({ dept }) {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
 
-              <p className=" mt-5 font-extralight text-sm  text-justify  h-[160px]">
+              <p className=" mt-2 font-extralight text-sm  text-justify  h-[160px]">
                 {aboutDept}
               </p>
             </div>
@@ -458,15 +456,15 @@ export default function DeptEr({ dept }) {
             <ProgramCard
               course={"Undergraduate"}
               bgcolor={"bg-blue-800"}
-              admission={"JEE"}
-              dept={"civil engineering"}
+              admission={"12th pass "}
+              dept={"B.Sc(physics,chemistry,maths,computer-science and biotechnology)"}
             />
-            <ProgramCard
+            {/* <ProgramCard
               course={"Post-Graduate"}
               bgcolor={"bg-blue-800"}
               admission={"JEE"}
               dept={"civil engineering"}
-            />
+            /> */}
           </div>
         </div>
             </>

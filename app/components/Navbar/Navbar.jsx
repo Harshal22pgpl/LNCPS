@@ -16,7 +16,10 @@ export default function Navbar() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
 
-  const collegeNames = ["LAKSHMI NARAIN COLLEGE OF PROFESSIONAL STUDIES", " लक्ष्मी नारायण कॉलेज ऑफ प्रोफेशनल स्टडीज "];
+  const collegeNames = [
+    "LAKSHMI NARAIN COLLEGE OF PROFESSIONAL STUDIES",
+    " लक्ष्मी नारायण कॉलेज ऑफ प्रोफेशनल स्टडीज ",
+  ];
 
   useEffect(() => {
     // Update isSmallScreen state on window resize
@@ -134,7 +137,7 @@ export default function Navbar() {
         },
       ],
     },
-    
+
     {
       name: "Academic",
       values: [
@@ -364,27 +367,27 @@ export default function Navbar() {
         },
       ],
     },
-    {
-      name: "Resources",
-      values: [
-        {
-          name: "Central Research Facility",
-          link: "/crf",
-        },
-        {
-          name: "Centre for Technology Innovation and Industry Relations",
-          link: "/relations",
-        },
-        {
-          name: "High Performance Computing",
-          link: "/highpc",
-        },
-        // {
-        //   name: "Industrial Consultancy",
-        //   link: "/ic",
-        // },
-      ],
-    },
+    // {
+    //   name: "Resources",
+    //   values: [
+    //     {
+    //       name: "Central Research Facility",
+    //       link: "/crf",
+    //     },
+    //     {
+    //       name: "Centre for Technology Innovation and Industry Relations",
+    //       link: "/relations",
+    //     },
+    //     {
+    //       name: "High Performance Computing",
+    //       link: "/highpc",
+    //     },
+    //     // {
+    //     //   name: "Industrial Consultancy",
+    //     //   link: "/ic",
+    //     // },
+    //   ],
+    // },
   ];
 
   const navItems = [
@@ -439,14 +442,14 @@ export default function Navbar() {
               name: "Director",
               link: "/institute/director",
             },
-            {
-              name: "Finance Committee",
-              link: "/institute/fc",
-            },
-            {
-              name: "Building and Work Committee",
-              link: "/institute/bwc",
-            },
+            // {
+            //   name: "Finance Committee",
+            //   link: "/institute/fc",
+            // },
+            // {
+            //   name: "Building and Work Committee",
+            //   link: "/institute/bwc",
+            // },
           ],
         },
         {
@@ -517,23 +520,22 @@ export default function Navbar() {
               link: "/department/me",
             },
             {
-              name: "Computer Science",
+              name: "Science",
               link: "/department/cse",
             },
             {
-              name: "Science",
+              name: "Arts",
               link: "/department/ece",
             },
             {
-              name: "Physical Education",
+              name: "Journalism",
               link: "/department/eet",
             },
             {
-              name: "Humanities",
+              name: "Dept. Of Management",
               link: "/department/it",
             },
           ],
-        
         },
         {
           name: "Facilities",
@@ -619,7 +621,7 @@ export default function Navbar() {
         //       link: "/department/it",
         //     },
         //   ],
-        
+
         // },
         // {
         //   name: "Facilities",
@@ -790,32 +792,32 @@ export default function Navbar() {
         },
       ],
     },
-    {
-      main: "Resources",
-      child: [
-        {
-          name: "Resources",
-          subchild: [
-            {
-              name: "Central Research Facility",
-              link: "/crf",
-            },
-            {
-              name: "Centre for Technology Innovation and Industry Relations",
-              link: "/relations",
-            },
-            {
-              name: "High Performance Computing",
-              link: "/highpc",
-            },
-            // {
-            //   name: "Industrial Consultancy",
-            //   link: "/ic",
-            // },
-          ],
-        },
-      ],
-    },
+    // {
+    //   main: "Resources",
+    //   child: [
+    //     {
+    //       name: "Resources",
+    //       subchild: [
+    //         {
+    //           name: "Central Research Facility",
+    //           link: "/crf",
+    //         },
+    //         {
+    //           name: "Centre for Technology Innovation and Industry Relations",
+    //           link: "/relations",
+    //         },
+    //         {
+    //           name: "High Performance Computing",
+    //           link: "/highpc",
+    //         },
+    //         // {
+    //         //   name: "Industrial Consultancy",
+    //         //   link: "/ic",
+    //         // },
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       main: "E-Content",
       child: [
@@ -876,7 +878,7 @@ export default function Navbar() {
               <img src="/twitter.png" className="w-8 h-8 rounded-full" />
               <img src="/yt.svg" className="w-8 h-8 rounded-full" />
               {/* <img src="/insta.png" className="w-8 h-8 rounded-full" /> */}
-            {/* </div> */}             
+            {/* </div> */}
             <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
               <li>
                 <a
@@ -945,7 +947,14 @@ export default function Navbar() {
                   </svg>
                 </a>
               </li>
-              <li><a href=""><img src="/svg/yt.svg" className="mb-1 w-7 h-7 rounded-full" /></a></li>
+              <li>
+                <a href="">
+                  <img
+                    src="/svg/yt.svg"
+                    className="mb-1 w-7 h-7 rounded-full"
+                  />
+                </a>
+              </li>
 
               {/* <li>
                 <Link
@@ -1083,7 +1092,7 @@ export default function Navbar() {
                       dropdownWidth = "w-[870px]";
                       dropdownLeft = "left-[-460px]";
                       break;
-                      case "College Committees":
+                    case "College Committees":
                       dropdownWidth = "w-[300px]";
                       dropdownLeft = "left-[-460px]";
                       break;
@@ -1099,10 +1108,10 @@ export default function Navbar() {
                       dropdownWidth = "w-60";
                       dropdownLeft = "left-40";
                       break;
-                    case "Resources":
-                      dropdownWidth = "w-[300px]";
-                      dropdownLeft = "left-50";
-                      break;
+                    // case "Resources":
+                    //   dropdownWidth = "w-[300px]";
+                    //   dropdownLeft = "left-50";
+                    //   break;
                     default:
                       dropdownWidth = "w-64";
                       dropdownLeft = "left-[-50px]";
