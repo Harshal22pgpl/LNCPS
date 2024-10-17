@@ -15,6 +15,7 @@ export const addNews = async (payload) => {
 
 export const getAllNews = async (collegeUuid = "") => {
 
+
   try {
     const res = await api.get(`${NEWS}/all/673dadd0-55c8-492e-8f85-7a0fe2895182`);
     return res.data.payload.data;
