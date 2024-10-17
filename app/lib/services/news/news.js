@@ -14,18 +14,6 @@ export const addNews = async (payload) => {
 };
 
 export const getAllNews = async (collegeUuid = "") => {
-  let res;
-  try {
-    if (!collegeUuid) {
-      res = await api.get(NEWS);
-    } else {
-      res = await api.get(`${NEWS}/all/673dadd0-55c8-492e-8f85-7a0fe2895182`);
-    }
-    return res.data.payload.data;
-  } catch (error) {
-    handleError(error);
-  }
-
 
   try {
     const res = await api.get(`${NEWS}/all/673dadd0-55c8-492e-8f85-7a0fe2895182`);
