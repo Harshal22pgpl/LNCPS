@@ -9,15 +9,20 @@ export default function Footer() {
       {path.includes("admin") || path.includes("payments") ? (
         <></>
       ) : (
-        <footer class="bg-[#A50F1C] text-white  py-12">
+        <footer class="bg-blue-600 text-white  py-12">
           <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="item">
               <p class="text-center">
-                <img
-                  src="/logo1.png"
-                  class="w-20 mx-auto mb-4"
-                  alt="Logo"
-                ></img>
+              <div class="item-img w-28 m-auto">
+                  <a
+                    href="/assets/images/gallery3.jpg"
+                    data-fancybox="mygallery"
+                    data-caption=""
+                    title=""
+                  >
+                    <img src="/LNCPS-IND.png" class="w-full" alt=""></img>
+                  </a>
+                </div>
               </p>
               <p class="font-bold text-center mt-6">
               Bhawrasla Sanwer Road, Reoti  Range
@@ -176,7 +181,7 @@ Pin Code-453111
             </div>
             <div class="item">
               {/* <h4 class="font-bold">Photo Gallery</h4> */}
-              <div class="grid grid-cols-2 gap-2 p-2">
+              <div class="grid grid-cols-1 text-2xl gap-8 p-2">
                 <div class="item-img">
                   <a
                     href="/assets/images/gallery1.jpg"
@@ -184,7 +189,7 @@ Pin Code-453111
                     data-caption=""
                     title=""
                   >
-                    <img src="/LNCPS-IND.png" class="w-full" alt=""></img>
+                 <div className="flex gap-2 items-center"><p>Apply Now</p> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
                   </a>
                 </div>
                 <div class="item-img">
@@ -194,7 +199,30 @@ Pin Code-453111
                     data-caption=""
                     title=""
                   >
-                    <img src="/LNCPSS-GWL.png" class="w-full" alt=""></img>
+                  <div className="flex gap-2 items-center"><p>About Us Us</p> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
+                  </a>
+                </div>
+             
+                <div class="item-img">
+                  <a
+                    href="/assets/images/gallery3.jpg"
+                    data-fancybox="mygallery"
+                    data-caption=""
+                    title=""
+                  >
+                   <div className="flex gap-2 items-center"><p>Contact Us</p> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
+                  </a>
+                </div>
+             
+                <div class="item-img">
+                  <a
+                    href="/assets/images/gallery3.jpg"
+                    data-fancybox="mygallery"
+                    data-caption=""
+                    title=""
+                  >
+               
+                <div className="flex gap-2 items-center"><p>Admissions</p> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
                   </a>
                 </div>
                 <div class="item-img">
@@ -204,79 +232,12 @@ Pin Code-453111
                     data-caption=""
                     title=""
                   >
-                    <img src="/LNCPSS-IND.png" class="w-full" alt=""></img>
+                   <div className="flex gap-2 items-center"><p>FAQ&apos;S</p> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
                   </a>
                 </div>
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/LNMC-BPL.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
-                {/* <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/JDCN-IND.png" class="w-full" alt=""></img>
-                  </a>
-                </div> */}
-                {/* <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/JDCP-IND.png" class="w-full" alt=""></img>
-                  </a>
-                </div> */}
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/LNCP-IND.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
-                <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/LNCPS-IND.png" class="w-full" alt=""></img>
-                  </a>
-                </div>
-                {/* <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/logo1.png" class="w-full" alt=""></img>
-                  </a>
-                </div> */}
-                {/* <div class="item-img">
-                  <a
-                    href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
-                    data-caption=""
-                    title=""
-                  >
-                    <img src="/logo1.png" class="w-full" alt=""></img>
-                  </a>
-                </div> */}
+            
+              
+             
               </div>
             </div>
           </div>
