@@ -14,7 +14,7 @@ export default function Eminent() {
       <div className="w-full h-80 bg-cover capitalize flex justify-center items-center"
         style={{ backgroundImage: `url('/about-banner.jpg')` }}>
         <h2 className="font-bold text-3xl w-4/5 uppercase text-center text-white">
-          Alumni Cell - LNCPS INDORE | Central India&apos;s No. 1 Engineering Institute - Indore
+          Alumni Cell - LNCPS INDORE | Central India&apos;s No. 1 Engineering Institute - Indore India
         </h2>
       </div>
 
