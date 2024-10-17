@@ -109,7 +109,7 @@ export default function NewsDetails({ image, title, content }) {
             onSubmit={handleSubmit}
             className="space-y-4 bg-white p-4  w-full md:w-full shadow-md flex flex-col border-indigo-200  "
           >
-            <h1 className=" text-xl text-[#FF3344] ">Admisson Form</h1>
+            <h1 className=" text-xl text-blue-800 ">Admisson Form</h1>
             <input
               type="text"
               name="applicantName"
@@ -177,7 +177,7 @@ export default function NewsDetails({ image, title, content }) {
         </div>
       </div>
       <div className="border w-full h-[400px]    ">
-        <h1 className="text-5xl p-2 text-center border-b border-blue-700 text-[#FF3344] ">
+        <h1 className="text-5xl p-2 text-center border-b border-blue-700 text-blue-800 ">
           {title}
         </h1>
         <p className="text-l p-2 text-center">{content}</p>

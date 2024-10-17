@@ -246,6 +246,7 @@ export default function Home() {
           height={650}
         />
       </div>
+     
 
       <NumberOne
         img="/number-1.png"
@@ -273,428 +274,136 @@ export default function Home() {
         <ParallaxScroll images={imagess} />
       </div> */}
       <section
-        className="academic-programme mx-auto mt-10 flex justify-center overflow-auto"
-        style={{
-          background: "url('/baggi.jpg')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
-        <div className="container flex flex-col lg:flex-row  items-center bg-opacity-75 bg-[#89131D] h-auto lg:h-[580px] p-4">
-          <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4 overflow-hidden">
-            <ul className="space-y-2 bg-white rounded-xl p-4 w-full lg:w-auto">
-              <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
-                <button
-                  onClick={() => handleTabClick("undergraduate")}
-                  className={`p-4 w-full lg:w-auto text-left nav-link ${
-                    activeTab === "undergraduate" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  Bachelor of Business Administration (BBA)
-                </button>
-              </li>
-              <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
-                <button
-                  onClick={() => handleTabClick("postgraduate")}
-                  className={`p-4 w-full lg:w-auto text-left nav-link ${
-                    activeTab === "postgraduate" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  Bachelor of Commerce (B.Com. - Plain)
-                </button>
-              </li>
-              <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
-                <button
-                  onClick={() => handleTabClick("bcmp")}
-                  className={`p-4 w-full lg:w-auto text-left nav-link ${
-                    activeTab === "bcmp" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  B.Sc. (Chemistry- Mathematics – Physics)
-                </button>
-              </li>
-              <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
-                <button
-                  onClick={() => handleTabClick("bcs")}
-                  className={`p-4 w-full lg:w-auto text-left nav-link ${
-                    activeTab === "bcs" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  B.Sc. (Computer Science – Mathematics – Physics)
-                </button>
-              </li>
-              <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
-                <button
-                  onClick={() => handleTabClick("bah")}
-                  className={`p-4 w-full lg:w-auto text-left nav-link ${
-                    activeTab === "bah" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  BA (History-Hindi-English)
-                </button>
-              </li>
-              <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
-                <button
-                  onClick={() => handleTabClick("bee")}
-                  className={`p-4 w-full lg:w-auto text-left nav-link ${
-                    activeTab === "postgraduate" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  BA (Economics-English-Psychology)
-                </button>
-              </li>
-              <li className="bg-white rounded-lg text-black hover:bg-[#f6820f]">
-                <button
-                  onClick={() => handleTabClick("doctoral")}
-                  className={`p-4 w-full lg:w-auto text-left nav-link ${
-                    activeTab === "doctoral" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  Bachelor of Commerce (B.Com. - Tax)
-                </button>
-              </li>
-              <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
-                <button
-                  onClick={() => handleTabClick("executive")}
-                  className={`p-4 w-full lg:w-auto text-left nav-link ${
-                    activeTab === "executive" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  BJMC – (Print Journalism, Broadcast (Radio and TV) Journalism
-                  and Web Journalism)
-                </button>
-              </li>
-              <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
-                <button
-                  onClick={() => handleTabClick("parttime")}
-                  className={`p-4 w-full lg:w-auto text-left nav-link ${
-                    activeTab === "parttime" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  B.Sc. (BioTechnology-Chemistry-Pharmaceutical Chemistry)
-                </button>
-              </li>
-            </ul>
-          </nav>
-          <div className="tab-content lg:w-3/4 w-full p-4">
-            {activeTab === "undergraduate" && (
-              <article className="tab-pane fade text-black" role="tabpanel">
-                <h2 className="text-white font-bold text-3xl">BBA</h2>
-                <p className="text-white text-justify">
-                  Duration: 3 Years
-                  <br></br>
-                  BBA 1st semester syllabus (click to download)
-                  <br></br>
-                  BBA 2nd semester syllabus (click to download)
-                  <br></br>
-                  BBA 3rd and 4th semester syllabus (click to download)
-                  <div>
-                    <h1>Branch/Specialization</h1>
-                    B.A. (Economics) - Intake 60 Eligibility Criteria: 12th in
-                    any stream Institute: Lakshmi Narain College of Professional
-                    Studies University: Devi Ahilya Vishwavidyalaya Help Line
-                    Number: +91 9752410847
-                  </div>{" "}
-                  (
-                  <a
-                    href="https://josaa.nic.in/"
-                    className="outside-link"
-                    target="_blank"
-                    rel="noreferrer"
-                  ></a>
-                  )
-                </p>
-              </article>
-            )}
-            {activeTab === "postgraduate" && (
-              <article
-                className="tab-pane fade active show text-black"
-                role="tabpanel"
-              >
-                <h2 className="text-white font-bold text-3xl">B.COM</h2>
-                <h4 className="text-white mt-5">M. Tech.</h4>
-                <p className="text-white text-justify">
-                  Duration: 3 Years B.Com. syllabus (click to download)
-                  Foundation Course (click to download)
-                </p>
-                <div>
-                  Branch/Specialization: Bachelor of Commerce (Plain) (60)
-                  Bachelor of Commerce (Tax) (60) Eligibility Criteria: 12th in
-                  any stream (for HONS. minimum 60% marks) Institute: Lakshmi
-                  Narain College of Professional Studies University: Devi Ahilya
-                  Vishwavidyalaya Help Line Number: +91 9752410847 Admission
-                  Procedure: Admissions to various courses of LNCPS are based on
-                  merit positions on the basis of percentage of marks obtained
-                  by the student in the qualifying examination. The candidate is
-                  eligible to apply for the admission only when he/she fulfils
-                  the document requirements for the particular programme in
-                  which the admission is sought. It is the responsibility of the
-                  student to obtain all the relevant information about his/her
-                  eligibility. In case a student who is provisionally admitted
-                  on the basis of the information/documents furnished by him is
-                  found ineligible/fake, The Director/Principal reserves the
-                  right to cancel the admission without any intimation to the
-                  candidate. Documents: Copy of mark sheet of 10th and 12th
-                  class. Transfer Certificate (in original). Migration
-                  Certificate (in original). Character Certificate (in original)
-                  5 Photographs of candidate. 1 Photograph of Father and 1 of
-                  Mother. Caste certificate in case of SC / ST / OBC category.
-                  Minority certificate for minorities. Gap certificate in case
-                  of any gap during study. Reservation: The institute follows
-                  the provisions contained in the constitution of India and the
-                  decision of Supreme Court of India as applicable to
-                  self-financing educational institutions established and
-                  administered by MINORITY COMMUNITY. Refund of Fee: The fee is
-                  non-refundable in case a student takes admission to any of the
-                  academic programs conducted by the institute and deposits the
-                  fee, but subsequently does not join the course or leaves the
-                  course during the Year/Semester.
-                </div>
-                {/* Add content for other postgraduate programs */}
-              </article>
-            )}
-            {activeTab === "doctoral" && (
-              <article className="tab-pane fade text-black" role="tabpanel">
-                <h2 className="text-white font-bold text-3xl">B.COM</h2>
-                <p className="text-white text-justify">
-                  Duration: 3 Years B.Com. 1st, 2nd, 3rd semester syllabus
-                  (click to download) Foundation Course (click to download)
-                </p>
-                <h4 className="text-white mb-4 font-bold text-3xl">
-                  {" "}
-                  Branch/Specialization
-                </h4>
-                <p className="text-white text-justify">
-                  Bachelor of Commerce (Plain) (60) Bachelor of Commerce (Tax)
-                  (60) Eligibility Criteria: 12th in any stream (for HONS.
-                  minimum 60% marks) Institute: Lakshmi Narain College of
-                  Professional Studies University: Devi Ahilya Vishwavidyalaya
-                  Help Line Number: +91 9752410847 Admission Procedure:
-                  Admissions to various courses of LNCPS are based on merit
-                  positions on the basis of percentage of marks obtained by the
-                  student in the qualifying examination. The candidate is
-                  eligible to apply for the admission only when he/she fulfils
-                  the document requirements for the particular programme in
-                  which the admission is sought. It is the responsibility of the
-                  student to obtain all the relevant information about his/her
-                  eligibility. In case a student who is provisionally admitted
-                  on the basis of the information/documents furnished by him is
-                  found ineligible/fake, The Director/Principal reserves the
-                  right to cancel the admission without any intimation to the
-                  candidate. Documents: Copy of mark sheet of 10th and 12th
-                  class. Transfer Certificate (in original). Migration
-                  Certificate (in original). Character Certificate (in original)
-                  5 Photographs of candidate. 1 Photograph of Father and 1 of
-                  Mother. Caste certificate in case of SC / ST / OBC category.
-                  Minority certificate for minorities. Gap certificate in case
-                  of any gap during study. Reservation: The institute follows
-                  the provisions contained in the constitution of India and the
-                  decision of Supreme Court of India as applicable to
-                  self-financing educational institutions established and
-                  administered by MINORITY COMMUNITY. Refund of Fee: The fee is
-                  non-refundable in case a student takes admission to any of the
-                  academic programs conducted by the institute and deposits the
-                  fee, but subsequently does not join the course or leaves the
-                  course during the Year/Semester.
-                </p>
-              </article>
-            )}
-            {activeTab === "executive" && (
-              <article className="tab-pane fade text-black" role="tabpanel">
-                <h2 className="text-white font-bold text-3xl">BJMC</h2>
-                <p className="text-white text-justify">
-                  Duration: 3 Years BJMC syllabus (click to download)
-                </p>
-              </article>
-            )}
+  className="academic-programme mx-auto mt-10 flex justify-center overflow-auto"
+  style={{
+    background: "url('/baggi.jpg')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  }}
+>
+  <div className="container flex flex-col lg:flex-row  items-center bg-opacity-75 bg-[#89131D] h-auto lg:h-[580px] p-4">
+    <nav className="nav flex flex-col lg:w-1/4 w-full lg:items-start items-center p-4 overflow-hidden">
+      <h2 className="text-3xl w-80 text-white text-center font-semibold mb-6">
+        Academic Programme
+      </h2>
+      <ul className="space-y-2 bg-white rounded-xl p-4 w-full lg:w-auto">
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+          <button
+            onClick={() => handleTabClick("undergraduate")}
+            className={`p-4 w-full lg:w-auto text-left nav-link ${
+              activeTab === "undergraduate" ? "active" : ""
+            }`}
+            role="tab"
+          >
+            Bachelor of Business Administration (BBA)
+          </button>
+        </li>
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+          <button
+            onClick={() => handleTabClick("postgraduate")}
+            className={`p-4 w-full lg:w-auto text-left nav-link ${
+              activeTab === "postgraduate" ? "active" : ""
+            }`}
+            role="tab"
+          >
+            Bachelor of Commerce (B.Com. - Plain)
+          </button>
+        </li>
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+          <button
+            onClick={() => handleTabClick("doctoral")}
+            className={`p-4 w-full lg:w-auto text-left nav-link ${
+              activeTab === "doctoral" ? "active" : ""
+            }`}
+            role="tab"
+          >
+          Bachelor of Commerce (B.Com. - Plain)
+          </button>
+        </li>
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+          <button
+            onClick={() => handleTabClick("executive")}
+            className={`p-4 w-full lg:w-auto text-left nav-link ${
+              activeTab === "executive" ? "active" : ""
+            }`}
+            role="tab"
+          >
+          BJMC – (Print Journalism, Broadcast (Radio and TV) Journalism and Web Journalism)
+          </button>
+        </li>
+        <li className="bg-white rounded-lg text-black hover:bg-[#FF3344]">
+          <button
+            onClick={() => handleTabClick("parttime")}
+            className={`p-4 w-full lg:w-auto text-left nav-link ${
+              activeTab === "parttime" ? "active" : ""
+            }`}
+            role="tab"
+          >
+          B.Sc. (BioTechnology-Chemistry-Pharmaceutical Chemistry)
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div className="tab-content lg:w-3/4 w-full p-4">
+      {activeTab === "undergraduate" && (
+        <article className="tab-pane fade text-black" role="tabpanel">
+          <h2 className="text-white font-bold text-3xl">UNDERGRADUATE</h2>
+          <p className="text-white text-justify">
+            Admission to undergraduate courses is made in the autumn semester at the first-year level through JEE (Main) or similar test approved by NIT Council, the counselling for which is done by Joint Seat Allocation Authority (
+            <a
+              href="https://josaa.nic.in/"
+              className="outside-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              JoSAA
+            </a>
+            ) and Central Seat Allocation Board (CSAB) or its equivalent approved by the NIT Council and/or Central Government. Besides, a specified number of foreign nationals selected under the policy of the Government of India may be admitted directly to the 1st-year of any of the programmes.
+          </p>
+        </article>
+      )}
+      {activeTab === "postgraduate" && (
+        <article className="tab-pane fade active show text-black" role="tabpanel">
+          <h2 className="text-white font-bold text-3xl">POSTGRADUATE</h2>
+          <h4 className="text-white mt-5">M. Tech.</h4>
+          <p className="text-white text-justify">
+            The courses leading to M. Tech. degree are open to candidates who have obtained the requisite qualification with 60% marks or 6.50 CGPA in aggregate in the qualifying examination. Admission for the GATE qualified candidates is made through Common Admission Process called Central Counselling for Masters of Technology (CCMT). Relaxation up to 5% of marks or 0.5 CGPA is allowed by senate for sponsored candidates with proven research or profession experience.
+          </p>
+          {/* Add content for other postgraduate programs */}
+        </article>
+      )}
+      {activeTab === "doctoral" && (
+        <article className="tab-pane fade text-black" role="tabpanel">
+          <h2 className="text-white font-bold text-3xl">DOCTORAL</h2>
+          <p className="text-white text-justify">
+            The institute offers various research centric courses in various departments/ Centers like Post Doc, PhD, M.Tech research under various schemes with fellowship and sponsored programs like QIP and self financed.
+          </p>
+          <h4 className="text-white mb-4 font-bold text-3xl">Doctor of Philosophy (Ph.D.)</h4>
+          <p className="text-white text-justify">
+            The Institute provides facilities for research leading to the Degree of Doctor of Philosophy (PhD) in Engineering, Science, Management, Planning and Architecture, Humanities and Social Sciences in various disciplines. Candidates except the members of the Institute faculty, QIP scholars and scholars nominated by the Central Government have to be selected by Departmental Research Committee (DRC) on the basis of their academic background, performance in written test and/or interview.
+          </p>
+        </article>
+      )}
+      {activeTab === "executive" && (
+        <article className="tab-pane fade text-black" role="tabpanel">
+          <h2 className="text-white font-bold text-3xl">EXECUTIVE PH.D.</h2>
+          <p className="text-white text-justify">
+            NIT Rourkela has opened its doors for working professionals by offering programmes which are designed to enable them to pursue their doctorate degree while continuing in their Job/Profession in order to help them to accelerate their career. Candidates with minimum eligibility criteria as per NIT guidelines can apply and they will be selected based upon their academic background, performance in written test and/or interview.
+          </p>
+        </article>
+      )}
+      {activeTab === "parttime" && (
+        <article className="tab-pane fade text-black" role="tabpanel">
+          <h2 className="text-white font-bold text-3xl">PART TIME PROGRAMMES</h2>
+          <p className="text-white text-justify">
+            NIT Rourkela has opened its doors for working professionals. These programmes are designed to enable them to pursue higher study while continuing in their Job/Profession in order to help them to accelerate their career.
+          </p>
+        </article>
+      )}
+    </div>
+  </div>
+</section>
 
-            {activeTab === "bcmp" && (
-              <article className="tab-pane fade text-black" role="tabpanel">
-                <h2 className="text-white font-bold text-3xl">BsC</h2>
-                <p className="text-white text-justify">
-                  Duration: 3 Years Admission criteria – 12th with science for
-                  BSc courses and 12th passed with out science can apply for all
-                  except BSc Chemistry syllabus(click to download) Foundation
-                  Course(click to download) BA Mathematics Scheme of Examination
-                  & Syllabus(click to download) BA Physics Scheme of Examination
-                  & Syllabus(click to download)
-                </p>
-                <div>
-                  Branch/Specialization: B.Sc (Computer Science) (Intake 60)
-                  B.Sc (Biotechnology) (Intake 60) B.Sc (Plain) (Intake 60)
-                  Eligibility Criteria: 12th with Physics-Chemistry-Mathematics/
-                  Physics-Chemistry-Biology Institute: Lakshmi Narain College of
-                  Professional Studies University: Devi Ahilya Vishwavidyalaya
-                  Help Line Number: +91 9752410847 Admission Procedure:
-                  Admissions to various courses of LNCPS are based on merit
-                  positions on the basis of percentage of marks obtained by the
-                  student in the qualifying examination. The candidate is
-                  eligible to apply for the admission only when he/she fulfils
-                  the document requirements for the particular programme in
-                  which the admission is sought. It is the responsibility of the
-                  student to obtain all the relevant information about his/her
-                  eligibility. In case a student who is provisionally admitted
-                  on the basis of the information/documents furnished by him is
-                  found ineligible/fake, The Director/Principal reserves the
-                  right to cancel the admission without any intimation to the
-                  candidate. Documents: Copy of mark sheet of 10th and 12th
-                  class. Transfer Certificate (in original). Migration
-                  Certificate (in original). Character Certificate (in original)
-                  5 Photographs of candidate. 1 Photograph of Father and 1 of
-                  Mother. Caste certificate in case of SC / ST / OBC category.
-                  Minority certificate for minorities. Gap certificate in case
-                  of any gap during study. Reservation: The institute follows
-                  the provisions contained in the constitution of India and the
-                  decision of Supreme Court of India as applicable to
-                  self-financing educational institutions established and
-                  administered by MINORITY COMMUNITY. Refund of Fee: The fee is
-                  non-refundable in case a student takes admission to any of the
-                  academic programs conducted by the institute and deposits the
-                  fee, but subsequently does not join the course or leaves the
-                  course during the Year/Semester.
-                </div>
-              </article>
-            )}
-
-            {activeTab === "bcs" && (
-              <article className="tab-pane fade text-black" role="tabpanel">
-                <h2 className="text-white font-bold text-3xl">BSC</h2>
-                <p className="text-white text-justify">
-                  Duration: 3 Years Admission criteria – 12th with science for
-                  BSc courses and 12th passed with out science can apply for all
-                  except BSc Physics Scheme of Examination & Syllabus(click to
-                  download) Foundation Course(click to download) BA Mathematics
-                  Scheme of Examination & Syllabus(click to download)
-                </p>
-                <div>
-                  Branch/Specialization: B.Sc (Computer Science) (Intake 60)
-                  B.Sc (Biotechnology) (Intake 60) B.Sc (Plain) (Intake 60)
-                  Eligibility Criteria: 12th with Physics-Chemistry-Mathematics/
-                  Physics-Chemistry-Biology Institute: Lakshmi Narain College of
-                  Professional Studies University: Devi Ahilya Vishwavidyalaya
-                  Help Line Number: +91 9752410847 Admission Procedure:
-                  Admissions to various courses of LNCPS are based on merit
-                  positions on the basis of percentage of marks obtained by the
-                  student in the qualifying examination. The candidate is
-                  eligible to apply for the admission only when he/she fulfils
-                  the document requirements for the particular programme in
-                  which the admission is sought. It is the responsibility of the
-                  student to obtain all the relevant information about his/her
-                  eligibility. In case a student who is provisionally admitted
-                  on the basis of the information/documents furnished by him is
-                  found ineligible/fake, The Director/Principal reserves the
-                  right to cancel the admission without any intimation to the
-                  candidate. Documents: Copy of mark sheet of 10th and 12th
-                  class. Transfer Certificate (in original). Migration
-                  Certificate (in original). Character Certificate (in original)
-                  5 Photographs of candidate. 1 Photograph of Father and 1 of
-                  Mother. Caste certificate in case of SC / ST / OBC category.
-                  Minority certificate for minorities. Gap certificate in case
-                  of any gap during study. Reservation: The institute follows
-                  the provisions contained in the constitution of India and the
-                  decision of Supreme Court of India as applicable to
-                  self-financing educational institutions established and
-                  administered by MINORITY COMMUNITY. Refund of Fee: The fee is
-                  non-refundable in case a student takes admission to any of the
-                  academic programs conducted by the institute and deposits the
-                  fee, but subsequently does not join the course or leaves the
-                  course during the Year/Semester.
-                </div>
-              </article>
-            )}
-
-            {activeTab === "bah" && (
-              <article className="tab-pane fade text-black" role="tabpanel">
-                <h2 className="text-white font-bold text-3xl">BA</h2>
-                <p className="text-white text-justify">
-                  Duration: 3 Years BA English Literature Syllabus(click to
-                  download) Foundation Course(click to download) BA Mathematics
-                  Scheme of Examination & Syllabus(click to download)
-                </p>
-                <div>
-                  Branch/Specialization: B.A. (Economics) - Intake 60
-                  Eligibility Criteria: 12th in any stream Institute: Lakshmi
-                  Narain College of Professional Studies University: Devi Ahilya
-                  Vishwavidyalaya Help Line Number: +91 9752410847
-                </div>
-              </article>
-            )}
-
-            {activeTab === "bee" && (
-              <article className="tab-pane fade text-black" role="tabpanel">
-                <h2 className="text-white font-bold text-3xl">BA</h2>
-                <p className="text-white text-justify">
-                  Duration: 3 Years Syllabus Of BA Psychology(click to download)
-                  Foundation Course(click to download) BA Mathematics Scheme of
-                  Examination & Syllabus(click to download)
-                </p>
-                <div>
-                  Branch/Specialization: B.A. (Economics) - Intake 60
-                  Eligibility Criteria: 12th in any stream Institute: Lakshmi
-                  Narain College of Professional Studies University: Devi Ahilya
-                  Vishwavidyalaya Help Line Number: +91 9752410847
-                </div>
-              </article>
-            )}
-
-            {activeTab === "parttime" && (
-              <article className="tab-pane fade text-black" role="tabpanel">
-                <h2 className="text-white font-bold text-3xl">BSC</h2>
-                <p className="text-white text-justify">
-                  Duration: 3 Years Admission criteria – 12th with science for
-                  BSc courses and 12th passed with out science can apply for all
-                  except BSc Biotechnology syllabus (click to download)
-                  Foundation Course (click to download) Pharmaceutical Chemistry
-                  (click to download)
-                </p>
-                <div>
-                  Branch/Specialization: B.Sc (Computer Science) (Intake 60)
-                  B.Sc (Biotechnology) (Intake 60) B.Sc (Plain) (Intake 60)
-                  Eligibility Criteria: 12th with Physics-Chemistry-Mathematics/
-                  Physics-Chemistry-Biology Institute: Lakshmi Narain College of
-                  Professional Studies University: Devi Ahilya Vishwavidyalaya
-                  Help Line Number: +91 9752410847 Admission Procedure:
-                  Admissions to various courses of LNCPS are based on merit
-                  positions on the basis of percentage of marks obtained by the
-                  student in the qualifying examination. The candidate is
-                  eligible to apply for the admission only when he/she fulfils
-                  the document requirements for the particular programme in
-                  which the admission is sought. It is the responsibility of the
-                  student to obtain all the relevant information about his/her
-                  eligibility. In case a student who is provisionally admitted
-                  on the basis of the information/documents furnished by him is
-                  found ineligible/fake, The Director/Principal reserves the
-                  right to cancel the admission without any intimation to the
-                  candidate. Documents: Copy of mark sheet of 10th and 12th
-                  class. Transfer Certificate (in original). Migration
-                  Certificate (in original). Character Certificate (in original)
-                  5 Photographs of candidate. 1 Photograph of Father and 1 of
-                  Mother. Caste certificate in case of SC / ST / OBC category.
-                  Minority certificate for minorities. Gap certificate in case
-                  of any gap during study. Reservation: The institute follows
-                  the provisions contained in the constitution of India and the
-                  decision of Supreme Court of India as applicable to
-                  self-financing educational institutions established and
-                  administered by MINORITY COMMUNITY. Refund of Fee: The fee is
-                  non-refundable in case a student takes admission to any of the
-                  academic programs conducted by the institute and deposits the
-                  fee, but subsequently does not join the course or leaves the
-                  course during the Year/Semester.
-                </div>
-              </article>
-            )}
-          </div>
-        </div>
-      </section>
 
       <AbouttheInstitute />
 
@@ -820,15 +529,12 @@ export default function Home() {
         </div>
       </section>
       <section className="lg:w-11/12 w-full mx-auto mb-10">
-        <div
-          className=" "
-          style={{
+        <div className=" "  style={{
             backgroundImage: "url('/svg/linessvg.svg')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
-          }}
-        >
+          }}>
           <div
             //
             className="flex lg:flex-row flex-col "
@@ -839,7 +545,7 @@ export default function Home() {
               backgroundSize: "cover",
             }}
           >
-            <div className="md:w-full lg:w-1/2 sm:w-full    ">
+          <div className="md:w-full lg:w-1/2 sm:w-full    ">
               {/* <h3 className="font-bold text-3xl p-5 ">
                 Ranking and Recognition &nbsp; &nbsp;&nbsp;
                 <Link href="/ranking" className="text-sm">
@@ -847,8 +553,10 @@ export default function Home() {
                 </Link>
               </h3> */}
               <Image
+
                 className="duration-200 px-5 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
                 src={images[currentSlide]}
+
                 alt="Hero Image"
                 width={700}
                 height={650}

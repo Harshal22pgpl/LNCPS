@@ -106,42 +106,42 @@ const EventMain = () => {
       title: "STEM Education Program",
       description:
         "Our program emphasizes Science, Technology, Engineering, and Mathematics (STEM) education, fostering critical thinking and problem-solving skills.",
-      bgColor: "bg-yellow-400",
+      bgColor: "bg-#fecce3",
       textColor: "text-white",
     },
     {
       title: "Creative Arts Workshop",
       description:
         "Our workshop encourages exploration in various creative arts such as painting, sculpting, music, and drama, fostering self-expression and imagination.",
-      bgColor: "bg-yellow-300",
+      bgColor: "bg-#fecce3",
       textColor: "text-black",
     },
     {
       title: "STEM Education Program",
       description:
         "Our program emphasizes Science, Technology, Engineering, and Mathematics (STEM) education, fostering critical thinking and problem-solving skills.",
-      bgColor: "bg-yellow-400",
+      bgColor: "bg-#fecce3",
       textColor: "text-white",
     },
     {
       title: "Creative Arts Workshop",
       description:
         "Our workshop encourages exploration in various creative arts such as painting, sculpting, music, and drama, fostering self-expression and imagination.",
-      bgColor: "bg-yellow-300",
+      bgColor: "bg-#fecce3",
       textColor: "text-black",
     },
     {
       title: "STEM Education Program",
       description:
         "Our program emphasizes Science, Technology, Engineering, and Mathematics (STEM) education, fostering critical thinking and problem-solving skills.",
-      bgColor: "bg-yellow-400",
+      bgColor: "bg-#fecce3",
       textColor: "text-white",
     },
     {
       title: "Creative Arts Workshop",
       description:
         "Our workshop encourages exploration in various creative arts such as painting, sculpting, music, and drama, fostering self-expression and imagination.",
-      bgColor: "bg-yellow-300",
+      bgColor: "bg-#fecce3",
       textColor: "text-black",
     },
     // Add more card details as needed

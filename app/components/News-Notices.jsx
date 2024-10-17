@@ -157,7 +157,7 @@ const ListItem = ({ item }) => {
   }).format(new Date(endDate));
   return (
     <li className="border-gray-400 flex flex-col">
-      <Link href={`/events/${uuid}`}>
+      <Link href={`/details-notice/${uuid}`}>
         <div className="w-full flex gap-2 px-2">
           <div className="w-full justify-center p-2 items-start flex flex-col">
             <h1 className="text-sm font-bold text-black hover:text-gray-600">

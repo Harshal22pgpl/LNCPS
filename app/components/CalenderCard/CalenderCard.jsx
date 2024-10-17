@@ -11,7 +11,7 @@ export default function CalenderCard({ year, title, link }) {
       <h2 className="text-sm text-gray-400">{title}</h2>
       <Link
         href={link}
-        className="bg-[#FF3344] hover:bg-[#fd8d1d] flex items-center justify-center gap-3 p-1 rounded-md "
+        className="bg-blue-700 hover:bg-blue-500 flex items-center justify-center gap-3 p-1 rounded-md "
       >
         {" "}
         <FaDownload /> Download

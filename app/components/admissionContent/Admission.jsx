@@ -48,6 +48,8 @@ const AdmissionForm = () => {
     }
   };
 
+  const Branches=["CSE","IT","EE","EC","ME","EC"]
+
  
 
   return (
@@ -63,7 +65,7 @@ const AdmissionForm = () => {
                 onSubmit={handleSubmit}
                 className="space-y-4 bg-white p-6 w-full md:w-80 lg:w-[600px] border-2 shadow-md flex flex-col border-indigo-200 rounded-xl"
               >
-                <h1 className="text-xl bg-clip-text bg-gradient-to-r to-yellow-600 from-pink-400">
+                <h1 className="text-xl bg-clip-text bg-gradient-to-r to-#fecce3 from-pink-400">
                   Admission Form
                 </h1>
                 <input
@@ -119,23 +121,34 @@ const AdmissionForm = () => {
                   className="border border-gray-300 rounded-md px-4 py-2"
                 >
                   <option value="" disabled>
-                    Which Year you are intrested in
+                    Which Branch you are intrested in
                   </option>
-                  {Array.from({ length: 4 }, (_, i) => i + 1).map((value) => (
+                  {/* {Array.from({ length: 4 }, (_, i) => i + 1).map((value) => (
                     <option key={value} value={value}>
                       Year {value}
                     </option>
-                  ))}
+                  ))} */}
+
+                  {
+                    Branches.map((value)=>(
+                      <option key={value} value={value}>
+                      {value}
+                    </option>
+                    ))
+                  }
+                  
+                  
+
                 </select>
-                <input
+                {/* <input
                   type="text"
                   name="previousSchool"
                   value={formData.previousSchool}
-                  placeholder="Previous School"
+                  placeholder=""
                   onChange={handleChange}
                   required
                   className="border border-gray-300 rounded-md px-4 py-2"
-                />
+                /> */}
                 <select
                   name="busRequired"
                   placeholder='Bus'
@@ -192,7 +205,7 @@ const AdmissionForm = () => {
                   className="text-white  hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-200 shadow-lg shadow-green-100 dark:shadow-lg dark:shadow-green-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
                   style={{ background: "blue" }}
                 >
-                  <Link href="/about"> About Us</Link>
+                  <Link href="/institute/contact"> Contact Support</Link>
                 </button>
               </div>
             </div>

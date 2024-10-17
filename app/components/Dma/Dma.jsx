@@ -38,7 +38,7 @@ export default function Dma() {
               </p>
               <div className=" text-end  px-10 mt-10 ">
                 <h4 className="text-xl font-semibold text-gray-900">
-                  Name of Director
+                  Mr.Suparbhat Chouksey
                 </h4>
                 <p className="text-base font-medium text-gray-600">
                   Director, SKC-LNCPS

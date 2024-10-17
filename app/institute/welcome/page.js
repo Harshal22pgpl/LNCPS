@@ -7,7 +7,6 @@ export default function page() {
   return (
     <>
 
-
       <div
         className="w-full border-2 h-96 flex justify-center  items-center"
         style={{
@@ -17,9 +16,6 @@ export default function page() {
       >
         <h1 className=" uppercase font-bold text-5xl">welcome to -LNCPS</h1>
       </div>
-
-   
-  
       <div
         className="w-full h-screen  "
         style={{ height: "calc(100vh - 60px)" }}
@@ -27,7 +23,7 @@ export default function page() {
         <div className="w-full flex px-5 py-5  gap-5">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" tracking-[10px] text-lg text-[#FF3344]">WELCOME TO</h2>
+              <h2 className=" tracking-[10px] text-lg text-blue-800">WELCOME TO</h2>
               <h1 className="my-6 text-4xl  font-bold"> LNCPS INDORE</h1>
 
               <p className=" mt-2 font-extralight text-sm  text-justify">
@@ -40,9 +36,9 @@ export default function page() {
               </p>
 
               <p className=" mt-2 font-extralight text-sm text-justify">
-              Welcome to the Lakshmi Narain College of Professional Studies, where academic excellence meets real-world application. Our programs are designed to equip students with the skills and knowledge needed to excel in today's dynamic professional landscape.
+              Welcome to the Lakshmi Narain College of Professional Studies, where academic excellence meets real-world application. Our programs are designed to equip students with the skills and knowledge needed to excel in today is dynamic professional landscape.
               With a focus on interdisciplinary learning, practical experience, and innovation, we offer a wide range of undergraduate and graduate programs tailored to meet the needs of diverse industries. Our faculty comprises experienced professionals and scholars dedicated to fostering a learning environment that encourages critical thinking, collaboration, and personal growth.
-              Whether you're advancing your current career or embarking on a new professional journey, 
+              Whether you are advancing your current career or embarking on a new professional journey, 
               the College of Professional Studies is committed to helping you achieve your goals
               </p>
             </div>

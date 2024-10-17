@@ -25,15 +25,15 @@ export default function EContent() {
     <div className="w-full mx-auto flex relative">
         <div className="w-2/3 px-10 pt-[36px]  grid grid-cols-3  gap-5 justify-evenly pb-10 ">
           <RuleCard
-            bgcolor="bg-[#C80D1D]"
+            bgcolor="bg-yellow-300"
             link="https://drive.google.com/file/d/18MapckiDFWLhtZuMhEj4d5Pcx5ReHUIw/view?usp=sharing"
             heading="Pahal 1"
           />
           <RuleCard bgcolor="bg-green-200" link="https://drive.google.com/file/d/1f2rMc8Tt1WJWCAgDJV6IjNleinyeSwlL/view" heading="Pahal 2 " />
           <RuleCard bgcolor="bg-gray-200" link="https://drive.google.com/file/d/1KNcGwpKq6B1dIrpO5x5ADGCnM3TaE3o8/view" heading="Pahal 3" />
-          <RuleCard bgcolor="bg-[#89131D]" link="https://drive.google.com/file/d/1BABCug7-rijbPa5tS1u5l6pRPulWiDqE/view?usp=sharing" heading="Pahal 4" />
+          <RuleCard bgcolor="bg-blue-800" link="https://drive.google.com/file/d/1BABCug7-rijbPa5tS1u5l6pRPulWiDqE/view?usp=sharing" heading="Pahal 4" />
           <RuleCard bgcolor="bg-pink-200" link="https://drive.google.com/file/d/1TvZlbth4wsHYpvb_ONPTe4ztM7RdH-cf/view?usp=sharing" heading="Pahal 5" />
-          <RuleCard bgcolor="bg-[#FFC5CA]" link="https://drive.google.com/file/d/1roUsXEyLey_mWMfS4F3EzxzQLpPgRj5o/view?usp=sharing" heading="Pahal 6" />
+          <RuleCard bgcolor="bg-purple-300" link="https://drive.google.com/file/d/1roUsXEyLey_mWMfS4F3EzxzQLpPgRj5o/view?usp=sharing" heading="Pahal 6" />
         </div>
         <div className="w-1/3 h-[600px] sticky top-20 left-0 p-10 ">
           <div className="relative h-full ">
@@ -50,13 +50,13 @@ export default function EContent() {
     <div className="w-full mx-auto flex relative">
         <div className="w-2/3 px-10 pt-[36px]  grid grid-cols-3  gap-5 justify-evenly pb-10 ">
           <RuleCard
-            bgcolor="bg-[#C80D1D]"
+            bgcolor="bg-yellow-300"
             link="https://drive.google.com/file/d/18MapckiDFWLhtZuMhEj4d5Pcx5ReHUIw/view?usp=sharing"
             heading="Pahal 1"
           />
           <RuleCard bgcolor="bg-green-200" link="https://drive.google.com/file/d/1f2rMc8Tt1WJWCAgDJV6IjNleinyeSwlL/view" heading="Pahal 2 " />
           <RuleCard bgcolor="bg-gray-200" link="https://drive.google.com/file/d/1KNcGwpKq6B1dIrpO5x5ADGCnM3TaE3o8/view" heading="Pahal 3" />
-          <RuleCard bgcolor="bg-[#89131D]" link="https://drive.google.com/file/d/1BABCug7-rijbPa5tS1u5l6pRPulWiDqE/view?usp=sharing" heading="Pahal 4" />
+          <RuleCard bgcolor="bg-blue-800" link="https://drive.google.com/file/d/1BABCug7-rijbPa5tS1u5l6pRPulWiDqE/view?usp=sharing" heading="Pahal 4" />
           <RuleCard bgcolor="bg-pink-200" link="https://drive.google.com/file/d/1TvZlbth4wsHYpvb_ONPTe4ztM7RdH-cf/view?usp=sharing" heading="Pahal 5" />
           <RuleCard bgcolor="bg-[#FFC5CA]" link="https://drive.google.com/file/d/1roUsXEyLey_mWMfS4F3EzxzQLpPgRj5o/view?usp=sharing" heading="Pahal 6" />
         </div>

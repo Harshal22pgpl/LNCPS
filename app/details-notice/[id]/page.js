@@ -1,7 +1,7 @@
 import { api } from "@/app/lib/middleware/apiInceptor";
 import { NEWS, NOTICES } from "@/app/lib/services";
 import React from "react";
-import NoticeDetails from "../../Notice/NoticeDetails";
+import NoticeDetails from "@/app/components/Notice/NoticeDetails";
 
 export default async function page({ params }) {
   const res = await api.get(`${NOTICES}/${params.id}`);
@@ -10,7 +10,7 @@ export default async function page({ params }) {
   return (
     <div>
       <NoticeDetails
-        image={notice.imageUrl}
+        image={notice.file}
         title={notice.title}
         content={notice.description}
       />
