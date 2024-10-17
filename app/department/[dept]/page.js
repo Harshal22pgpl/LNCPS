@@ -6,7 +6,7 @@ export default function page({params}) {
   return (
    <>
    <div>
-    <DeptEr dept={dept}/>
+    <DeptEr dept={dept} deps={dept}/>
    </div>
    </>
   )

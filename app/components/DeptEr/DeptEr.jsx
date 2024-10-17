@@ -13,7 +13,7 @@ import FacultyCard from "../FacultyCard/FacultyCard";
 import Curriculumn from "../Curriculumn/Curriculumn";
 // import { useState } from "react/cjs/react.development";
 
-export default function DeptEr({ dept }) {
+export default function DeptEr({ dept,deps }) {
   const images = ["/ar-3.jpg"];
   const counter = [
     {
@@ -128,6 +128,13 @@ export default function DeptEr({ dept }) {
           degree: "Ph.D Pursuing, M.Sc(BioChemistry),B.Sc",
           experience: "1 years",
         },
+        {
+          image: "",
+          name: "Prof Monika Lal",
+          position: "Assistant Professor",
+          degree: " Ph.D Pursuing ,UGC NET, M.Sc(BioTechnology),B.Sc",
+          experience: "",
+        },
         // Add more faculty members as needed
       ];
 
@@ -164,36 +171,35 @@ export default function DeptEr({ dept }) {
           degree: "M.A,M.Com, PGDM",
           experience: "1 years",
         },
-        // { image: "",
-        //   name: "Prof.Bhagat Singh Dawar",
-        //   position: "Assistant Professor",
-        //   degree: "- Ph.D.Pursuing,  M.A (Economics) B.Ed",
-        //   experience: "2 years",
-        // },
+        { image: "",
+          name: "Prof.Prabhat Mishra",
+          position: "Assistant Professor",
+          degree: " MA (Hindi) , BA",
+          experience: "",
+        },
         // Add more faculty members as needed
       ];
 
       break;
     case "eet":
       slogan =
-        "Powering Innovation, Electrifying the Future: Harness the Potential with Electrical Engineering!";
-      author = "DILIP SAHASTRABUDHE";
+        "Empowering Voices, Shaping Truth.";
+      author = "Prof. Krishna Patel";
       deptImg = "/dept-m-v.jpg";
-      aboutDept =
-        "The Electrical Engineering (EE) Department at -LNCPS,indore is a center of excellence, dedicated to the study and advancement of electrical systems and technologies. Our curriculum is designed to provide students with a deep understanding of electrical circuits, power systems, control engineering, and renewable energy technologies. Through hands-on laboratory work, innovative research projects, and industry partnerships, students gain practical skills and real-world experience that prepare them for the challenges of the electrical engineering field. Our distinguished faculty, renowned for their research contributions and industry expertise, are committed to mentoring students and fostering an environment of intellectual growth and innovation. The EE Department is devoted to developing the next generation of electrical engineers who will lead advancements in technology and contribute to sustainable solutions for a better future.";
+      aboutDept ="The Department of Journalism is dedicated to cultivating skilled communicators and critical thinkers who can navigate the evolving media landscape with integrity and precision. By offering a curriculum that blends theoretical foundations with hands-on training, the department equips students with the tools to excel in diverse media platforms, from traditional print to digital journalism. Courses emphasize the importance of ethics, accuracy, and storytelling, ensuring graduates are prepared to report on complex issues with clarity and responsibility. Through a focus on investigative reporting, media law, and multimedia production, the department prepares students to become informed, impactful journalists in a rapidly changing world.";
       dept = "Journalism";
-      headD = "MR.DILIP SAHASTRABUDHE";
-      headImg = "/exhod.jpg";
-      phoneHead = "7509974000";
-      emailHead = "hodex.LNCPS@LNCPSindore.com,";
+      headD = "Prof. Krishna Patel";
+      headImg = "/krishna.jpg";
+      phoneHead = "";
+      emailHead = "";
       faculties = [
-        {
-          image: "",
-          name: "MS. GARIMA MAHESHWARI",
-          position: "Assistant Professor",
-          degree: "M.E.",
-          experience: "9 years",
-        },
+        // {
+        //   image: "",
+        //   name: "MS. GARIMA MAHESHWARI",
+        //   position: "Assistant Professor",
+        //   degree: "M.E.",
+        //   experience: "9 years",
+        // },
         // {
         //   name: "Jane Smith",
         //   position: "Data Scientist",
@@ -211,38 +217,38 @@ export default function DeptEr({ dept }) {
 
       break;
     case "it":
-      slogan = "dfsghj slogan";
-      author = "author slogan";
+      slogan = "Leading with Vision, Succeeding with Strategy.";
+      author = "Dr.Mumuksha Jain";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "dfvbgsnha";
+      aboutDept = "The Department of Management plays a pivotal role in shaping future leaders by providing a comprehensive understanding of business operations, strategic decision-making, and leadership principles. Through a blend of theoretical knowledge and practical application, the department equips students with the necessary skills to thrive in a dynamic and competitive business environment. Its curriculum focuses on areas such as organizational behavior, human resources, finance, and marketing, ensuring a holistic development of managerial competencies. The department fosters critical thinking, innovation, and ethical decision-making, preparing graduates to excel in various industries and contribute meaningfully to their organizations.";
       dept = "Dept. Of Management";
-      headD = "Head Dept";
-      headImg = "/director.png";
+      headD = "Dr.Mumuksha Jain";
+      headImg = "/mumuksha.jpg";
       phoneHead = "1234567890";
       emailHead = "abc@gmail.com";
       faculties = [
         {
-          image: "",
-          name: "John Doe",
-          position: "Software Engineer",
-          degree: "Bachelors in Computer Science",
+          image: "/jayant.jpg",
+          name: "prof. Adv. Jayant Chourey",
+          position: "Assistant Professor ",
+          degree: "",
           experience: "5 years",
         },
         {
           image: "",
-          name: "Jane Smith",
-          position: "Data Scientist",
-          degree: "Masters in Data Science",
-          experience: "3 years",
+          name: "Prof. Rimjhim Kushwah",
+          position: "Assistant Professor",
+          degree: "",
+          experience: "",
         },
-        {
-          image: "",
-          name: "Emily Johnson",
-          position: "Project Manager",
-          degree: "MBA",
-          experience: "7 years",
+        // {
+        //   image: "",
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
 
-        },
+        // },
         // Add more faculty members as needed
       ];
 
@@ -252,6 +258,95 @@ export default function DeptEr({ dept }) {
       break;
   }
  const [active, setActive] = useState(0)
+
+
+
+ let deptImgs;
+ let mission;
+ let vision;
+ 
+ switch (deps) {
+   case "me":
+     deptImgs = "/civil-img.jpg";
+     mission = "To impart knowledge and equip students with skills for generating quality civil engineering professionals with high ethical standards; carry out innovative research and consultancy projects to design, build and maintain civil engineering infrastructure ensuring environmental health and quality life.";
+     vision = "To become a frontier in civil engineering education and research, which will serve the society with sustainable infrastructure and superior environmental health.";
+     break;
+   
+   case "cse":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "ece":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "eet":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "it":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "og":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "pm":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "pfm":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "rep":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "pharm":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "anotomy":
+     deptImgs = "/mechanical-img.jpg";
+     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     break;
+   
+   case "surgery":
+     deptImgs = "/electrical-img.jpg";
+     mission = "To produce skilled electrical engineers who can innovate and contribute to the development of sustainable energy solutions.";
+     vision = "To lead in electrical engineering education and research for a sustainable and technologically advanced future.";
+     break;
+   
+   default:
+     deptImgs = "/default-img.jpg";
+     mission = "Default Mission";
+     vision = "Default Vision";
+ }
+
+
+
+
  const buttons=[
   'About The Department','Course-curriculmn','Labs Facility','Faculty','Academic Programmes'
  ]
@@ -330,37 +425,26 @@ export default function DeptEr({ dept }) {
               />
             </div>
           </div>
-          <div className="w-2/5  flex flex-col gap-10 py-20 justify-between ">
-            <div className="w-11/12 mx-auto  flex flex-col gap-4">
-              <div className="flex  items-center gap-2">
-                <Image src="/mission-icon.png" width={70} height={20} alt="h" />{" "}
-                <h1 className="text-2xl font-bold">Mission</h1>
-              </div>
-              <div>
-                <p className="text-sm font-extralight">
-                  To impart knowledge and equip students with skills for
-                  generating quality civil engineering professionals with high
-                  ethical standards; carry out innovative research and
-                  consultancy projects to design, build and maintain civil
-                  engineering infrastructure ensuring environmental health and
-                  quality life.
-                </p>
-              </div>
-            </div>
-            <div className="w-11/12 mx-auto  flex flex-col gap-4">
-              <div className="flex  items-center gap-2">
-                <Image src="/vision-icon.png" width={70} height={20} alt="h" />{" "}
-                <h1 className="text-2xl font-bold">Vision</h1>
-              </div>
-              <div>
-                <p className="text-sm font-extralight">
-                  To become frontier in civil engineering education and
-                  research, which will serve the society with most sustainable
-                  infrastructure and superior environmental health.
-                </p>
-              </div>
-            </div>
-          </div>
+          <div className="w-2/5 flex flex-col gap-10 py-20 justify-between">
+                  <div className="w-11/12 mx-auto flex flex-col gap-4">
+                    <div className="flex items-center gap-2">
+                      <Image src="/mission-icon.png" width={70} height={20} alt="Mission Icon" />
+                      <h1 className="text-2xl font-bold">Mission</h1>
+                    </div>
+                    <div>
+                      <p className="text-sm font-extralight">{mission}</p>
+                    </div>
+                  </div>
+                  <div className="w-11/12 mx-auto flex flex-col gap-4">
+                    <div className="flex items-center gap-2">
+                      <Image src="/vision-icon.png" width={70} height={20} alt="Vision Icon" />
+                      <h1 className="text-2xl font-bold">Vision</h1>
+                    </div>
+                    <div>
+                      <p className="text-sm font-extralight">{vision}</p>
+                    </div>
+                  </div>
+                </div>
         </div>
             </div>
           )

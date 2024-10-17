@@ -10,7 +10,7 @@ export default function page() {
       <div>
         {/* <SliderMain images={images} className="" /> */}
       </div>
-      <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
+      {/* <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg"> */}
         <div className="w-2/3 px-10 py-10 grid grid-cols-2 gap-10 ">
           <DocCard link="#" heading="Annual Reports 2022-23" />
           <DocCard link="#" heading="Annual Reports 2022-23" />
@@ -25,7 +25,7 @@ export default function page() {
           <RelatedLink />
         </div>
       </div>
-    </div>
+   
   );
 }
 
