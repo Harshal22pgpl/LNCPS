@@ -224,19 +224,19 @@ export default function Navbar() {
       values: [
         {
           name: "Anti-Ragging Committee",
-          link: "/institute/fc",
+          link: "/institute/antiragging",
         },
         {
           name: "Website Committee",
-          link: "/institute/fc",
+          link: "/institute/websitecommittee",
         },
         {
           name: "Exam Committee",
-          link: "/institute/fc",
+          link: "/institute/examcommittee",
         },
         {
           name: "NCC",
-          link: "/institute/fc",
+          link: "/institute/nccandnsscommittee",
         },
         {
           name: "NSS",
@@ -469,19 +469,19 @@ export default function Navbar() {
             },
           ],
         },
-        {
-          name: "Other Important Links",
-          subchild: [
-            {
-              name: "Digital Payments",
-              link: "https://www.pratibhaglobalschool.com/payments/login/40e032b8-a995-47ab-a854-c3aec4812c0e",
-            },
-            {
-              name: "DAVV Regulations",
-              link: "https://forms-peach.vercel.app/",
-            },
-          ],
-        },
+        // {
+        //   name: "Other Important Links",
+        //   subchild: [
+        //     {
+        //       name: "Digital Payments",
+        //       link: "https://www.pratibhaglobalschool.com/payments/login/40e032b8-a995-47ab-a854-c3aec4812c0e",
+        //     },
+        //     {
+        //       name: "DAVV Regulations",
+        //       link: "https://forms-peach.vercel.app/",
+        //     },
+        //   ],
+        // },
       ],
     },
     {
@@ -494,14 +494,14 @@ export default function Navbar() {
               name: "Academic Overview",
               link: "/academic/overview",
             },
-            {
-              name: "Academic Programs",
-              link: "/academic/programs",
-            },
-            {
-              name: "Academic Regulations",
-              link: "/students/rules_regulations",
-            },
+            // {
+            //   name: "Academic Programs",
+            //   link: "/academic/programs",
+            // },
+            // {
+            //   name: "Academic Regulations",
+            //   link: "/students/rules_regulations",
+            // },
             {
               name: "Academic Calendar",
               link: "/academic/calender",
@@ -577,26 +577,45 @@ export default function Navbar() {
           subchild: [
             {
               name: "Anti-Ragging Committee",
-              link: "/institute/fc",
+              link: "/institute/antiragging",
             },
             {
               name: "Website Committee",
-              link: "/institute/fc",
+              link: "/institute/websitecommittee",
             },
             {
               name: "Exam Committee",
-              link: "/institute/fc",
+              link: "/institute/examcommittee",
             },
             {
-              name: "NCC",
-              link: "/institute/fc",
+              name: "NCC NSS & Sports Committee",
+              link: "/institute/nccandnsscommittee",
             },
-            {
-              name: "NSS",
-              link: "/institute/fc",
-            },
+            
           ],
         },
+        {
+          name: "",
+          subchild:[
+            {
+              name: "Cultural & Youth Festival Committee",
+              link: "/institute/culturalcommittee",
+            },
+            {
+              name: "Research & Development Committee",
+              link: "/institute/researchcommittee",
+            },
+            {
+              name: "Women Development Cell",
+              link: "/institute/womendevelopmentcommittee",
+            },
+            {
+              name: "Alumni Committee",
+              link: "/institute/alumnicommittee",
+            },
+
+          ]
+        }
         // {
         //   name: "Departments",
         //   subchild: [
@@ -1093,7 +1112,7 @@ export default function Navbar() {
                       dropdownLeft = "left-[-460px]";
                       break;
                     case "College Committees":
-                      dropdownWidth = "w-[300px]";
+                      dropdownWidth = "w-[500px]";
                       dropdownLeft = "left-[-460px]";
                       break;
                     case "Students":

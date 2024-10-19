@@ -9,6 +9,7 @@ import { FaHeadphones } from "react-icons/fa6";
 import { FaRoad } from "react-icons/fa";
 import { IoMdTrain } from "react-icons/io";
 import { IoAirplane } from "react-icons/io5";
+import Link from "next/link";
 
 export default function Contact() {
   const images = ["/baggi.jpg", "/mainImg.jpeg", "/baggi.jpg"];
@@ -67,7 +68,14 @@ export default function Contact() {
             </div>
           </div>
           <div className="w-full   p-2 flex justify-between gap-2  ">
-            <div className="w-1/2 "></div>
+          <div className="w-full ">
+            <Link target="_blank" href="https://maps.app.goo.gl/G75DFbdWEzBhw4sh7">
+            <Image
+            src="/maplncps.png" alt='map' width={500} height={500} className=" w-full " 
+            />
+            </Link>
+            </div>
+            {/* <div className="w-1/2 "></div>
             <div className="w-1/2  bg-gray-100 p-2">
               <h1 className="p-2 text-black font-semibold text-xl my-3 ">
                 How to Reach  LNCPS
@@ -121,7 +129,7 @@ export default function Contact() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-full flex justify-center items-center p-4">
             <table className="">

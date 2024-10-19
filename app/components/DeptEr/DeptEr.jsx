@@ -200,12 +200,12 @@ export default function DeptEr({ dept,deps }) {
         //   degree: "M.E.",
         //   experience: "9 years",
         // },
-        // {
-        //   name: "Jane Smith",
-        //   position: "Data Scientist",
-        //   degree: "Masters in Data Science",
-        //   experience: "3 years",
-        // },
+        {
+          name: "uploading soon ",
+          position: "",
+          degree: "",
+          experience: "",
+        },
         // {
         //   name: "Emily Johnson",
         //   position: "Project Manager",
@@ -268,20 +268,20 @@ export default function DeptEr({ dept,deps }) {
  switch (deps) {
    case "me":
      deptImgs = "/civil-img.jpg";
-     mission = "To impart knowledge and equip students with skills for generating quality civil engineering professionals with high ethical standards; carry out innovative research and consultancy projects to design, build and maintain civil engineering infrastructure ensuring environmental health and quality life.";
-     vision = "To become a frontier in civil engineering education and research, which will serve the society with sustainable infrastructure and superior environmental health.";
+     mission = "The Commerce Department's mission for students is to empower future business leaders with strong foundations in economics, finance, and trade. We focuses on building practical skills, fostering entrepreneurship, and preparing students for global careers in business. Through hands-on learning, industry exposure, and digital innovation, students are equipped to thrive in the fast-paced world of commerce and drive economic growth.";
+     vision = "The vision of the Commerce Department is to create a hub of future-ready business leaders by providing innovative education, fostering entrepreneurial spirit, and driving global business insights. It aims to shape students into dynamic professionals through cutting-edge curricular, industry partnerships, and digital transformation, while continuously evolving as a center for commerce research and economic development.";
      break;
    
    case "cse":
      deptImgs = "/mechanical-img.jpg";
-     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
-     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     mission = "The mission of the Science Department is to provide a dynamic and rigorous academic environment that fosters curiosity, critical thinking, and scientific inquiry. We are committed to equipping students with a strong foundation in scientific principles and the skills needed to excel in research, innovation, and practical applications of science. By offering hands-on laboratory experiences, interdisciplinary learning opportunities, and exposure to cutting-edge technologies, we aim to develop scientifically literate graduates who are prepared to address real-world challenges. Our department strives to cultivate a passion for discovery, problem-solving, and ethical responsibility in the pursuit of knowledge that benefits society";
+     vision = "The vision of the Science Department is to be a leader in scientific education and research, recognized for fostering innovation, collaboration, and a deep understanding of the natural world. We aspire to create an academic community where students and faculty engage in transformative learning and groundbreaking research that pushes the boundaries of scientific knowledge. Through our commitment to excellence, interdisciplinary approaches, and global awareness, we aim to produce graduates who are not only proficient in their scientific disciplines but also capable of addressing complex global challenges, contributing to sustainable development, and improving the quality of life for future generations.";
      break;
    
    case "ece":
      deptImgs = "/mechanical-img.jpg";
-     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
-     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+     mission = "Making the arts accessible, inclusive, and meaningful through diverse approaches to creative and technological innovation, integrated with visual, oral, and written communication.";
+     vision = "The Department of Art and Design will lead in promoting the visual arts by fostering critical and creative thinking, artistic expression, effective communication, cultural awareness, and community engagement.";
      break;
    
    case "eet":
@@ -296,47 +296,47 @@ export default function DeptEr({ dept,deps }) {
      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
      break;
    
-   case "og":
-     deptImgs = "/mechanical-img.jpg";
-     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
-     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
-     break;
+  //  case "og":
+  //    deptImgs = "/mechanical-img.jpg";
+  //    mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+  //    vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+  //    break;
    
-   case "pm":
-     deptImgs = "/mechanical-img.jpg";
-     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
-     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
-     break;
+  //  case "pm":
+  //    deptImgs = "/mechanical-img.jpg";
+  //    mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+  //    vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+  //    break;
    
-   case "pfm":
-     deptImgs = "/mechanical-img.jpg";
-     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
-     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
-     break;
+  //  case "pfm":
+  //    deptImgs = "/mechanical-img.jpg";
+  //    mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+  //    vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+  //    break;
    
-   case "rep":
-     deptImgs = "/mechanical-img.jpg";
-     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
-     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
-     break;
+  //  case "rep":
+  //    deptImgs = "/mechanical-img.jpg";
+  //    mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+  //    vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+  //    break;
    
-   case "pharm":
-     deptImgs = "/mechanical-img.jpg";
-     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
-     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
-     break;
+  //  case "pharm":
+  //    deptImgs = "/mechanical-img.jpg";
+  //    mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+  //    vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+  //    break;
    
-   case "anotomy":
-     deptImgs = "/mechanical-img.jpg";
-     mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
-     vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
-     break;
+  //  case "anotomy":
+  //    deptImgs = "/mechanical-img.jpg";
+  //    mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+  //    vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+  //    break;
    
-   case "surgery":
-     deptImgs = "/electrical-img.jpg";
-     mission = "To produce skilled electrical engineers who can innovate and contribute to the development of sustainable energy solutions.";
-     vision = "To lead in electrical engineering education and research for a sustainable and technologically advanced future.";
-     break;
+  //  case "surgery":
+  //    deptImgs = "/electrical-img.jpg";
+  //    mission = "To produce skilled electrical engineers who can innovate and contribute to the development of sustainable energy solutions.";
+  //    vision = "To lead in electrical engineering education and research for a sustainable and technologically advanced future.";
+  //    break;
    
    default:
      deptImgs = "/default-img.jpg";
@@ -348,7 +348,7 @@ export default function DeptEr({ dept,deps }) {
 
 
  const buttons=[
-  'About The Department','Course-curriculmn','Labs Facility','Faculty','Academic Programmes'
+  'About The Department','Course-curriculmn','Mission-Vision','Faculty','Academic Programmes'
  ]
   return (
     <>

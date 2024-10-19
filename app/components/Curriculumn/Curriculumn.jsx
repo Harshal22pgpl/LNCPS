@@ -12,18 +12,22 @@ export default function page() {
       </div>
       {/* <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg"> */}
         <div className="w-2/3 px-10 py-10 grid grid-cols-2 gap-10 ">
-          <DocCard link="#" heading="Annual Reports 2022-23" />
-          <DocCard link="#" heading="Annual Reports 2022-23" />
-          <DocCard link="#" heading="Annual Reports 2022-23" />
-          <DocCard link="#" heading="Annual Reports 2022-23" />
-          <DocCard link="#" heading="Annual Reports 2022-23" />
-          <DocCard link="#" heading="Annual Reports 2022-23" />
-          <DocCard link="#" heading="Annual Reports 2022-23" />
+          <DocCard link="https://highereducation.mp.gov.in/?page=QSRWBX4XV1SKua0BJW%2Fjyw%3D%3D&leftid=JUL9t1LHqftaDqryEIQFtg%3D%3D"
+           heading="First Year Course" />
+          <DocCard link="https://highereducation.mp.gov.in/?page=i7q0ss9MRlKdqlXDKCk37A%3D%3D&leftid=JUL9t1LHqftaDqryEIQFtg%3D%3D"
+           heading="Second Year Course" />
+          <DocCard link="https://highereducation.mp.gov.in/?page=cO7HkwJA6dqyJT9J76jv8w%3D%3D&leftid=JUL9t1LHqftaDqryEIQFtg%3D%3D"
+           heading="Third Year Course" />
+          <DocCard link="https://highereducation.mp.gov.in/?page=ht85bKcjegImTvcHtnWZNQ%3D%3D&leftid=JUL9t1LHqftaDqryEIQFtg%3D%3D"
+           heading="Fourth Year Course" />
+          {/* <DocCard link="#" heading="" />
+          <DocCard link="#" heading="" />
+          <DocCard link="#" heading="" /> */}
         </div>
 
-        <div className="w-1/3 h-[600px] sticky top-20 left-0 py-10 px-4 ">
+        {/* <div className="w-1/3 h-[600px] sticky top-20 left-0 py-10 px-4 ">
           <RelatedLink />
-        </div>
+        </div> */}
       </div>
    
   );
