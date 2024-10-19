@@ -153,7 +153,7 @@ export default function GoverningBody() {
           <button
             className={`mx-2 px-6 py-3 rounded ${
               activeTab === "teachingFaculty"
-                ? "bg-purple-500 text-white"
+                ? "bg-blue-500 text-white"
                 : "bg-gray-200"
             }`}
             onClick={() => setActiveTab("teachingFaculty")}

@@ -5,17 +5,18 @@ export default function page() {
   return (
     <>
       <div
-        className="w-full h-96 flex justify-center  items-center"
+        className="w-full h-36 flex justify-center  items-center"
         style={{
-          backgroundImage: "url('/logo1.png')",
+          // backgroundImage: "url('/logo1.png')",
+          backgroundColor:"#43b2ff",
           backgroundSize: "cover",
         }}
       >
         <h1 className=" uppercase font-bold text-5xl">chairperson</h1>
       </div>
       <div className="w-full  border-2 p-20 ">
-        <div className=" flex  rounded-xl bg-yellow-100">
-          <div className="w-1/3 flex flex-col gap-2 bg-blue-700">
+        <div className=" flex  rounded-xl bg-blue-100">
+          <div className="w-1/3 flex flex-col gap-2 bg-blue-500">
             <div className="w-full h-72 border-2 relative overflow-hidden">
                 <Image
                 src="/chairperson.png"
