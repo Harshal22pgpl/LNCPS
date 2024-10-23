@@ -10,7 +10,7 @@ export default function Why({ img, title, content }) {
           {/* SVG Waves */}
           <svg
             id="wave"
-            className="absolute bottom-0 left-0 w-full"
+            className=" bottom-[-40px] left-0 w-full"
             style={{ transform: "rotate(0deg)", transition: "0.3s" }}
             viewBox="0 0 1440 190"
             version="1.1"
@@ -65,13 +65,12 @@ export default function Why({ img, title, content }) {
           </div>
         </div>
         <div className="w-11/12  mx-auto   grid grid-cols-4 gap-5 p-4 mt-10  ">
-          <WhyCard content="Best Engineering Colleges with 31+ Years of Academic Excellence and Discipline. Highest Chancellor’s Awards and Highest Placements in Central India." />
+          <WhyCard content="These colleges offer degree programs such as BBA, BCom, BSc, and BAJMC, blending academic learning with hands-on experience through internships, workshops, and industry partnerships. The goal of a professional college is to equip students with the expertise, critical thinking, and real-world exposure needed to excel in their chosen professions." />
           <WhyCard
-            content="
-Other than Best Academics and Placements, Providing Best Sports facilities also. Producing National & International Players in Drop Row Ball, Base Ball, Throw Ball, Kabbaddi etc."
+            content="Through a combination of theoretical instruction and practical training, students gain a comprehensive understanding of their chosen fields, whether in business, science, commerce, media, or other industries."
           />
-          <WhyCard content="Lush Green Campus having Boys & Girls Hostels with 24 hours Security, Dispensary, Bank ATMs, GYM, Indoor and Outdoor Fields makes it a BEST Infrastructure campus." />
-          <WhyCard content="Unbeatable Record Placement of Central India with 1800+ Offers by 40 Companies Closed Campus only for LNCPS Group of Colleges" />
+          <WhyCard content="This holistic approach ensures graduates are job-ready, equipped with the confidence, knowledge, and practical experience to thrive in their careers. Furthermore, these colleges foster innovation and entrepreneurship, encouraging students to think critically, solve problems creatively, in their professional pursuits." />
+          <WhyCard content="By engaging with experts from their respective industries, students gain insights into professional practices giving them a competitive edge in the job market. The faculty at professional colleges typically includes a mix of academicians and industry professionals, providing students with both deep academic knowledge." />
         </div>
       </div>
     </>
