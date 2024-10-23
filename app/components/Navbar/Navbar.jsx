@@ -1104,7 +1104,7 @@ export default function Navbar() {
                   let dropdownLeft;
                   switch (item.main) {
                     case "Institute":
-                      dropdownWidth = "w-[950px]";
+                      dropdownWidth = "w-[690px]";
                       dropdownLeft = "left-[-79px]";
                       break;
                     case "Academics":
