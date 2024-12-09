@@ -431,10 +431,6 @@ export default function Navbar() {
             //   link: "/institute/senate",
             // },
             {
-              name: "Principal",
-              link: "/principal",
-            },
-            {
               name: "Chairperson",
               link: "/institute/chairperson",
             },
@@ -442,6 +438,11 @@ export default function Navbar() {
               name: "Director",
               link: "/institute/director",
             },
+            {
+              name: "Principal",
+              link: "/principal",
+            },
+            
             // {
             //   name: "Finance Committee",
             //   link: "/institute/fc",
@@ -537,36 +538,36 @@ export default function Navbar() {
             },
           ],
         },
-        {
-          name: "Facilities",
-          subchild: [
-            {
-              name: "Central Workshop",
-              link: "/academic/central-workshop",
-            },
-            {
-              name: "Central Research Facility",
-              link: "/academic/central-research",
-            },
-            {
-              name: "High Performance Computing",
-              link: "/academic/hfc",
-            },
-          ],
-        },
-        {
-          name: "Technical Service Units",
-          subchild: [
-            {
-              name: "Health Care",
-              link: "/health-center",
-            },
-            {
-              name: "Lawn and Garden",
-              link: "/academic/lawn",
-            },
-          ],
-        },
+        // {
+        //   name: "Facilities",
+        //   subchild: [
+        //     {
+        //       name: "Central Workshop",
+        //       link: "/academic/central-workshop",
+        //     },
+        //     {
+        //       name: "Central Research Facility",
+        //       link: "/academic/central-research",
+        //     },
+        //     {
+        //       name: "High Performance Computing",
+        //       link: "/academic/hfc",
+        //     },
+        //   ],
+        // },
+        // {
+        //   name: "Technical Service Units",
+        //   subchild: [
+        //     {
+        //       name: "Health Care",
+        //       link: "/health-center",
+        //     },
+        //     {
+        //       name: "Lawn and Garden",
+        //       link: "/academic/lawn",
+        //     },
+        //   ],
+        // },
       ],
     },
     {
@@ -713,78 +714,78 @@ export default function Navbar() {
               name: "Academic Calendar",
               link: "/academic/calender",
             },
-            // {
-            //   name: "Time Table",
-            //   link: "/institute/former_directors",
-            // },
+            {
+              name: "Certification Courses",
+              link: "/institute/certificationcourse",
+            },
             {
               name: "Online Fee Payment",
-              link: "https://www.pratibhaglobalschool.com/payments/login/40e032b8-a995-47ab-a854-c3aec4812c0e",
+              link: "/academic/onlinefee",
             },
           ],
         },
-        {
-          name: "Other Related Links",
-          subchild: [
-            {
-              name: "Internship Programs",
-              link: "/placementcalender",
-            },
-            {
-              name: "Library",
-              link: "/institute/library",
-            },
-            {
-              name: "Career Development Cell",
-              link: "/cdc",
-            },
-          ],
-        },
+        // {
+        //   name: "Other Related Links",
+        //   subchild: [
+        //     {
+        //       name: "Internship Programs",
+        //       link: "/placementcalender",
+        //     },
+        //     {
+        //       name: "Library",
+        //       link: "/institute/library",
+        //     },
+        //     {
+        //       name: "Career Development Cell",
+        //       link: "/cdc",
+        //     },
+        //   ],
+        // },
       ],
     },
-    {
-      main: "Placement",
-      child: [
-        {
-          name: "Overview",
-          subchild: [
-            {
-              name: "Placement Overview",
-              link: "/placementview",
-            },
-            {
-              name: "Career Development Cell",
-              link: "/cdc",
-            },
-            {
-              name: "Leading Recruiters",
-              link: "/leading_recruiters",
-            },
-            {
-              name: "Regular Activities",
-              link: "/regular_activite",
-            },
-            {
-              name: "Placement Calendar and Process",
-              link: "/placementcalender",
-            },
-          ],
-        },
-        {
-          name: "For Students",
-          subchild: [
-            {
-              name: "Student Testimonial",
-              link: "/student_testimonial",
-            },
-            {
-              name: "Career",
-              link: "/career/?college=LNCPS",
-            },
-          ],
-        },
-      ],
-    },
+    // {
+    //   main: "Placement",
+    //   child: [
+    //     {
+    //       name: "Overview",
+    //       subchild: [
+    //         {
+    //           name: "Placement Overview",
+    //           link: "/placementview",
+    //         },
+    //         {
+    //           name: "Career Development Cell",
+    //           link: "/cdc",
+    //         },
+    //         {
+    //           name: "Leading Recruiters",
+    //           link: "/leading_recruiters",
+    //         },
+    //         {
+    //           name: "Regular Activities",
+    //           link: "/regular_activite",
+    //         },
+    //         {
+    //           name: "Placement Calendar and Process",
+    //           link: "/placementcalender",
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       name: "For Students",
+    //       subchild: [
+    //         {
+    //           name: "Student Testimonial",
+    //           link: "/student_testimonial",
+    //         },
+    //         {
+    //           name: "Career",
+    //           link: "/career/?college=LNCPS",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       main: "Alumni",
       child: [
@@ -1108,7 +1109,7 @@ export default function Navbar() {
                       dropdownLeft = "left-[-79px]";
                       break;
                     case "Academics":
-                      dropdownWidth = "w-[870px]";
+                      dropdownWidth = "w-[470px]";
                       dropdownLeft = "left-[-460px]";
                       break;
                     case "College Committees":
@@ -1116,7 +1117,7 @@ export default function Navbar() {
                       dropdownLeft = "left-[-460px]";
                       break;
                     case "Students":
-                      dropdownWidth = "w-[690px]";
+                      dropdownWidth = "w-[490px]";
                       dropdownLeft = "left-20";
                       break;
                     case "Placement":

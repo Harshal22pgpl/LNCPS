@@ -8,6 +8,7 @@ import Notices from "./components/News-Notices";
 import AbouttheInstitute from "./components/AbouttheInstitute/AbouttheInstitute";
 import NumberOne from "./components/NumberOne/NumberOne";
 import { InfiniteMovingCardsDemo } from "./components/InfiniteMovingCardsDemo/InfiniteMovingCardsDemo";
+import { ParallaxScroll } from "./components/ParallaxScroll/ParallaxScroll";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("postgraduate");
@@ -33,7 +34,7 @@ export default function Home() {
 
   // Function to toggle submenu
 
-  const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", "/GRPlncps.jpg"];
+  const images = ["/Lncpsbuild.png", "/lncpsbuild2.jpg", ];
   const imagesss = ["/Lncpsbuild.png", "/lncpsbuild2.jpg"];
 
   const EventData = [
@@ -153,31 +154,33 @@ export default function Home() {
     // Add more events as needed
   ];
 
-  // const imagess = [
-  //   "/speaker.JPG",
-  //   "/award.JPG",
-  //   "/principals.JPG",
-  //   "/carasol2.jpg",
-  //   "/grp.jpg",
-  //   "/Sports.jpg",
-  //   "/LNCPS-sports.jpg",
-  //   "/LNCPS-stunt.jpg",
-  //   "/mdsir.jpg",
-  //   "/carasol1.jpg",
-  //   "/studentgrp.jpg",
-  //   "/baja2.jpg",
-  //   "/mdmaam.jpg",
-  //   "/student.jpg",
-  //   "/ar-1.jpg",
-  //   "/ar-2.jpg",
-  //   "/ar-3.jpg",
-  //   "/ar-1.jpg",
-  //   "/ar-2.jpg",
-  //   "/ar-3.jpg",
-  //   "/ar-1.jpg",
-  //   "/ar-2.jpg",
-  //   "/ar-3.jpg",
-  // ];
+  const imagess = [
+    "/G (0).jpeg",
+    "/G (1).JPG",
+    "/G (2).jpg",
+    "/G (6).jpg",
+    "/G (7).jpg",
+    "/G (8).jpg",
+    "/G (12).jpg",
+    "/G (14).jpg",
+    "/mdsir.jpg",
+    "/G (17).jpg",
+    "/G (18).jpg",
+    "/G (21).jpg",
+    "/mdmaam.jpg",
+    "/G (22).jpg",
+    "/G (25).jpg",
+    "/G (30).jpg",
+    "/G (31).jpg",
+    "/G (34).jpg",
+    "/G (35).jpg",
+    "/G (36).jpg",
+    "/G (37).jpg",
+    "/G (38).jpg",
+    "/G (46).jpg",
+    "/G (56).jpg",
+    
+  ];
 
   const ScarouselData = [
     {
@@ -270,9 +273,7 @@ export default function Home() {
       <div className=" w-full border-2">
         <InfiniteMovingCardsDemo />
       </div>
-      {/* <div className=" w-11/12 mx-auto">
-        <ParallaxScroll images={imagess} />
-      </div> */}
+      
       <section
   className="academic-programme mx-auto mt-10 flex justify-center overflow-auto"
   style={{
@@ -424,7 +425,10 @@ export default function Home() {
           <h5 className="font-semibold text-2xl">FUNCTIONAL</h5>
         </div>
       </section>
-      <section className=" w-11/12 mx-auto mt-10">
+      <div className=" w-11/12 mx-auto">
+        <ParallaxScroll images={imagess} />
+      </div>
+      {/* <section className=" w-11/12 mx-auto mt-10">
         <div
           className=""
           style={{
@@ -527,8 +531,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
-      <section className="lg:w-11/12 w-full mx-auto mb-10">
+      </section> */}
+      
+    </div>
+  );
+}
+
+
+
+{/* <section className="lg:w-11/12 w-full mx-auto mb-10">
         <div className=" "  style={{
             backgroundImage: "url('/svg/linessvg.svg')",
             backgroundRepeat: "no-repeat",
@@ -551,44 +562,41 @@ export default function Home() {
                 <Link href="/ranking" className="text-sm">
                   View All...
                 </Link>
-              </h3> */}
-              <Image
+              // </h3> */}
+              // <Image
 
-                className="duration-200 px-5 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
-                src={images[currentSlide]}
+      //           className="duration-200 px-5 min-h-[515px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
+      //           src={images[currentSlide]}
 
-                alt="Hero Image"
-                width={700}
-                height={650}
-              />
-            </div>
-            <div className="md:w-full lg:w-1/2 sm:w-full  flex flex-col justify-center  ">
-              <div className="w-ful rounded-md  sm:p-4  md:p-4 lg:p-5 p-8 shadow-none  border-black grid md:grid-cols-1 lg:grid-cols-2   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dyellow">
-                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap  ">
-                  <Card
-                    title="Department"
-                    content="10"
-                    imageUrl="/department.png"
-                  />
-                </div>
-                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
-                  <Card title="Faculty" content=" 70+" imageUrl="/staff.png" />
-                </div>
-                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
-                  <Card
-                    title="Faculty"
-                    content="3050+"
-                    imageUrl="/student-icon.png"
-                  />
-                </div>
-                <div className="  flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap">
-                  <Card title="Faculty" content="100" imageUrl="/faculty.png" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
+      //           alt="Hero Image"
+      //           width={700}
+      //           height={650}
+      //         />
+      //       </div>
+      //       <div className="md:w-full lg:w-1/2 sm:w-full  flex flex-col justify-center  ">
+      //         <div className="w-ful rounded-md  sm:p-4  md:p-4 lg:p-5 p-8 shadow-none  border-black grid md:grid-cols-1 lg:grid-cols-2   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dyellow">
+      //           <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap  ">
+      //             <Card
+      //               title="Department"
+      //               content="10"
+      //               imageUrl="/department.png"
+      //             />
+      //           </div>
+      //           <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
+      //             <Card title="Faculty" content=" 70+" imageUrl="/staff.png" />
+      //           </div>
+      //           <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
+      //             <Card
+      //               title="Faculty"
+      //               content="3050+"
+      //               imageUrl="/student-icon.png"
+      //             />
+      //           </div>
+      //           <div className="  flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap">
+      //             <Card title="Faculty" content="100" imageUrl="/faculty.png" />
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+    

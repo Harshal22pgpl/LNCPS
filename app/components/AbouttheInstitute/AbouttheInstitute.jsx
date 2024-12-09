@@ -9,17 +9,11 @@ export default function AbouttheInstitute() {
             About the Institute
           </h1>
           <p className="  lg:px-10 lg:pb-4 p-3">
-            NIT Rourkela is one of the premier national level institutions for
-            technical education in the country and is funded by the Government
-            of India. The Government of India has elevated the Regional
-            Engineering College, Rourkela to a university under the name of
-            National Institute of Technology, Rourkela.
+            
+Lakshmi Narain College of Professional Studies (LNCP) is a premier institution dedicated to providing high-quality education and skill development to students across various professional disciplines. Located in the vibrant educational landscape of India, LNCP is committed to nurturing future leaders and innovators with a strong emphasis on practical knowledge, ethical values, and global perspectives. The institute offers a wide range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills needed to excel in today’s dynamic professional world
           </p>
           <p className="  lg:px-10 lg:pb-5 border-b p-3 ">
-            The main objective of the Institute is to produce quality Engineers
-            and Scientists in Graduate and Post-Graduate levels in various
-            branches of Engineering and Science. The Institute is managed by
-            the.
+          The institute also emphasizes research, innovation, and skill development, supported by state-of-the-art infrastructure and modern facilities. LNCP's dynamic campus life, with various clubs, cultural activities, and technical events, enriches the student experience and prepares graduates to excel as professionals and leaders in their chosen fields.
           </p>
           <div className="flex lg:flex-row flex-col mt-3 lg:mt-0 ">
             <div className=" lg:p-10 p-3  flex items-start">

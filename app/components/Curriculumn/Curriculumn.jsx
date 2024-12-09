@@ -10,8 +10,8 @@ export default function page() {
       <div>
         {/* <SliderMain images={images} className="" /> */}
       </div>
-      {/* <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg"> */}
-        <div className="w-2/3 px-10 py-10 grid grid-cols-2 gap-10 ">
+      <div className="w-full mx-auto flex  mt-2  font-semibold text-lg">
+        <div className="w-2/3 px-10 py-10 flex flex-wrap gap-1 ">
           <DocCard link="https://highereducation.mp.gov.in/?page=QSRWBX4XV1SKua0BJW%2Fjyw%3D%3D&leftid=JUL9t1LHqftaDqryEIQFtg%3D%3D"
            heading="First Year Course" />
           <DocCard link="https://highereducation.mp.gov.in/?page=i7q0ss9MRlKdqlXDKCk37A%3D%3D&leftid=JUL9t1LHqftaDqryEIQFtg%3D%3D"
@@ -25,9 +25,10 @@ export default function page() {
           <DocCard link="#" heading="" /> */}
         </div>
 
-        {/* <div className="w-1/3 h-[600px] sticky top-20 left-0 py-10 px-4 ">
+        <div className="w-1/3 h-[600px] sticky top-20 left-0 py-10 px-4 ">
           <RelatedLink />
-        </div> */}
+        </div>
+      </div>
       </div>
    
   );

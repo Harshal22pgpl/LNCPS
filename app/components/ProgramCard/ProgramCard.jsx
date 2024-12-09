@@ -6,7 +6,7 @@ export default function ProgramCard({course, dept, bgcolor,admission }) {
       <h1 className=" font-bold text-lg py-3">{course}</h1>
       <hr className="border" />
       <div className="py-3">
-        <h1 className=" font-bold text-lg">B.Sc,BBA,BJMC</h1>
+        <h1 className=" font-bold text-lg">B.A,B.com,B.Sc,BBA,BJMC</h1>
         <h2>{dept}</h2>
       </div>
       <hr className="border" />
