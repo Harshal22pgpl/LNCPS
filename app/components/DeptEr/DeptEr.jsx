@@ -201,10 +201,11 @@ export default function DeptEr({ dept,deps }) {
         //   experience: "9 years",
         // },
         {
-          name: "uploading soon ",
-          position: "",
-          degree: "",
-          experience: "",
+          name: "C/T Neeraj Soni ",
+          position: "Assistant Professor",
+          degree: "M.A in Yoga, PRCN Course (Training for NCC in OTA, Nagpur), Refresher Course",
+          experience: "12 Years",
+          email:"nsoni2357@gmail.com"
         },
         // {
         //   name: "Emily Johnson",
@@ -541,7 +542,7 @@ export default function DeptEr({ dept,deps }) {
               course={"Undergraduate"}
               bgcolor={"bg-blue-800"}
               admission={"12th pass "}
-              dept={"B.Sc(physics,chemistry,maths,computer-science and biotechnology)"}
+              dept={"B.Sc(physics,chemistry,maths,computer-science and biotechnology) B.com(computerapplication,taxation,economics) B.A(psyhcology,english literautre,history ,economics) BBA(Hr,Finance,marketing)"}
             />
             {/* <ProgramCard
               course={"Post-Graduate"}

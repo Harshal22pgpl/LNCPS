@@ -140,7 +140,7 @@ export default function Contact() {
                     Rail Distance from Indore / Journey time
                   </th>
                   <th className="border p-3">
-                    Road distance from Indore / Journey time
+                    Road Distance from Indore / Journey time
                   </th>
                 </tr>
               </thead>

@@ -229,7 +229,7 @@ export default function Footer() {
                 <div class="item-img">
                   <a
                     href="/assets/images/gallery3.jpg"
-                    data-fancybox="mygallery"
+                    data-fancybox="mygallerys"
                     data-caption=""
                     title=""
                   >

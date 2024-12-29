@@ -4,12 +4,12 @@ import { IoIosArrowForward } from "react-icons/io";
 
 export default function RelatedLink() {
   const links = [
-   {link:"/students/rules_regulations",name:"Rules and Regulations"},
+   {link:"/institute/certificationcourse",name:"Certification Course"},
    {link:"/institute/campus_facilities",name:"Campus and Facilities"},
-   {link:"/institute/annual_reports",name:"Annual Reports"},
-   {link:"/academic/central-workshop",name:"Central Workshop"},
-   {link:"/placementview",name:"Placement Cell"},
-   {link:"/alumni",name:"Alumni Relations"},
+   {link:"/academic/onlinefee",name:"Online Fee Payment"},
+   {link:"/econtent",name:"E-content"},
+   {link:"/students/rules_regulations",name:"Pahal Edition"},
+   {link:"/institute/contact",name:"Contact Us"},
 
 ];
   return (
