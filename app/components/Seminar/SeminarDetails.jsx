@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-export default function NoticeDetails({ image, title, content }) {
+export default function SeminarDetails({ image, title, content }) {
   const handleChange = ({ target }) => {
     const { name, value } = target;
     setError({ msg: "", type: "" });

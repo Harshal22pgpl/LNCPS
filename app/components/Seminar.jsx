@@ -181,7 +181,7 @@ const ListItem = ({ item }) => {
 
   return (
     <li className="border-gray-400 flex flex-col">
-      <Link href={`/events/${uuid}`}>
+      <Link href={`/detail-seminar/${uuid}`}>
         <div className="w-full flex gap-2 px-2 ">
           <div className="p-4 bg-blue-800 text-center">
             <p>9 April</p>
